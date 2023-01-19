@@ -1,5 +1,5 @@
 ---
-{"adventure":"Waterdeep Dragon Heist, Homebrew","alias":"Overview","banner":"https://www.dndbeyond.com/attachments/4/376/waterdeep-dragon-heist.jpg","banner_icon":"🐍","campaign":"The Generic Seven","dg-publish":true,"role":"Player","sessions":19,"status":"<span class=\"status alive\">Active</span>","system":"D&D 5e","type":"Game","world":"the Forgotten Realms","tags":["campaign, digital, overview"],"permalink":"/the-generic-seven/the-generic-seven/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/the-generic-seven/the-generic-seven/","tags":["campaign, digital, overview"]}
 ---
 
 
