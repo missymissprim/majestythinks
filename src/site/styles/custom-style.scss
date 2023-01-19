@@ -216,6 +216,9 @@ body {
 		font-size: 18px;
 		padding: 0;
 	}
+	.inner-folder>.inner-folder {
+		padding-left: 20px;
+	}
 	
 	.notelink {
 		font-size: .8em !important;
