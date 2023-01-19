@@ -79,10 +79,6 @@
 	</section>
 </aside>
 
-> In the dreams, especially [when] the figure is [present], it is hard to discern what or who the figure is. Partly because of the nature of the dream, but also because the focus is around what the figure is holding. A sword. The weapon is a long sword with a black blade with runes covering the front and back of it that are too far to read. The hilt and pommel are covered in gold and the pommel is cast in the form of an open dragon claw ...
-> 
-> — Jacob, the Dungeon Master
-
 A decade ago, Averill began having dreams that cryptically forewarned him of the Gorin Incursion and other related events. In a few iterations a figure stood with a peculiar sword in hand, a sword Averill would later recognize and obtain early in his travels with the Nameless Ones while accompanying Moradin on his personal quest in the Ashwood ([[Path in Purgatory/Session Notes/Session 004 - 01012021\|Session 004 - 01012021]]).
 
 ### Dormant
@@ -98,5 +94,9 @@ You can use an action to speak the command word, *Viin*, to cast the [[Resources
 You can use a bonus action to speak this magic sword’s command word, *Alohk Rah*, causing flames to erupt from the blade. These black and gold flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage and 1d8 radiant to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
 
 Attacks with this weapon have a +1 bonus to both attack and damage rolls.
+
+> In the dreams, especially [when] the figure is [present], it is hard to discern what or who the figure is. Partly because of the nature of the dream, but also because the focus is around what the figure is holding. A sword. The weapon is a long sword with a black blade with runes covering the front and back of it that are too far to read. The hilt and pommel are covered in gold and the pommel is cast in the form of an open dragon claw ...
+> 
+> — Jacob, the Dungeon Master
 
 <p class="small">Tags: <span class="tags">Combat</span> <span class="tags">Damage</span> <span class="tags">Versatile</span></p>
