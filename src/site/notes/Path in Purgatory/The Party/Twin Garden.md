@@ -1,5 +1,5 @@
 ---
-{"aliases":"Catlord","alignment":"CN","banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"🔥","campaign":"Path in Purgatory","class":"Rogue, Fighter","subclass":"Swashbuckler, Battle Master","creature":"Humanoid","description":"","dg-publish":true,"factions":"True Fathoms","image":"![|35](https://www.dndbeyond.com/avatars/24345/146/1581111423-38153234.jpeg)","location":null,"occupation":null,"party-role":null,"player":"Aaron","race":"Tabaxi","status":"<span class=\"status alive\">Alive</span>","titles":null,"type":"Player Character","world":"Chrutha","tags":["fighter, player, rogue"],"permalink":"/path-in-purgatory/the-party/twin-garden/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/the-party/twin-garden/","tags":["fighter, player, rogue"]}
 ---
 
 <div class="wiki-header">
