@@ -7,6 +7,9 @@
 		<div class="banner">
 			<img class="banner-image full-width" src="http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg" style="object-position: 50% 50%">
 		</div>
+		<div class="banner-icon">
+			<div class="icon-box">🔥</div>
+		</div>
 	</div>
 	<div class="frontmatter-container">
 		<div class="frontmatter-section mod-aliases">
