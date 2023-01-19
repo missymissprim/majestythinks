@@ -399,6 +399,10 @@ hr {
 
 /** SIDBARS **/
 @media (min-width: 1401px) {
+	.content {
+		margin-top: 3%;
+	}
+	
 	.filetree-sidebar, .sidebar, .sidebar-container {
 		width: calc(300px + 1em);
 		overflow-x: hidden;
@@ -649,7 +653,7 @@ figcaption {
 }
 
 .frontmatter-container .frontmatter-section-aliases, .frontmatter-container .frontmatter-section-tags {
-	gap: 1em;
+	gap: .5em;
 }
 
 /** BLOCKQUOTE **/
