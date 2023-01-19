@@ -1,5 +1,5 @@
 ---
-{"alias":"Character","aliases":null,"alignment":"CN","banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"🔥","campaign":"Path in Purgatory","class":"Sorcerer, Warlock","subclass":"Aberrant Mind, the Undead","creature":"Humanoid","description":"","dg-publish":true,"factions":null,"image":"![|35](https://www.dndbeyond.com/avatars/20708/351/1581111423-21380758.jpeg)","location":"Belda Sil","occupation":null,"party-role":null,"player":"Alexis “Lexi” Herron","race":"Yuan-ti","titles":null,"type":"Player","status":"<span class=\"status alive\">Alive</span>","world":"Chrutha","tags":["player, sorcerer, warlock"],"permalink":"/path-in-purgatory/the-party/ashissa-pythan/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/the-party/ashissa-pythan/","tags":["player, sorcerer, warlock"]}
 ---
 
 <div class="wiki-header">
@@ -135,7 +135,7 @@
 - [[Path in Purgatory/The Party/Myron\|Myron]] and Ashissa were captured by the Void Walkers.
 
 <div style="width: 500px;">
-	<img alt="Myron and Ashissa"src="https://majestythinks.netlify.app/img/Myron_Ashissa.PNG">
+	<img alt="Myron and Ashissa"src="https://majestythinks.netlify.app/img/Myron_Ashissa.png">
 	<p class="caption">Myron &amp; Ashissa<br><span style="font-weight:300">Not Being Bros</span></p>
 </div>
 
