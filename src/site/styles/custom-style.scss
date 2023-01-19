@@ -227,6 +227,9 @@ body {
 	.notelink {
 		font-size: .8em !important;
 		padding: 0 0 0 10px;
+	}
+	
+	.filelist .notelink {
 		margin-left: 20px;
 	}
 	
@@ -656,12 +659,12 @@ figcaption {
 	font-size: 16px;
 	font-weight: 300;
 	margin-bottom: 4em;
-	padding: 1em 0;
+	padding: 1.5em 0;
 }
 
 .frontmatter-container .frontmatter-section {
 	font-family: "Source Sans Pro", sans-serif;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 }
 
 .frontmatter-container .frontmatter-section-label {
@@ -809,7 +812,7 @@ footer {
 	font-size: .8em;
 	font-style: italic;
 	font-weight: 300;
-	margin: 4em auto;
+	margin: 6em auto 1em;
 }
 
 /** IMAGES **/
