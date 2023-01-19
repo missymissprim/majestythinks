@@ -47,7 +47,7 @@
 	<div class="aside-bkg aside-item aside-header aside-item-spacing center">General Information</div>
 	<div class="aside-data aside-item aside-item-spacing">
 			<div class="aside-label">Alias</div>
-			<div class="aside-value">The Dark Emissary</div>
+			<div class="aside-value">The Pale Reflection, The Dark Emissary</div>
 		</div>
 		<div class="aside-data aside-item aside-item-spacing">
 			<div class="aside-label">Type</div>
@@ -78,6 +78,12 @@
 		</div>
 	</section>
 </aside>
+
+> In the dreams, especially [when] the figure is [present], it is hard to discern what or who the figure is. Partly because of the nature of the dream, but also because the focus is around what the figure is holding. A sword. The weapon is a long sword with a black blade with runes covering the front and back of it that are too far to read. The hilt and pommel are covered in gold and the pommel is cast in the form of an open dragon claw ...
+> 
+> — Jacob, the Dungeon Master
+
+A decade ago, Averill began having dreams that cryptically forewarned him of the Gorin Incursion and other related events. In a few iterations a figure stood with a peculiar sword in hand, a sword Averill would later recognize and obtain early in his travels with the Nameless Ones while accompanying Moradin on his personal quest in the Ashwood ([[Path in Purgatory/Session Notes/Session 004 - 01012021\|Session 004 - 01012021]]).
 
 ### Dormant
 This ancient blade seems incomplete, as though its full strength lies dormant. The pommel of the blade is coated in goad and crafted in the shape of a dragon claw which looks as though it should be holding an object that is not present. The blade itself is jet black in color and gives off a dull warmth. Etched into the blade are draconic runes that read “Sun Shadow, the Dark Emissary.”
