@@ -1,13 +1,41 @@
 ---
-{"alias":"Player","aliases":null,"alignment":"Lawful Neutral","background":"Hermit","banner":"https://www.dndbeyond.com/attachments/2/731/ootacover.jpg","banner_icon":"👹","banner_y":0.375,"campaign":"The Abyss","class":"Cleric, Ranger","subclass":"Twilight Doman, Gloomstalker","cr":null,"creature":"Humanoid","description":"An seemingly shy (or aloof) Elf, who tends to keep to herself and explore the Underdark.","dg-publish":true,"factions":null,"image":"![|35](https://majestythinks.netlify.app/img/Shanti.PNG)","location":null,"occupation":null,"party-role":null,"player":"Majesty Champion Christian","race":"Elf","subrace":"Mark of Shadow","role":null,"size":"Medium","source":null,"source_abbr":null,"status":"<span class=\"status alive\">Alive</span>","titles":null,"type":"Player Character","world":"Forgotten Relams","tags":["cleric, dragonmark, elf, player, ranger"],"permalink":"/the-abyss/the-party/shanti-halydove/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/the-abyss/the-party/shanti-halydove/","tags":["cleric, dragonmark, elf, player, ranger"]}
 ---
+
+<div class="wiki-header">
+	<div class="banner-wrapper">
+		<div class="banner">
+			<img class="banner-image full-width" src="https://www.dndbeyond.com/attachments/2/731/ootacover.jpg" style="object-position: 50% 50%">
+		</div>
+	</div>
+	<div class="frontmatter-container">
+		<div class="frontmatter-section mod-aliases">
+			<span class="frontmatter-section-label">Aliases</span>
+			<div class="frontmatter-section-data frontmatter-section-aliases">
+				<span class="frontmatter-alias">
+					<span class="frontmatter-alias-icon"> <svg xmlns="http://www.w3.org/2000svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-forward"><polyline points="15 17 20 12 15 7"></polyline><path d="M4 18v-2a4 4 0 0 1 4-4h12"></path></svg></span>
+					Character</span>
+			</div>
+		</div>
+		<div class="frontmatter-section mod-tags">
+			<span class="frontmatter-section-label">Tags</span>
+			<div class="frontmatter-section-data frontmatter-section-tags">
+				<a class="tag"onclick="toggleTagSearch(this)">#cleric</a>
+				<a class="tag" onclick="toggleTagSearch(this)">#dragonmark</a>
+				<a class="tag" onclick="toggleTagSearch(this)">#elf</a>
+				<a class="tag" onclick="toggleTagSearch(this)">#player</a>
+				<a class="tag" onclick="toggleTagSearch(this)">#ranger</a>
+			</div>
+		</div>
+	</div>
+</div>
 
 # Shanti Halydove
 
 <aside>
 	<div class="aside-bkg aside-item aside-title center">Profile</div>
 	<section class="aside-item">
-		<img height="300" src="https://majestythinks.netlify.app/img/Shanti.PNG">
+		<img height="300" src="https://majestythinks.netlify.app/img/Shanti.png">
 		<figcaption class="aside-caption aside-item-spacing center">Official 2022 portrait</figcaption>
 	</section>
 	<div class="aside-data aside-item aside-item-spacing">
