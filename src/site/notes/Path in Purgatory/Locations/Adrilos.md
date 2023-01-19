@@ -1,5 +1,5 @@
 ---
-{"alias":"Continent","banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"🗺️","campaign":"Path in Purgatory","dg-publish":true,"type":"Location","world":"Chrutha","tags":["location"],"permalink":"/path-in-purgatory/locations/adrilos/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/locations/adrilos/","tags":["location"]}
 ---
 
 <div class="wiki-header">
