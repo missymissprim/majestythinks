@@ -410,7 +410,6 @@ hr {
 
 @media (min-width: 924px) {
 	blockquote {
-		display: inline-block;
 		min-width: 516px;
 	}
 }
@@ -429,13 +428,13 @@ hr {
 
 @media (max-width: 400px) {
 	.caption {
-		font-size: 10px !important;
+		font-size: 12px !important;
 	}
 	
 	blockquote:before {
-		font-size: 2em;
-		height: 52px;
-		width: 60px;
+		font-size: 3em;
+		height: 30px;
+		width: 30px;
 	}
 	
 	blockquote p {
@@ -695,6 +694,7 @@ blockquote {
 	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 	border: 1px solid;
 	border-left-width: 5px !important;
+	display: inline-block;
 	margin: 0 auto 2em !important;
 	padding: 2em !important;
 }
