@@ -408,9 +408,38 @@ hr {
 	}
 }
 
+@media (min-width: 924px) {
+	blockquote {
+		display: inline-block;
+		min-width: 516px;
+	}
+}
+
+@media (min-width: 401px) {
+	blockquote:before {
+		font-size: 6em;
+		height: 52px;
+		width: 60px;
+	}
+	
+	blockquote p {
+		margin-left: 4em
+	}
+}
+
 @media (max-width: 400px) {
 	.caption {
 		font-size: 10px !important;
+	}
+	
+	blockquote:before {
+		font-size: 2em;
+		height: 52px;
+		width: 60px;
+	}
+	
+	blockquote p {
+		margin-left: 1em
 	}
 }
 
@@ -476,10 +505,9 @@ hr {
 }
 
 .toc, .backlinks {
-	/*max-height: 250px;*/
 	margin-bottom: 1em;
 	  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+	scrollbar-width: none;  /* Firefox */
 }
 
 .toc-container {
@@ -492,7 +520,7 @@ hr {
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .toc::-webkit-scrollbar, .backlinks::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 #tooltip-wrapper {
@@ -501,42 +529,42 @@ hr {
 
 /**** ASIDE ****/
 aside {
-    border: 1px solid var(--blue);
-    border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
-    clear: right;
-    float: right;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: .8em;
+	border: 1px solid var(--blue);
+	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
+	clear: right;
+	float: right;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: .8em;
 	font-weight: 300;
-    margin: 1em 0em 1.5em 1.5em;
+	margin: 0 0 1.5em 1.5em;
 	padding: 1em;
-    width: 320px;
+	width: 320px;
 }
 
 .aside-caption, .aside-data, .aside-header, .aside-navigation, .aside-title {
-    padding-left: 12px;
-    padding-right: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
 }
 
 .aside-bkg {
-    background-color: transparent;
-    color: var(--blue);
-    font-weight: 700;
+	background-color: transparent;
+	color: var(--blue);
+	font-weight: 700;
 	text-align: center;
 }
 
 .aside-data {
-    display: flex;
-    flex-direction: row;
-    grid-column-gap: 1em;
+	display: flex;
+	flex-direction: row;
+	grid-column-gap: 1em;
 }
 
 .aside-header {
 	color: var(--blue);
-    font-size: 14px;
+	font-size: 14px;
 	letter-spacing: .25em;
-    line-height: 1.25;
-    margin: 1.5em 0 .5em;
+	line-height: 1.25;
+	margin: 1.5em 0 .5em;
 	text-transform: uppercase;
 }
 
@@ -562,45 +590,45 @@ figcaption {
 }
 
 .aside-item-spacing {
-    padding-bottom: 9px;
-    padding-top: 9px;
+	padding-bottom: 9px;
+	padding-top: 9px;
 }
 
 .aside-label {
-    flex-basis: 150px;
-    font-weight: 700;
+	flex-basis: 150px;
+	font-weight: 700;
 }
 
 .aside-title {
-    font-size: 22px;
-    letter-spacing: .03em;
-    margin: 0;
-    padding: 12px;
+	font-size: 22px;
+	letter-spacing: .03em;
+	margin: 0;
+	padding: 12px;
 }
 
 .aside-value:not(:first-child) {
-    flex-basis: 200px;
+	flex-basis: 200px;
 }
 
 /*Aside Inside the Note*/
 .aside-in {
-    text-decoration: none !important;
-    text-align: justify;
-    font-weight: unset;
-    float: right;
-    position: relative;
-    margin-bottom: .2em;
-    clear: right;
-    width: 18em;
-    background-color: var(--background-primary-alt);
-    padding: 1em;
-    box-shadow: .3em .3em var(--interactive-accent);
-    z-index: 3;
+	text-decoration: none !important;
+	text-align: justify;
+	font-weight: unset;
+	float: right;
+	position: relative;
+	margin-bottom: .2em;
+	clear: right;
+	width: 18em;
+	background-color: var(--background-primary-alt);
+	padding: 1em;
+	box-shadow: .3em .3em var(--interactive-accent);
+	z-index: 3;
 }
 
 .aside-in .internal-embed.is-loaded:not(.image-embed),
 .aside-in .markdown-embed {
-    width:100%;
+	width:100%;
 }
 
 /** BANNER **/
@@ -667,29 +695,20 @@ blockquote {
 	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 	border: 1px solid;
 	border-left-width: 5px !important;
-	display: inline-block;
-	min-width: 516px;
-	margin: 3em auto !important;
+	margin: 0 auto 2em !important;
 	padding: 2em !important;
 }
 
 blockquote:before {
-    background-clip: text;
-    background-image: linear-gradient(135deg, var(--purple), var(--blue), var(--cyan), var(--teal), var(--green)) !important;
-    color: transparent;
-    content: "“";
-    font-family: "FreightText Pro", "Source Serif Pro", serif;
-    font-size: 6em;
-    font-weight: 900;
-    height: 52px;
-    line-height: 1;
-    position: absolute;
-   -webkit-background-clip: text;
-    width: 60px;
-}
-
-blockquote p {
-	margin-left: 4em
+	background-clip: text;
+	background-image: linear-gradient(135deg, var(--purple), var(--blue), var(--cyan), var(--teal), var(--green)) !important;
+	color: transparent;
+	content: "“";
+	font-family: "Source Serif Pro", serif;
+	font-weight: 900;
+	line-height: 1;
+	position: absolute;
+	-webkit-background-clip: text;
 }
 
 /** CALLOUTS **/
@@ -697,7 +716,7 @@ blockquote p {
 	background: transparent;
 	border-radius: 0px;
 	border: 1px solid rgba(var(--callout-color), .5);
-    border-left: 5px solid rgba(var(--callout-color),1);
+	border-left: 5px solid rgba(var(--callout-color),1);
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	margin: 2em auto;
@@ -746,42 +765,42 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 /** DEFINITIONS **/
 .definition {
-    border: 1px solid var(--black-40);
-    border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
-    border-top-width: 5px;
-    margin: 0 auto 2em;
-    padding: 1.5em 2em;
-    width: 88%;
+	border: 1px solid var(--black-40);
+	border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
+	border-top-width: 5px;
+	margin: 0 auto 2em;
+	padding: 1.5em 2em;
+	width: 88%;
 }
 
 .definition h3 {
-    color: var(--blue) !important;
-    margin-bottom: .25em;
+	color: var(--blue) !important;
+	margin-bottom: .25em;
 }
 
 .pronounce {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: .8em;
-    color: var(--navy);
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: .8em;
+	color: var(--navy);
 }
 
 .definition hr {
-    border-top: 1px solid var(--blue) !important;
-    margin: .75em 0 1.5em;
+	border-top: 1px solid var(--blue) !important;
+	margin: .75em 0 1.5em;
 }
 
 .definition p {
-    margin-bottom: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 .definition hr.defNote {
-    border-top: .5px solid var(--black-40) !important;
-    margin-top: 2.75em;
-    width: 50%;
+	border-top: .5px solid var(--black-40) !important;
+	margin-top: 2.75em;
+	width: 50%;
 }
 
 .definition .small {
-    font-family: "FreightSans Pro", "Source Sans Pro", sans-serif;
+	font-family: "FreightSans Pro", "Source Sans Pro", sans-serif;
 }
 
 /** FOOTER **/
@@ -796,119 +815,119 @@ footer {
 /** IMAGES **/
 img:not(.floaterL img):not(.floaterR img):not(.emoji), 
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content>img[width] {
-    display:block;
-    margin: 0 auto !important;
+	display:block;
+	margin: 0 auto !important;
 }
 
 .floaterL {
-    display: block;
-    float:left;
-    margin-right: 1.5em !important;
-    z-index: 1000;
+	display: block;
+	float:left;
+	margin-right: 1.5em !important;
+	z-index: 1000;
 }
 
 .floaterR {
-    display: block;
-    float:right;
-    margin-left: 1.5em;
-    z-index: 1000;
+	display: block;
+	float:right;
+	margin-left: 1.5em;
+	z-index: 1000;
 }
 
 /** STICKY NOTES **/
 .sticky {
-    background-color: var(--yellow-40);
-    border-radius: 0;
-    box-shadow: 0 4px 5px var(--black-20);
-    color: var(--black);
-    float: right;
-    font-family: "Zeyada", cursive;
-    font-size: 1.45em;
-    line-height: 1.2;
-    margin: .5em -1em 1em 1.25em;
-    max-width: 500px;
-    min-width: 275px;
-    min-height: 275px;
-    overflow: visible;
-    padding: 1.5em .75em .75em;
-    position: relative;
-    /*right: -1em;
-    text-align: center;*/
-    transition: width 2s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(2deg);
-    transition: all 2s ease;
-    vertical-align: top;
-    width: max(180px, 30%);
-    z-index: 1;
+	background-color: var(--yellow-40);
+	border-radius: 0;
+	box-shadow: 0 4px 5px var(--black-20);
+	color: var(--black);
+	float: right;
+	font-family: "Zeyada", cursive;
+	font-size: 1.45em;
+	line-height: 1.2;
+	margin: .5em -1em 1em 1.25em;
+	max-width: 500px;
+	min-width: 275px;
+	min-height: 275px;
+	overflow: visible;
+	padding: 1.5em .75em .75em;
+	position: relative;
+	/*right: -1em;
+	text-align: center;*/
+	transition: width 2s;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(2deg);
+	transition: all 2s ease;
+	vertical-align: top;
+	width: max(180px, 30%);
+	z-index: 1;
 }
   
 .sticky::before {
-    display: block;
-    content: "";
-    background: rgba(233, 233, 233, 0.4);
-    width: 64%;
-    height: 40px;
-    box-shadow: 0 1px 1px rgba(35, 31, 32, 0.2);
-    border-radius: 6px/18px 0;
-    position: absolute;
-    top: -20px;
-    left: 20%;
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
-    -o-transform: rotate(-2deg);
-    -ms-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+	display: block;
+	content: "";
+	background: rgba(233, 233, 233, 0.4);
+	width: 64%;
+	height: 40px;
+	box-shadow: 0 1px 1px rgba(35, 31, 32, 0.2);
+	border-radius: 6px/18px 0;
+	position: absolute;
+	top: -20px;
+	left: 20%;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+	transform: rotate(-2deg);
 }
 
 .sticky a {
-    font-size: .55em !important;
+	font-size: .55em !important;
 }
   
 .sticky.left {
-    float: left !important;
-    /*left:-1em;*/
-    margin-left: -1em;
-    margin-right: 1.5em;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(-2deg);
+	float: left !important;
+	/*left:-1em;*/
+	margin-left: -1em;
+	margin-right: 1.5em;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(-2deg);
 }
 
 .sticky.orange {
-    background-color: var(--orange-40);
+	background-color: var(--orange-40);
 }
 
 .sticky.red {
-    background-color: var(--red-40);
+	background-color: var(--red-40);
 }
     
 .sticky.magenta {
-    background-color: var(--magenta-20);
+	background-color: var(--magenta-20);
 }
 
 .sticky.purple {
-    background-color: var(--purple-20);
+	background-color: var(--purple-20);
 }
 
 .sticky.blue {
-    background-color: var(--blue-20);
+	background-color: var(--blue-20);
 }
   
 .sticky.cyan {
-    background-color: var(--cyan-20);
+	background-color: var(--cyan-20);
 }
 
 .sticky.teal {
-    background-color: var(--teal-20);
+	background-color: var(--teal-20);
 }
 
 .sticky.green {
-    background-color: var(--green-20);
+	background-color: var(--green-20);
 }
 
 /** TABLES **/
@@ -925,18 +944,18 @@ table {
 }
 
 th, .markdown-rendered th, .dataview.table-view-table th {
-    color: var(--blue) !important;
-    font-weight: 700 !important;
-    letter-spacing: .1em;
+	color: var(--blue) !important;
+	font-weight: 700 !important;
+	letter-spacing: .1em;
 	text-transform: uppercase;
 }
 
 th:first-child, td:first-child {
-    padding-left: 12px !important;
+	padding-left: 12px !important;
 }
 
 th:last-child, td:last-child {
-    padding-right: 12px !important;
+	padding-right: 12px !important;
 }
 
 th, td {
@@ -949,13 +968,13 @@ td {
 }
 
 .markdown-rendered tbody>tr:nth-child(odd) {
-    background-color: var(--cyan-5);
+	background-color: var(--cyan-5);
 }
 
 .markdown-rendered tbody>tr:hover, .table-view-table > tbody > tr:hover,
 body:not(.row-hover) .table-view-table>tbody>tr:hover {
-    background-color: var(--teal-5) !important;
-    color: var(--blue);
+	background-color: var(--teal-5) !important;
+	color: var(--blue);
 }
 
 body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.native-scrollbars) ::-webkit-scrollbar {
