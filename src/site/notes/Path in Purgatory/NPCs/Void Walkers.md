@@ -1,5 +1,5 @@
 ---
-{"alias":"cult","banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"👥","campaign":"Path in Purgatory","description":"","dg-publish":true,"location":"Adrilos","status":"<span class=\"status alive\">Operational</span>","type":"organization","world":"Chrutha","tags":["faction, lore"],"permalink":"/path-in-purgatory/np-cs/void-walkers/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/np-cs/void-walkers/","tags":["faction, lore"]}
 ---
 
 <div class="wiki-header">
