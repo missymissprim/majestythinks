@@ -1,5 +1,5 @@
 ---
-{"aliases":"dashboard","banner":"https://64.media.tumblr.com/7e646d701b09619cbd7847b65ea580f0/1e52612c8f2f24a7-52/s1280x1920/82ef6930de278f1d67d00791fc5689af23342981.gif","banner_icon":"🏡","dg-home":true,"dg-publish":true,"title":"Notetaker’s Vault","type":"homepage","tags":["home","gardenEntry"],"permalink":"/notetaker-s-vault/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/notetaker-s-vault/","title":"Notetaker’s Vault","tags":["home","gardenEntry"]}
 ---
 
 <div class="wiki-header">
