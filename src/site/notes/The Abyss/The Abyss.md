@@ -1,5 +1,5 @@
 ---
-{"adventure":"Out of the Abyss","aliases":"overview","banner":"https://www.dndbeyond.com/attachments/2/731/ootacover.jpg","banner_icon":"👹","banner_y":0.375,"campaign":"The Abyss","dg-publish":true,"role":"Player","sessions":0,"system":"D&D 5e","status":"<span class=\"status alive\">Active</span>","type":"Game","world":"Forgotten Realms","tags":["campaign, digital, overview"],"permalink":"/the-abyss/the-abyss/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/the-abyss/the-abyss/","tags":["campaign, digital, overview"]}
 ---
 
 <div class="wiki-header">
@@ -39,7 +39,7 @@ The Underdark is a subterranean wonderland, a vast and twisted labyrinth where f
 | ![\|35](https://jason-palmer-art.square.site/uploads/1/2/9/1/129180850/s823784791759114299_p74_i1_w1920.jpeg) | [[The Abyss/The Party/Dandelion\|Dandelion]]                     | Changeling               | Bard           | <span class="status alive">Alive</span> |
 | ![\|35](https://64.media.tumblr.com/cb4519c72fea88c1fb68354b426cc3a0/tumblr_psah2y6u9G1teuisyo1_1280.jpg)     | [[The Abyss/The Party/Gark\|Gark]]                               | Elf (Drow)               | Sorcerer       | <span class="status alive">Alive</span> |
 | ![\|35](https://codexnomina.com/wp-content/uploads/2021/09/warrior-150x150.jpg)                               | [[The Abyss/The Party/Micah Clearstrength\|Micah Clearstrength]] | Human (Variant)          | Barbarian      | <span class="status alive">Alive</span> |
-| ![\|35](https://majestythinks.netlify.app/img/Shanti.PNG)                                                     | [[The Abyss/The Party/Shanti Halydove\|Shanti Halydove]]         | Elf (Mark of Shadow)     | Cleric, Ranger | <span class="status alive">Alive</span> |
+| ![\|35](https://majestythinks.netlify.app/img/Shanti.png)                                                     | [[The Abyss/The Party/Shanti Halydove\|Shanti Halydove]]         | Elf (Mark of Shadow)     | Cleric, Ranger | <span class="status alive">Alive</span> |
 | ![\|35](https://i.pinimg.com/originals/24/38/f5/2438f5bc743d44212e5bfc1390152258.png)                         | [[The Abyss/The Party/Untitled\|Untitled]]                       | Aasimar (Protector)      | Fighter        | <span class="status alive">Alive</span> |
 
 
