@@ -1,5 +1,5 @@
 ---
-{"aliases":null,"alignment":null,"banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"🔥","campaign":"Path in Purgatory","class":null,"subclass":null,"description":"","dg-publish":true,"factions":"the Void Walkers","location":"Felindra","occupation":null,"party-role":null,"race":"Elf","role":"Antagonist","status":"<span class=\"status dead\">Dead</span>","titles":"Duke","type":"character","world":"Chrutha","tags":["npc"],"permalink":"/path-in-purgatory/np-cs/duke-elnaril/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/np-cs/duke-elnaril/","tags":["npc"]}
 ---
 
 <div class="wiki-header">
