@@ -1,5 +1,5 @@
 ---
-{"adventure":"Homebrew","alias":"overview","banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"🔥","campaign":"Path in Purgatory","dg-publish":true,"dg-permalink":"/path-in-purgatory","role":"Player","sessions":41,"status":"<span class=\"status alive\">Active</span>","system":"D&D 5e","type":"Game","world":"Chrutha","tags":["campaign, digital, game"],"permalink":"/path-in-purgatory/","dgPassFrontmatter":true}
+{"dg-publish":true,"dg-permalink":"/path-in-purgatory","permalink":"/path-in-purgatory/","tags":["campaign, digital, game"]}
 ---
 
 <div class="wiki-header">
