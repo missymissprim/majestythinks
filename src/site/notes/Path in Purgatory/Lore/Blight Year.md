@@ -1,5 +1,5 @@
 ---
-{"alias":null,"banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"🔥","banner_y":0.79375,"campaign":"Path in Purgatory","dg-publish":true,"type":"Lore","tags":["calamity, history, lore"],"permalink":"/path-in-purgatory/lore/blight-year/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/lore/blight-year/","tags":["calamity, history, lore"]}
 ---
 
 <div class="wiki-header">
