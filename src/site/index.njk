@@ -33,12 +33,11 @@
           </div>
         {% endif %}
       </div>
-      <footer>The Notetaker’s Vault is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</footer>
-
 
       {%- for garden in collections.gardenEntry -%}
         {{garden.templateContent | link | taggify | highlight | safe }}
       {%- endfor -%}
+      <footer>The Notetaker’s Vault is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</footer>
     </div>
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
