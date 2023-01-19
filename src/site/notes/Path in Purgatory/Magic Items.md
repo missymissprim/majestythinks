@@ -1,5 +1,5 @@
 ---
-{"alias":"Item List","banner":"https://www.dndbeyond.com/attachments/0/868/c7b-209.jpg","banner_icon":"⚖️","banner_y":0.20883,"campaign":"Path in Purgatory","dg-publish":true,"type":"Library","tags":["item, magic, resource"],"permalink":"/path-in-purgatory/magic-items/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/magic-items/","tags":["item, magic, resource"]}
 ---
 
 <div class="wiki-header">
