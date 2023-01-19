@@ -59,7 +59,7 @@
 		</div>
 		<div class="aside-data aside-item aside-item-spacing">
 			<div class="aside-label">Attunement</div>
-			<div class="aside-value">Yes, by a Paladin of Vala</div>
+			<div class="aside-value">Yes, by a paladin of Vala</div>
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Cost</div>
@@ -92,7 +92,5 @@ You can use an action to speak the command word, *Viin*, to cast the [[Resources
 You can use a bonus action to speak this magic sword’s command word, *Alohk Rah*, causing flames to erupt from the blade. These black and gold flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage and 1d8 radiant to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
 
 Attacks with this weapon have a +1 bonus to both attack and damage rolls.
-
-<p class="attune">&ast;requires attunement by a paladin of Vala</p>
 
 <p class="small">Tags: <span class="tags">Combat</span> <span class="tags">Damage</span> <span class="tags">Versatile</span></p>
