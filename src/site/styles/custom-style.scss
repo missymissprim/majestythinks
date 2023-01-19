@@ -397,7 +397,6 @@ hr {
 	display:none;
 }
 
-/** SIDBARS **/
 @media (min-width: 1401px) {
 	.content {
 		margin-top: 3%;
@@ -409,6 +408,13 @@ hr {
 	}
 }
 
+@media (max-width: 400px) {
+	.caption {
+		font-size: 10px !important;
+	}
+}
+
+/** SIDBARS **/
 .search-button {
 	border-color: var(--cyan) !important;
 	border-radius: 0px;
