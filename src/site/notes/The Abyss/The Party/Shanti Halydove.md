@@ -154,6 +154,15 @@ I’m still seeking the enlightenment I pursued in my seclusion, and it still el
 ### Flaws
 I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.
 
+## Backstory
+
+
+## Connections
+### Party
+- Shanti found [[The Abyss/The Party/Dandelion\|Dandelion]] (Lionel) blackout drunk in an alley not too far from the bar. The two have bonded and traveled ever since, with Shanti attempting to keep him out of trouble. Unfortunately, he’s the sole reason, they found themselves in jail within the Underdark.
+### Other NPCs
+## Character Trivia
+
 <div class="definition">
 	<h3>Shanti</h3>
 	<span class="pronounce">/ˈSHän(t)ē/ <em>also</em> शान्ती</span>
@@ -161,15 +170,6 @@ I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to 
 	<p><strong>:</strong> “quiet, peace, tranquility” in Sanskrit.</p>
 </div>
 
-## Backstory
-
-
-
-## Connections
-### Party
-- Shanti found [[The Abyss/The Party/Dandelion\|Dandelion]] (Lionel) blackout drunk in an alley not too far from the bar. The two have bonded and traveled ever since, with Shanti attempting to keep him out of trouble. Unfortunately, he’s the sole reason, they found themselves in jail within the Underdark.
-### Other NPCs
-## Character
 ### Quests
 ### Residences
 ### Tactics
