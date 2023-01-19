@@ -1,5 +1,5 @@
 ---
-{"alias":"Magic Item","attunement":"required","banner":"https://www.dndbeyond.com/attachments/0/868/c7b-209.jpg","banner_icon":"⚖️","banner_y":0.20883,"campaign":"Path in Purgatory","dg-publish":true,"image":"![|35](https://www.dndbeyond.com/content/1-0-2280-0/skins/waterdeep/images/icons/item_types/wondrousitem.jpg)","notes":null,"rarity":"Artifact","source":"Path in Purgatory","source_abbr":"PP","type":"Wondrous Item","tags":["item, magic"],"permalink":"/path-in-purgatory/items/carilla-s-onyx/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/items/carilla-s-onyx/","tags":["item, magic"]}
 ---
 
 <div class="wiki-header">
