@@ -7,6 +7,9 @@
 		<div class="banner">
 			<img class="banner-image full-width" src="https://64.media.tumblr.com/7e646d701b09619cbd7847b65ea580f0/1e52612c8f2f24a7-52/s1280x1920/82ef6930de278f1d67d00791fc5689af23342981.gif" style="object-position: 50% 50%">
 		</div>
+		<div class="banner-icon">
+			<div class="icon-box">🏡</div>
+		</div>
 	</div>
 	<div class="frontmatter-container">
 		<div class="frontmatter-section mod-aliases">
@@ -37,7 +40,7 @@ Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital lib
 | ---------------------------------------------------------------- | ---------------------------------------- | -------------- | ------------------------------------------ |
 | [[O’ Fresh Meat/O’ Fresh Meat\|O’ Fresh Meat]]                | Curse of Strahd                          | Dungeon Master | <span class="status missing">Hiatus</span> |
 | [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]]    | Homebrew                                 | Player         | <span class="status alive">Active</span>   |
+| [[The Abyss/The Abyss\|The Abyss]]                            | Out of the Abyss                         | Player         | <span class="status alive">Active</span>   |
 | [[The Generic Seven/The Generic Seven\|The Generic Seven]]    | Waterdeep Dragon Heist, Homebrew         | Player         | <span class="status alive">Active</span>   |
 | [[Through the Planes/Through the Planes\|Through the Planes]] | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status missing">Hiatus</span> |
 | [[Who Always Roamed/Who Always Roamed\|Who Always Roamed]]    | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status missing">Hiatus</span> |
-| [[The Abyss/The Abyss\|The Abyss]]                            | Out of the Abyss                         | Player         | <span class="status alive">Active</span>   |
