@@ -216,7 +216,7 @@ body {
 		font-size: 18px;
 		padding: 0;
 	}
-	.inner-folder>.inner-folder {
+	.inner-folder .inner-folder {
 		padding-left: 20px;
 	}
 	
@@ -533,13 +533,6 @@ aside {
 	opacity: .4;
 }
 
-.aside-title {
-    font-size: 22px;
-    letter-spacing: .03em;
-    margin: 0;
-    padding: 12px;
-}
-
 .aside-item img {
 	display: flex;
 	margin: auto;
@@ -557,8 +550,15 @@ figcaption {
 }
 
 .aside-label {
-    flex-basis: 100px;
+    flex-basis: 150px;
     font-weight: 700;
+}
+
+.aside-title {
+    font-size: 22px;
+    letter-spacing: .03em;
+    margin: 0;
+    padding: 12px;
 }
 
 .aside-value:not(:first-child) {
