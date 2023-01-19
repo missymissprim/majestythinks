@@ -1,5 +1,5 @@
 ---
-{"alias":null,"banner":"http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg","banner_icon":"🔥","banner_y":0.79375,"campaign":"Path in Purgatory","dg-publish":true,"type":"Lore","tags":["history, lore, war"],"permalink":"/path-in-purgatory/lore/war-of-gehenna/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/path-in-purgatory/lore/war-of-gehenna/","tags":["history, lore, war"]}
 ---
 
 <div class="wiki-header">
