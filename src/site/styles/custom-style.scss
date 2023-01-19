@@ -455,7 +455,6 @@ hr {
 }
 
 #link-graph {
-	background-color: var(--cyan-5);
 	border-radius: 0px;
 	height: 275px;
 	width: 275px;
@@ -696,9 +695,9 @@ blockquote p {
 }
 
 .callout-title, .admonition-title {
-    font-size: 22px;
-	font-weight: 600;
-    color: rgba(var(--callout-color), 1);
+	font-size: 22px;
+	font-weight: 700;
+	color: rgba(var(--callout-color), 1);
 }
 
 div.language-ad-summary .admonition-title::before, div.callout-summary .admonition-title::before {
@@ -706,8 +705,7 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	margin: 0 !important;
 }
 
-div.language-ad-overview, div.callout-overview {
-	background-color: transparent;
+.callout[data-callout="overview"] {
 	--callout-color: 0, 111, 255; /* blue */
 }
 
@@ -715,8 +713,7 @@ div.language-ad-overview, div.callout-overview {
 	display:none;
 }
 
-div.language-ad-summary, div.callout-summary {
-	background-color: transparent;
+.callout[data-callout="summary"] {
 	--callout-color: 0, 174, 239; /* cyan */
 }
 
@@ -734,7 +731,7 @@ div.language-ad-summary, div.callout-summary {
 	content: "Recap";
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 /** DEFINITIONS **/
