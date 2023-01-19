@@ -120,7 +120,7 @@
 			<div class="aside-value"><span class="status alive">Alive</span></div>
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Cause of Deat</div>
+			<div class="aside-label">Cause of Death</div>
 			<div class="aside-value">N/A</div>
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
