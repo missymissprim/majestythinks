@@ -134,7 +134,7 @@
 - [[Path in Purgatory/The Party/Fenmarel Mithalvarin\|Fenmarel Mithalvarin]]
 - [[Path in Purgatory/The Party/Myron\|Myron]] and Ashissa were captured by the Void Walkers.
 
-<div style="width: 500px;">
+<div style="max-width: 500px;">
 	<img alt="Myron and Ashissa"src="https://majestythinks.netlify.app/img/Myron_Ashissa.png">
 	<p class="caption">Myron &amp; Ashissa<br><span style="font-weight:300">Not Being Bros</span></p>
 </div>
