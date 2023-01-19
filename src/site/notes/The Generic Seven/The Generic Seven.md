@@ -8,6 +8,9 @@
 		<div class="banner">
 			<img class="banner-image full-width" src="https://www.dndbeyond.com/attachments/4/376/waterdeep-dragon-heist.jpg" style="object-position: 50% 50%">
 		</div>
+		<div class="banner-icon">
+			<div class="icon-box">🐍</div>
+		</div>
 	</div>
 	<div class="frontmatter-container">
 		<div class="frontmatter-section mod-aliases">
