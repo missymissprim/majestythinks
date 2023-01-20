@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/the-abyss/the-abyss/","tags":["campaign, digital, overview"]}
+{"dg-publish":true,"dg-permalink":"/the-abyss","permalink":"/the-abyss/","tags":["campaign, digital, overview"]}
 ---
 
 <div class="wiki-header">
