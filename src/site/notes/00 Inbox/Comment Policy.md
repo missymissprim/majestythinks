@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-inbox/comment-policy/","tags":["policy, rules"]}
+{"dg-publish":true,"dg-permalink":"/comment-policy","permalink":"/comment-policy/","tags":["policy, rules"]}
 ---
 
 <div class="wiki-header">
