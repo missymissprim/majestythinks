@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/comment-policy","permalink":"/comment-policy/","tags":["policy, rules"]}
+{"dg-publish":true,"dg-permalink":"/comment-policy","permalink":"/comment-policy/","tags":["moderation, policy, restrictions"]}
 ---
 
 <div class="wiki-header">
@@ -23,9 +23,9 @@
 		<div class="frontmatter-section mod-tags">
 			<span class="frontmatter-section-label">Tags</span>
 			<div class="frontmatter-section-data frontmatter-section-tags">
-				<a class="tag"onclick="toggleTagSearch(this)">#tags</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#tags</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#tags</a>
+				<a class="tag"onclick="toggleTagSearch(this)">#moderation</a>
+				<a class="tag" onclick="toggleTagSearch(this)">#policy</a>
+				<a class="tag" onclick="toggleTagSearch(this)">#restrictions</a>
 			</div>
 		</div>
 	</div>
