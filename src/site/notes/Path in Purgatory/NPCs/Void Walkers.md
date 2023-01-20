@@ -166,3 +166,7 @@ The Cardinals do not agree on which method, but neither do they interfere with o
 | [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps   | Friday, November 04 2022 |
 | [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]] | One Tense Conversation | Friday, October 21 2022  |
 | [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots         | Friday, July 22 2022     |
+
+
+---
+<div id="disqus_thread"></div>
