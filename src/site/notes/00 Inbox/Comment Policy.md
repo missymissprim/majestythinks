@@ -32,9 +32,10 @@
 </div>
 
 # Comment Policy
-<span class="source">Updated Friday, January 20 2023</span>
+*Updated Friday, January 20 2023*
 
 We welcome and encourage comments within the Notetaker’s Vault. However, in some instances comments are subject to be edited or deleted. This include:
+
 - Comments that are determined to be spam or questionable spam.
 - Links within comments that lead to irrelevant content or affiliate websites. Links that are relevant to the post will be permitted.
 - Comments including derogatory language, or language/concepts that could be deemed offensive.
