@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/the-generic-seven/the-generic-seven/","tags":["campaign, digital, overview"]}
+{"dg-publish":true,"dg-permalink":"/the-generic-seven","permalink":"/the-generic-seven/","tags":["campaign, digital, overview"]}
 ---
 
 
