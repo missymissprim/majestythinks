@@ -32,6 +32,7 @@ body {
 	--magenta-20: #fbcce8;
 	--magenta-10: #fde5f3;
 	--magenta-5: #fef2f9;
+	--color-pink: var(--magenta);
 
 	--cyan: #00aeef;
 	--cyan-80: #33bef2;
@@ -41,6 +42,7 @@ body {
 	--cyan-10: #e5f7fD;
 	--cyan-5: #f2fbfe;
 	--cyan-2_5: #f9fdff;
+	--color-cyan: var(--cyan);
 
 	--yellow: #ffef00;
 	--yellow-80: #fff233;
@@ -49,6 +51,7 @@ body {
 	--yellow-20: #fffccc;
 	--yellow-10: #fffde5;
 	--yellow-5: #fffef2;
+	--color-yellow: var(--yellow);
 
 	--black: #231f20;
 	--black-80: #4f4c4d;
@@ -71,40 +74,49 @@ body {
 	--orange-80: #ff8533;
 	--orange-60: #ffa466;
 	--orange-40: #ffc299;
-	--orange-20: #ffe1cc;
-	--orange-10: #fff0e6;
+	--orange-20: #ffe0cc;
+	--orange-10: #fff0e5;
+	--color-orange: var(--orange);
 
 	--red: #ff1623;
-	--red-40: #ff99a3;
+	--red-80: #ff454f;
+	--red-60: #ff737b;
+	--red-40: #ffa2a7;
+	--red-20: #ffd0d3;
+	--red-10: #ffe8e9;
+	--color-red: var(--red);
 
 	--purple: #a20ed6;
-	--purple-80: #ad2de2;
-	--purple-60: #bd5ce5;
-	--purple-40: #d691f2;
-	--purple-20: #f0ccff;
-	--purple-10: #f8e6ff;
+	--purple-80: #b53ede;
+	--purple-60: #c76ee6;
+	--purple-40: #da9fef;
+	--purple-20: #eccff7;
+	--purple-10: #f6e7fb;
+	--color-purple: var(--purple);
 
 	--blue: #006fff;
-	--blue-80: #3395ff;
-	--blue-60: #66afff;
-	--blue-40: #99caff;
-	--blue-20: #cce4ff;
-	--blue-10: #e6f2ff;
+	--blue-80: #338cff;
+	--blue-60: #66a9ff;
+	--blue-40: #99c5ff;
+	--blue-20: #cce2ff;
+	--blue-10: #e5f0ff;
+	--color-blue: var(--blue);
 
 	--teal: #00e5c0;
-	--teal-80: #30f2cd;
-	--teal-60: #61f2d6;
-	--teal-40: #99ffeb;
-	--teal-20: #ccfff5;
-	--teal-10: #e6fffa;
-	--teal-5: #eefffc;
+	--teal-80: #33eacd;
+	--teal-60: #66efd9;
+	--teal-40: #99f5e6;
+	--teal-20: #ccfaf2;
+	--teal-10: #e5fcf9;
+	--teal-5: #f2fefc;
 
 	--green: #5cff00;
-	--green-80: #83ff33;
-	--green-60: #a2ff66;
-	--green-40: #c1ff99;
-	--green-20: #e0ffcc;
-	--green-10: #f0ffe6;
+	--green-80: #7dff33;
+	--green-60: #9dff66;
+	--green-40: #beff99;
+	--green-20: #deffcc;
+	--green-10: #efffe5;
+	--color-green: var(--green);
 	
 	/** HEADINGS **/
 	--h1-color: var(--blue);
@@ -289,6 +301,8 @@ body {
 	}
 
 	a {
+		box-sizing: border-box;
+		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: .8em;
@@ -304,7 +318,7 @@ body {
 
 	a:not(.navbar-inner a):hover, .cm-hmd-internal-link:hover {
 		box-sizing: border-box;
-		border-bottom: solid 2px var(--cyan);
+		border-bottom: 2px solid var(--cyan);
 		border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 	}
 	
@@ -402,6 +416,16 @@ hr {
 
 .markdown-rendered pre {
 	display:none;
+}
+
+.session-navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 2em auto 3em;
+}
+
+.session-navbar a.internal-links {
+	color: var(--teal) !important;
 }
 
 @media (min-width: 1401px) {
