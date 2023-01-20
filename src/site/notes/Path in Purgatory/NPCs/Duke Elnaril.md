@@ -155,3 +155,7 @@ Described as a silver fox, Elnaril dresses in fine robes suited for his station.
 | [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots | Friday, July 22 2022        |
 | [[Path in Purgatory/Session Notes/Session 030 - 05292022\|Session 030 - 05292022]] | Close Call     | Sunday, May 29 2022         |
 | [[Path in Purgatory/Session Notes/Session 017 - 09172021\|Session 017 - 09172021]] | \-             | Saturday, September 17 2022 |
+
+
+---
+<div id="disqus_thread"></div>
