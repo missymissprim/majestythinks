@@ -30,7 +30,7 @@
 	</div>
 </div>
 
-[[Resources/Adventure Modules/Out of the Abyss/Out of the Abyss\|Out of the Abyss]]
+[[30 Resources/Adventure Modules/Out of the Abyss/Out of the Abyss\|Out of the Abyss]]
 # The Abyss
 ## About
 The Underdark is a subterranean wonderland, a vast and twisted labyrinth where fear reigns. It is the home of horrific monsters that have never seen the light of day.  Stop the madness before it consumes you!
