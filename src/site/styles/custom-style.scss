@@ -366,6 +366,15 @@ body {
 		color: rgb(var(--callout-color)) !important;
 	}
 	
+	.spoiler {
+		opacity: 0.1;
+		transition: 0.5s;
+	}
+
+	.spoiler:hover {
+		opacity: 1;
+	}
+	
 	.status {
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: .85em;
