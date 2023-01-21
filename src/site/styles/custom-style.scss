@@ -320,6 +320,7 @@ body {
 		box-sizing: border-box;
 		border-bottom: 2px solid var(--cyan);
 		border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
+		color: var(--blue) !important;
 	}
 	
 	a.tag, .cm-hashtag {
