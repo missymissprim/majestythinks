@@ -76,10 +76,10 @@
 	</section>
 </aside>
 
-This golden plume is made from the feather of a [[Resources/Bestiary/Monster Manual/00 Miscellaneous Creatures/Giant Eagle\|Giant Archaeopteryx]]. If you use an action to speak the command word and throw the feather into a large unoccupied space on the ground within 5 feet of you, the feather becomes a living archaeopteryx for up to 6 hours, after which it reverts to its feather form. It reverts to feather form early if it drops to 0 hit points or if you use an action to speak the command word again while touching the bird.
+This golden plume is made from the feather of a [[30 Resources/Bestiary/Monster Manual/00 Miscellaneous Creatures/Giant Eagle\|Giant Archaeopteryx]]. If you use an action to speak the command word and throw the feather into a large unoccupied space on the ground within 5 feet of you, the feather becomes a living archaeopteryx for up to 6 hours, after which it reverts to its feather form. It reverts to feather form early if it drops to 0 hit points or if you use an action to speak the command word again while touching the bird.
 
 When the archaeopteryx reverts to feather form, the magic of the feather can’t be used again until seven (7) days have passed.
 
-The archaeopteryx uses the statistics of a [[Resources/Bestiary/Monster Manual/00 Miscellaneous Creatures/Giant Eagle\|giant eagle]]. The creature is friendly to you and your companions, and it can be used as a mount. It understands your languages and obeys your spoken commands. If you issue no commands, the giant archaeopteryx defends itself but takes no other actions.
+The archaeopteryx uses the statistics of a [[30 Resources/Bestiary/Monster Manual/00 Miscellaneous Creatures/Giant Eagle\|Giant Eagle]]. The creature is friendly to you and your companions, and it can be used as a mount. It understands your languages and obeys your spoken commands. If you issue no commands, the giant archaeopteryx defends itself but takes no other actions.
 
 <p class="small">Tags: <span class="tags">Summoning</span></p>
