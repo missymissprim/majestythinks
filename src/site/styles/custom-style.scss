@@ -22,7 +22,7 @@ body {
 	orphans: 2;
 	widows: 3;
 	font-family: "Source Sans Pro", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	
 	/** COLORS **/
 	--magenta: #ec008c;
@@ -196,8 +196,11 @@ body {
 	--checkbox-size: 18px;
 	
 	--hr-thickness: 1px;
+	
+	--tag-background: transparent;
     
 	.content {
+		font-size: 20px;
 		max-width: 860px !important;
 		/*margin-left: 20%;*/
 	}
