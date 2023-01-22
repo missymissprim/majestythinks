@@ -193,6 +193,7 @@ body {
 	
 	--callout-content-padding: 0 1em;
 	
+	--checkbox-color: var(--blue);
 	--checkbox-radius: 0px;
 	--checkbox-size: 18px;
 	
@@ -299,8 +300,12 @@ body {
 		font-weight: 300;
 	}
 	
-	p .emoji {
-		height: 1em;
+	ol > li::marker {
+		color: var(--black-60);
+	}
+	
+	ul > li::marker {
+		color: var(--blue-40);
 	}
 	
 	ul > li.task-list-item {
@@ -362,7 +367,7 @@ body {
 
 	
 	.caption {
-		color: var(--blue-80) !important;
+		color: var(--black-40) !important;
 		font-family: "FreightSans Pro", "Source Sans Pro", sans-serif;
 		font-size: 14px;
 		font-weight: 700;
@@ -377,7 +382,7 @@ body {
 	}
 	
 	.spoiler {
-		opacity: 0.2;
+		opacity: 0.1;
 		transition: 0.5s;
 		color: var(--cyan);
 	}
@@ -433,6 +438,10 @@ body {
 	}
 }
 /***** BODY END ******/
+
+.emoji {
+	height: 1em;
+}
 
 hr {
 	margin: 3em 0;
@@ -585,6 +594,7 @@ hr {
 aside {
 	border: 1px solid var(--blue);
 	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
+	border-top-width: 5px;
 	clear: right;
 	float: right;
 	font-family: "Source Sans Pro", sans-serif;
