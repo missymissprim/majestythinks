@@ -54,6 +54,14 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
     
     <script>
+      $(document).ready(function() {
+          $('body').bind('cut copy', function(e) {
+              e.preventDefault();
+            });
+        });
+    </script>
+    
+    <script>
 	    twemoji.parse(document.body)
     </script>
     
