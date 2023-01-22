@@ -79,7 +79,7 @@ scale: 16
 
 The [[Nameless Ones\|Nameless Ones]] met in Spenwald having coincidently converged in the Ascendant Temple, where they unexpectedly fought a bodak — an undead creature. Further investigation led to discovering rumors of a coup and the involvement of a mysterious group known as the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]]. Following various clues, the Nameless Ones have been traveling across Adrilos in hopes of uncovering and stoping the Void Walkers plans.
 
-For more detailed information about our adventure, read the <a class="internal-link" class="#session-toc">session summaries</a> below.
+For more detailed information about our adventure, read the <a class="internal-link" href="#session-toc">session summaries</a> below.
 
 ##### Gem Hunt
 - [ ] Baraban’s Sapphire (currently with Lord Kasper)
