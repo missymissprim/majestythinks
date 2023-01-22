@@ -3,6 +3,7 @@
   <head>
     <title>{{ noteTitle }}</title>
     {%include "components/pageheader.njk"%}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section">
     {%include "components/notegrowthhistory.njk"%}
@@ -51,5 +52,12 @@
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
+	<script>
+		$(document).ready(function() {
+		  $('body').bind('cut copy', function(e) {
+		      e.preventDefault();
+		    });
+		});
+	</script>
     </body>
   </html>
