@@ -1051,12 +1051,12 @@ td {
 }
 
 .markdown-rendered tbody>tr:nth-child(odd) {
-	background-color: var(--cyan-5);
+	background-color: var(--cyan-2_5);
 }
 
 .markdown-rendered tbody>tr:hover, .table-view-table > tbody > tr:hover,
 body:not(.row-hover) .table-view-table>tbody>tr:hover {
-	background-color: var(--teal-5) !important;
+	background-color: var(--cyan-5) !important;
 	color: var(--blue);
 }
 
