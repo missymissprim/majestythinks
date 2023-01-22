@@ -237,7 +237,7 @@ action QuickAdd: Add NPC Character
 | [[Path in Purgatory/NPCs/The Razor\|The Razor]]                                 | A female Dwarf with black hair, who has led the Scabbards for about 50 years.                | Saboteur   | <span class="status unknown">Unknown</span> |
 
 
-## Sessions TOC
+## Session TOC
 ```button
 name Add Session
 type note(Path in Purgatory/Session <% tp.user.getThisGameNum(tp) %> - <% tp.date.now("MMDDYYYY") %>, split) template
