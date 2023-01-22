@@ -24,12 +24,6 @@ body {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 20px;
 	
-	-webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-	
 	/** COLORS **/
 	--magenta: #ec008c;
 	--magenta-80: #f033a3;
@@ -213,7 +207,11 @@ body {
 	.content {
 		font-size: 20px;
 		max-width: 860px !important;
-		/*margin-left: 20%;*/
+		-webkit-user-select: none;
+		-webkit-touch-callout: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 	}
 	
 	.navbar {
