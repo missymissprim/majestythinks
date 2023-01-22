@@ -195,9 +195,12 @@ body {
 	--checkbox-radius: 0px;
 	--checkbox-size: 18px;
 	
+	--link-decoration: none;
+	
 	--hr-thickness: 1px;
 	
 	--tag-background: transparent;
+	--tag-background-hover: transparent;
     
 	.content {
 		font-size: 20px;
@@ -312,6 +315,8 @@ body {
 		font-weight: 600;
 		letter-spacing: .1em;
 		text-transform: uppercase;
+		text-decoration: none;
+		text-decoration-line: none;
 	}
 	
 	a:hover, .cm-underline:hover, .cm-url:hover {
