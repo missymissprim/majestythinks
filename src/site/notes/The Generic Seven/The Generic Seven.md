@@ -50,7 +50,19 @@ However, even the most vile and evil villains know about this treasure and will 
 
 It is up to a peculiar group of adventurers to procure or ensure the safety of the gold (or *dragons*) and to possibly placate these rivals before the city is destroyed.
 
-## Quest or Story Tracker
+## Story Tracker
+
+<div class="banner-wrapper">
+		<div class="banner">
+			<img class="banner-image full-width" src="https://i.kym-cdn.com/entries/icons/original/000/022/524/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg" style="object-position: 50% 20%">
+		</div>
+		<div class="banner-icon">
+			<div class="icon-box">📌</div>
+		</div>
+</div>
+
+The Story Tracker is a note-keeping tool to help report important information about the characters, their accomplishments, and upcoming quests.
+
 - [ ] Travel northward
 	- [x] Visit the temple of Wee Jas
 	- [ ] Travel to East Haven and Targos (Icewind Dale)
