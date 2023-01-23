@@ -2,7 +2,6 @@
 {"dg-publish":true,"dg-permalink":"/the-generic-seven","permalink":"/the-generic-seven/","tags":["campaign, digital, overview"]}
 ---
 
-
 <div class="wiki-header">
 	<div class="banner-wrapper">
 		<div class="banner">
@@ -105,7 +104,7 @@ templater true
 | [[The Generic Seven/Session Notes/Session 018 - 07022022\|Session 018 - 07022022]] | A Whole Ass New Day    | Despite tensions being high amongst the party, the Generic Seven find themselves in the town of Heaven’s Breath and make a stop on their way to the temple of Wee Jas that leads them to explore an urban legend. |
 | [[The Generic Seven/Session Notes/Session 017 - 06132022\|Session 017 - 06132022]] | Dealing with Devils    | The Generic Seven head north and run into a devilish situation.                                                                                                                                                   |
 | [[The Generic Seven/Session Notes/Session 016 - 05272022\|Session 016 - 05272022]] | \-                     | While the rest of the party finds themselves stuck in the maze, Rex confronts a vampire and gains Esvele's help to leave the masquerade and further vampire shenanigans.                                          |
-| [[The Generic Seven/Session Notes/Session 015 - 04232022\|Session 015 - 04232022]] | Vampires at the Masq   |                                                                                                                                                                                                                   |
+| [[The Generic Seven/Session Notes/Session 015 - 04232022\|Session 015 - 04232022]] | \-                     |                                                                                                                                                                                                                   |
 | [[The Generic Seven/Session Notes/Session 014 - 04022022\|Session 014 - 04022022]] | \-                     |                                                                                                                                                                                                                   |
 | [[The Generic Seven/Session Notes/Session 013 - 03052022\|Session 013 - 03052022]] | \-                     |                                                                                                                                                                                                                   |
 | [[The Generic Seven/Session Notes/Session 012 - 02262022\|Session 012 - 02262022]] | \-                     |                                                                                                                                                                                                                   |
@@ -119,6 +118,6 @@ templater true
 | [[The Generic Seven/Session Notes/Session 004 - 07032021\|Session 004 - 07032021]] | \-                     |                                                                                                                                                                                                                   |
 | [[The Generic Seven/Session Notes/Session 003 - 06262021\|Session 003 - 06262021]] | \-                     |                                                                                                                                                                                                                   |
 | [[The Generic Seven/Session Notes/Session 002 - 05302021\|Session 002 - 05302021]] | \-                     |                                                                                                                                                                                                                   |
-| [[The Generic Seven/Session Notes/Session 001 - 05162021\|Session 001 - 05162021]] | \-                     | A group of strangers come together at the behest of Volothamp Geddarm to find his missing friend.                                                                                                                 |
+| [[The Generic Seven/Session Notes/Session 001 - 05162021\|Session 001 - 05162021]] | A Friend in Need       | A group of strangers come together at the behest of Volothamp Geddarm to find his missing friend.                                                                                                                 |
 
 
