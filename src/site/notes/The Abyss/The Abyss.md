@@ -55,6 +55,16 @@ The adventurers have all had the misfortune of falling to such a fate. Captured 
 A <span class="caps">character</span> who has a <span class="caps">problem</span> meets a <span class="caps">guide</span> who gives them a <span class="caps">plan</span> and <span class="caps">calls them to action</span> that ends in <span class="caps">success</span> and helps them avoid <span class="caps">failure</span>.
 
 ### Story Tracker
+
+<div class="banner-wrapper">
+		<div class="banner">
+			<img class="banner-image full-width" src="https://i.kym-cdn.com/entries/icons/original/000/022/524/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg" style="object-position: 50% 20%">
+		</div>
+		<div class="banner-icon">
+			<div class="icon-box">📌</div>
+		</div>
+</div>
+
 The Story Tracker is a note-keeping tool to help report important information about the characters, their accomplishments, and upcoming quests.
 
 - [ ] Escape from prison.
