@@ -78,7 +78,7 @@ scale: 16
 
 <div class="banner-wrapper">
 		<div class="banner">
-			<img class="banner-image full-width" src="https://i.kym-cdn.com/entries/icons/original/000/022/524/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg" style="object-position: 20% 50%">
+			<img class="banner-image full-width" src="https://i.kym-cdn.com/entries/icons/original/000/022/524/tumblr_o16n2kBlpX1ta3qyvo1_1280.jpg" style="object-position: 50% 20%">
 		</div>
 		<div class="banner-icon">
 			<div class="icon-box">📌</div>
