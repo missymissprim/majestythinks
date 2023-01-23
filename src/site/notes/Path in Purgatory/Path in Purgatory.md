@@ -85,6 +85,8 @@ scale: 16
 		</div>
 </div>
 
+The Story Tracker is a note-keeping tool to help report important information about the characters, their accomplishments, and upcoming quests.
+
 The [[Nameless Ones\|Nameless Ones]] met in Spenwald having coincidently converged in the Ascendant Temple, where they unexpectedly fought a bodak — an undead creature. Further investigation led to discovering rumors of a coup and the involvement of a mysterious group known as the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]]. Following various clues, the Nameless Ones have been traveling across Adrilos in hopes of uncovering and stoping the Void Walkers plans.
 
 For more detailed information about our adventure, read the <a class="internal-link" href="#session-toc">session summaries</a> below.
