@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/the-abyss","permalink":"/the-abyss/","tags":["campaign, digital, overview"]}
+{"dg-publish":true,"permalink":"/the-abyss/the-abyss/","tags":["campaign, digital, overview"]}
 ---
 
 <div class="wiki-header">
@@ -90,7 +90,7 @@ type note((relative = false) => {
         folder = parent.name;
       }
       return folder;
-    }/Session <% tp.user.getThisGameNum(tp) %> - <% tp.date.now("MMDDYYYY") %>, split) template
+    }/Session 001 - 01212023, split) template
 action Session Notes Template
 templater true
 ```
