@@ -838,13 +838,13 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 
 #link-graph {
 	border-radius: 0px;
-	height: 275px;
-	width: 275px;
+	height: 280px;
+	width: 280px;
 }
 
 .force-graph-container canvas {
-	height: 275px !important;
-	width: 275px !important;
+	height: 280px !important;
+	width: 280px !important;
 }
 
 /**** TOC & BACKLINKS ****/
@@ -1032,7 +1032,7 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	}
 	
 	.filetree-sidebar, .sidebar, .sidebar-container {
-		width: calc(300px + 1em);
+		width: calc(280 + 1em);
 		overflow-x: hidden;
 	}
 }
