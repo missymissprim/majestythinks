@@ -133,8 +133,6 @@
 	</section>
 </aside>
 
-
-
 Shanti is a quiet, elven cleric/ranger, who finds herself drawn to the Underdark, frequently exploring its various routes, settlements, and civilizations. Despite a century of living as a hermit, she has found enjoyment with the company of [[The Abyss/The Party/Dandelion\|Dandelion]], who she finds quite endearing if not remarkably dense.
 
 ## Description
@@ -156,7 +154,6 @@ I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to 
 
 ## Backstory
 
-
 ## Connections
 ### Party
 - Shanti found [[The Abyss/The Party/Dandelion\|Dandelion]] (Lionel) blackout drunk in an alley not too far from the bar. The two have bonded and traveled ever since, with Shanti attempting to keep him out of trouble. Unfortunately, he’s the sole reason, they found themselves in jail within the Underdark.
@@ -175,66 +172,7 @@ I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to 
 ### Tactics
 ### Loot
 
-```statblock
-source: Homebrew
-image: [[Wikilink to Image]]
-name: String
-size: string
-type: string
-subtype: (string),
-alignment: string
-ac: number
-hp: number
-hit_dice: string
-speed: string
-stats: [number, number, number, number, number, number]
-
-saves:
-- <ability-score>: number
-- <ability-score>: number
-skillsaves:
-- <skill-name>: number
-- <skill-name>: number
-damage_vulnerabilities: string
-damage_resistances: string
-damage_immunities: string
-condition_immunities: string
-senses: string
-languages: string
-cr: number
-
-traits:
-- [<trait-name>., "<trait-description>"]
-- [Spellcasting., "The <monster name> is a #-level spellcaster. It's spellcasting ability is <ability socre> (spell save DC #, +# to hit with spell attacks). The <monster name> has the following spells prepared:\n\nAt will: <spell-list>\n3/day each: <spell-list>\n2/day each: <spell-list>\n1/day each: <spell-list>"]
-- ...
-
-actions:
-- [<action-name>., <action-description>]
-- [Action Melee Attack., "Melee Weapon Attack: +# to hit, reach # ft., # target. Hit: # (#d# + #) <damage type> damage."]
-- [Action Ranged Attack., "Ranged Weapon Attack: +# to hit, range #/# ft., # target. Hit: # (#d# + #) <damage type> damage."]
-- ...
-
-bonus_actions:
-- [<bonus_action-name>., <bonus_action-description>]
-- ...
-
-reactions:
-- [<reaction-name>., <reaction-description>]
-- ...
-
-legendary_actions:
-- name:
-  desc: "Enter a description for how legendary actions work for your monster here."
-- [<legendar_action-name> (Cost No. Actions)., <legendary_action-description>]
-- ...
-mythic_actions:
-- desc: Enter the description for how mythic actions work for your monster here.
-- desc: __Mythic Action Name (Cost No. Actions).__ Enter your description for your mythic action.
-- ...
-
-```
-
-<hr class="divide">
+---
 
 ## Sessions
 ### Active
