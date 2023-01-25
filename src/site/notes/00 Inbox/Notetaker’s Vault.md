@@ -34,13 +34,14 @@
 
 > Looking for previous session notes, and that *one* NPC our glorious Dungeon Master randomly mentioned? 
 
-Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital library where I develop ideas, take notes, and connect all of my <span class="brand">Dungeons &amp; Dragons</span> (D&D) campaigns — Player or Dungeon Master. If you’re looking for something specific, don’t be afraid to use the search bar at the top left.
+Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital library where I develop ideas, take notes, and connect all of my Dungeons & Dragons (D&D) campaigns — Player or Dungeon Master. If you’re looking for something specific, don’t be afraid to use the search bar at the top left.
 
-| Campaign                                                         | Adventure                                | Role           | Status                                     |
-| ---------------------------------------------------------------- | ---------------------------------------- | -------------- | ------------------------------------------ |
-| [[O’ Fresh Meat/O’ Fresh Meat\|O’ Fresh Meat]]                | Curse of Strahd                          | Dungeon Master | <span class="status missing">Hiatus</span> |
-| [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]]    | Homebrew                                 | Player         | <span class="status alive">Active</span>   |
-| [[The Generic Seven/The Generic Seven\|The Generic Seven]]    | Waterdeep Dragon Heist, Homebrew         | Player         | <span class="status alive">Active</span>   |
-| [[The Abyss/The Abyss\|The Abyss]]                            | Out of the Abyss                         | Player         | <span class="status alive">Active</span>   |
-| [[Through the Planes/Through the Planes\|Through the Planes]] | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status alive">Active</span>   |
-| [[Who Always Roamed/Who Always Roamed\|Who Always Roamed]]    | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status missing">Hiatus</span> |
+| Campaign                                                                     | Adventure                                | Role           | Status                                     |
+| ---------------------------------------------------------------------------- | ---------------------------------------- | -------------- | ------------------------------------------ |
+| [[O’ Fresh Meat/O’ Fresh Meat\|O’ Fresh Meat]]                            | Curse of Strahd                          | Dungeon Master | <span class="status missing">Hiatus</span> |
+| [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]]                | Homebrew                                 | Player         | <span class="status alive">Active</span>   |
+| [[The Abyss/The Abyss\|The Abyss]]                                        | Out of the Abyss                         | Player         | <span class="status alive">Active</span>   |
+| [[The Generic Seven/The Generic Seven\|The Generic Seven]]                | Waterdeep Dragon Heist, Homebrew         | Player         | <span class="status alive">Active</span>   |
+| [[Through the Planes/Through the Planes\|Through the Planes]]             | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status alive">Active</span>   |
+| [[Vampire the Masquerade/Vampire the Masquerade\|Vampire the Masquerade]] | Vampire: the Masquerade                  | Player         | Active                                     |
+| [[Who Always Roamed/Who Always Roamed\|Who Always Roamed]]                | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status missing">Hiatus</span> |
