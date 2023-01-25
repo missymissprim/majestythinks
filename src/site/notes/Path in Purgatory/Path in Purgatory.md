@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/path-in-purgatory","permalink":"/path-in-purgatory/","tags":["campaign, digital, game"]}
+{"dg-publish":true,"dg-permalink":"/path-in-purgatory","permalink":"/path-in-purgatory/","tags":["campaign, game"]}
 ---
 
 <div class="wiki-header">
@@ -59,20 +59,7 @@ Our story begins within the continent of Adrilos, where a group of unlikely adve
 	</ol>
 </div>
 
-```leaflet
-id: Adrilos
-image: https://majestythinks.netlify.app/img/Adrilos.jpeg
-height: 750px
-minZoom: 5
-maxZoom: 10
-defaultZoom: 7
-unit: mile
-scale: 16
-```
-
-<div class="wiki-header">
-	<img alt="Adrilos" src="https://majestythinks.netlify.app/img/Adrilos.jpeg">
-</div>
+![Adrilos](https://majestythinks.netlify.app/img/Adrilos.jpeg)
 
 ## Story Tracker
 
@@ -129,13 +116,6 @@ For more detailed information about our adventure, read the <a class="internal-l
 1. 300 years ago, the Felgrand family took over Chasmia, and Duke Elnaril has been in charge of Felindra since then. 🤔
 
 ## List of NPCs
-
-```button
-name New Character
-type command
-action QuickAdd: Add NPC Character
-```
-
 
 ### Supporting Characters
 | Name                                                                               | Description                                                                                                                                                                 | Role          | Status                                      |
@@ -248,13 +228,6 @@ action QuickAdd: Add NPC Character
 
 
 ## Session TOC
-```button
-name Add Session
-type note(Path in Purgatory/Session <% tp.user.getThisGameNum(tp) %> - <% tp.date.now("MMDDYYYY") %>, split) template
-action Session Notes Template
-templater true
-```
-
 
 | Session                                                                               | Title                                      | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
