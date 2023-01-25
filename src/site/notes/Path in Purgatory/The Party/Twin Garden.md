@@ -113,8 +113,6 @@
 	</section>
 </aside>
 
-
-
 Not much is known about this elusive Tabaxi, so this article remains empty ... for now.
 ## Appearance
 ...
