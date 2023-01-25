@@ -156,7 +156,7 @@ I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to 
 
 ## Connections
 ### Party
-- Shanti found [[The Abyss/The Party/Dandelion\|Dandelion]] (Lionel) blackout drunk in an alley not too far from the bar. The two have bonded and traveled ever since, with Shanti attempting to keep him out of trouble. Unfortunately, he’s the sole reason, they found themselves in jail within the Underdark.
+- Shanti found [[The Abyss/The Party/Dandelion\|Dandelion]] blackout drunk in an alley not too far from the bar. The two have bonded and traveled ever since, with Shanti attempting to keep him out of trouble. Unfortunately, he’s the sole reason, they found themselves in jail within the Underdark.
 ### Other NPCs
 ## Character Trivia
 
