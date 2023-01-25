@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/the-abyss/the-abyss/","tags":["campaign, digital, overview"]}
+{"dg-publish":true,"permalink":"/the-abyss/the-abyss/","tags":["campaign, overview"]}
 ---
 
 <div class="wiki-header">
@@ -30,7 +30,7 @@
 	</div>
 </div>
 
-[[30 Resources/Adventure Modules/Out of the Abyss/Out of the Abyss\|Out of the Abyss]]
+[[Out of the Abyss\|Out of the Abyss]]
 # The Abyss
 ## About
 The Underdark is a subterranean wonderland, a vast and twisted labyrinth where fear reigns. It is the home of horrific monsters that have never seen the light of day.  Stop the madness before it consumes you!
@@ -71,12 +71,6 @@ The Story Tracker is a note-keeping tool to help report important information ab
 
 ## List of Characters
 
-```button
-name New Character
-type command
-action QuickAdd: Add NPC Character
-```
-
 ### Supporting Characters
 | Name | Description | Role | Status |
 | ---- | ----------- | ---- | ------ |
@@ -88,23 +82,6 @@ action QuickAdd: Add NPC Character
 
 
 ## Session TOC
-
-```button
-name Add Session
-type note((relative = false) => {
-      const parent = this.config.target_file.parent;
-      let folder;
-      if (relative) {
-        folder = parent.path;
-      } else {
-        folder = parent.name;
-      }
-      return folder;
-    }/Session 001 - 01212023, split) template
-action Session Notes Template
-templater true
-```
-
 
 | Session | Title | Summary |
 | ------- | ----- | ------- |
