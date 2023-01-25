@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/the-generic-seven","permalink":"/the-generic-seven/","tags":["campaign, digital, overview"]}
+{"dg-publish":true,"dg-permalink":"/the-generic-seven","permalink":"/the-generic-seven/","tags":["campaign, overview"]}
 ---
 
 <div class="wiki-header">
@@ -44,6 +44,7 @@
 
 
 ## Introduction
+
 >Welcome to Waterdeep, the Crown of the North, where a wondrous tale of urban adventure is about to unfold. Half a million gold coins are hidden somewhere in the city, and many individuals know about the cache and are looking for it ...
 
 However, even the most vile and evil villains know about this treasure and will stop at nothing to claim it for themselves. Meanwhile, the city is threatened by escalating tension between two power groups that is on the verge of flaring into violence, leaving the city of Waterdeep in the wake of their destruction: the Zhentarim, a shadowy network of mercenaries; and Xanathar, the beholder crime lord of Waterdeep.
@@ -80,12 +81,6 @@ scale: 16
 ```
 
 ## List of NPCs
-```button
-name Add Character
-type command
-action QuickAdd: Add Character
-```
-
 ### Supporting Characters
 | Name                                                             | Description                                  | Role    | Status                                      |
 | ---------------------------------------------------------------- | -------------------------------------------- | ------- | ------------------------------------------- |
@@ -103,13 +98,6 @@ action QuickAdd: Add Character
 
 
 ## Sessions TOC
-```button
-name Add Session
-type note(The Generic Seven/Session <% tp.user.getThisGameNum(tp) %> - <% tp.date.now("MMDDYYYY") %>, split) template
-action Session Notes Template
-templater true
-```
-
 | File                                                                                  | Title                  | Summary                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[The Generic Seven/Session Notes/Session 023 - 10152022\|Session 023 - 10152022]] | Warlocks and Wizards   | Myst and Ruby travel together, reaching Neverwinter to rejoin the Generic Seven.                                                                                                                                  |
