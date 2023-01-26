@@ -576,7 +576,7 @@ blockquote {
 	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 	border: 1px solid;
 	border-left-width: 5px !important;
-	/*display: inline-block;*/
+	display: inline-block;
 	margin: 0 auto 2em !important;
 	padding: 2em !important;
 }
