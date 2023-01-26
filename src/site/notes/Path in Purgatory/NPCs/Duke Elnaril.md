@@ -55,6 +55,10 @@
 	<section class="aside-item">
 		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Character Information</div>
 		<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Pronunciation</div>
+			<div class="aside-value"></div>
+		</div>
+		<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Pronouns</div>
 			<div class="aside-value">he/him</div>
 		</div>
@@ -64,15 +68,19 @@
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Aliases</div>
-		<div class="aside-value"></div>
+		<div class="aside-value">Bishop Sania</div>
+	</div>
+		<div class="aside-item aside-data aside-item-spacing">
+		<div class="aside-label">Titles</div>
+		<div class="aside-value">Duke</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Affiliations</div>
 		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs">the Void Walkers</a></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Titles</div>
-		<div class="aside-value">Duke</div>
+		<div class="aside-label">Connections</div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/sovereign-luthais-avadorn">Sovereign Luthais Avadorn</a></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Occupation</div>
@@ -85,6 +93,10 @@
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Race</div>
 		<div class="aside-value">Elf</div>
+	</div>
+	<div class="aside-item aside-data aside-item-spacing">
+		<div class="aside-label">Subrace</div>
+		<div class="aside-value"></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Class</div>
@@ -116,7 +128,7 @@
 	</section>
 </aside>
 
-After investigating the murder on the metal ship, the Nameless ones were granted an audience with Duke Elnaril in the [[Verdant Hall\|Verdant Hall]] of Felindra. He is Soverein Luthais’ cousin, and his affiliation led him to work with the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]].
+After investigating the murder on the metal ship, the Nameless ones were granted an audience with Duke Elnaril in the [[Verdant Hall\|Verdant Hall]] of Felindra. He is Soverein Luthais’ cousin, and his affiliation led him to work with the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]]. He may be the rumored Bishop Sania.
 
 ## Appearance
 Described as a silver fox, Elnaril dresses in fine robes suited for his station. When he first met the Nameless ones he wore deep purple robes.
@@ -142,19 +154,22 @@ Described as a silver fox, Elnaril dresses in fine robes suited for his station.
 
 ## Sessions
 ### Active
-| Session                                                                               | Title | Date                      |
-| ------------------------------------------------------------------------------------- | ----- | ------------------------- |
-| [[Path in Purgatory/Session Notes/Session 018 - 10012021\|Session 018 - 10012021]] | \-    | Saturday, October 01 2022 |
+| Session                                                                               | Title                    | Date                      |
+| ------------------------------------------------------------------------------------- | ------------------------ | ------------------------- |
+| [[Path in Purgatory/Session Notes/Session 041 - 01132023\|Session 041 - 01132023]] | A Plethora of Intentions | Friday, January 13 2023   |
+| [[Path in Purgatory/Session Notes/Session 018 - 10012021\|Session 018 - 10012021]] | \-                       | Saturday, October 01 2022 |
 
 
 ---
 
 ### Mentioned
-| Session                                                                               | Title          | Date                        |
-| ------------------------------------------------------------------------------------- | -------------- | --------------------------- |
-| [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots | Friday, July 22 2022        |
-| [[Path in Purgatory/Session Notes/Session 030 - 05292022\|Session 030 - 05292022]] | Close Call     | Sunday, May 29 2022         |
-| [[Path in Purgatory/Session Notes/Session 017 - 09172021\|Session 017 - 09172021]] | \-             | Saturday, September 17 2022 |
+| Session                                                                               | Title                                | Date                     |
+| ------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------ |
+| [[Path in Purgatory/Session Notes/Session 040 - 12302022\|Session 040 - 12302022]] | For Lack of Liaison                  | Friday, December 30 2022 |
+| [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps                 | Friday, November 04 2022 |
+| [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots                       | Friday, July 22 2022     |
+| [[Path in Purgatory/Session Notes/Session 030 - 05292022\|Session 030 - 05292022]] | Close Call                           | Sunday, May 29 2022      |
+| [[Path in Purgatory/Session Notes/Session 025 - 02252022\|Session 025 - 02252022]] | Spirited Away and Deals with a Devil | Friday, February 25 2022 |
 
 
 ---
