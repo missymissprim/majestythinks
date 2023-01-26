@@ -56,6 +56,10 @@
 	<section class="aside-item">
 		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Character Information</div>
 		<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Pronunciation</div>
+			<div class="aside-value"></div>
+		</div>
+		<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Pronouns</div>
 		<div class="aside-value">he/him</div>
 	</div>
@@ -68,9 +72,21 @@
 		<div class="aside-value">Catlord</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Titles</div>
+			<div class="aside-value"></div>
+		</div>
+	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Affiliations</div>
 		<div class="aside-value">True Fathoms</div>
 	</div>
+	<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Connections</div>
+			<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/true-fathoms">True Fathoms</a></div>
+		</div>
+		<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Occupation</div>
+			<div class="aside-value"></div>
+		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Creature Type</div>
 		<div class="aside-value">Humanoid</div>
@@ -79,6 +95,10 @@
 		<div class="aside-label">Race</div>
 		<div class="aside-value">Tabaxi</div>
 	</div>
+	<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Subrace</div>
+			<div class="aside-value"></div>
+		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Class</div>
 		<div class="aside-value">Rogue, Fighter</div>
@@ -100,7 +120,7 @@
 		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Status</div>
 		<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Status</div>
-		<div class="aside-value">Alive (Resurrected</div>
+		<div class="aside-value">Alive (Resurrected)</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Cause of Death</div>
@@ -132,77 +152,19 @@ Not much is known about this elusive Tabaxi, so this article remains empty ... f
 ## Combat
 ### Tactics
 ### Loot
+- [[Path in Purgatory/Items/Feather of the Archaeopteryx\|Feather of the Archaeopteryx]]
 
-```statblock
-source: Homebrew
-image: [[Wikilink to Image]]
-name: String
-size: string
-type: string
-subtype: (string),
-alignment: string
-ac: number
-hp: number
-hit_dice: string
-speed: string
-stats: [number, number, number, number, number, number]
-
-saves:
-- <ability-score>: number
-- <ability-score>: number
-skillsaves:
-- <skill-name>: number
-- <skill-name>: number
-damage_vulnerabilities: string
-damage_resistances: string
-damage_immunities: string
-condition_immunities: string
-senses: string
-languages: string
-cr: number
-
-traits:
-- [<trait-name>., "<trait-description>"]
-- [Spellcasting., "The <monster name> is a #-level spellcaster. It's spellcasting ability is <ability socre> (spell save DC #, +# to hit with spell attacks). The <monster name> has the following spells prepared:\n\nAt will: <spell-list>\n3/day each: <spell-list>\n2/day each: <spell-list>\n1/day each: <spell-list>"]
-- ...
-
-actions:
-- [<action-name>., <action-description>]
-- [Action Melee Attack., "Melee Weapon Attack: +# to hit, reach # ft., # target. Hit: # (#d# + #) <damage type> damage."]
-- [Action Ranged Attack., "Ranged Weapon Attack: +# to hit, range #/# ft., # target. Hit: # (#d# + #) <damage type> damage."]
-- ...
-
-bonus_actions:
-- [<bonus_action-name>., <bonus_action-description>]
-- ...
-
-reactions:
-- [<reaction-name>., <reaction-description>]
-- ...
-
-legendary_actions:
-- name:
-  desc: "Enter a description for how legendary actions work for your monster here."
-- [<legendar_action-name> (Cost No. Actions)., <legendary_action-description>]
-- ...
-mythic_actions:
-- desc: Enter the description for how mythic actions work for your monster here.
-- desc: __Mythic Action Name (Cost No. Actions).__ Enter your description for your mythic action.
-- ...
-
-```
-
-<hr class="divide">
+---
 
 ## Sessions
 ### Active
-| Session                                                                               | Title                  | Date                     |
-| ------------------------------------------------------------------------------------- | ---------------------- | ------------------------ |
-| [[Path in Purgatory/Session Notes/Session 039 - 12092022\|Session 039 - 12092022]] | Loose Threads          | Friday, December 09 2022 |
-| [[Path in Purgatory/Session Notes/Session 038 - 12022022\|Session 038 - 12022022]] | Why So Serious?        | Friday, December 02 2022 |
-| [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps   | Friday, November 04 2022 |
-| [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]] | One Tense Conversation | Friday, October 21 2022  |
-| [[Path in Purgatory/Session Notes/Session 035 - 10072022\|Session 035 - 10072022]] | \-                     | Friday, October 07 2022  |
+| Session                                                                               | Title                    | Date                     |
+| ------------------------------------------------------------------------------------- | ------------------------ | ------------------------ |
+| [[Path in Purgatory/Session Notes/Session 041 - 01132023\|Session 041 - 01132023]] | A Plethora of Intentions | Friday, January 13 2023  |
+| [[Path in Purgatory/Session Notes/Session 039 - 12092022\|Session 039 - 12092022]] | Loose Threads            | Friday, December 09 2022 |
+| [[Path in Purgatory/Session Notes/Session 038 - 12022022\|Session 038 - 12022022]] | Why So Serious?          | Friday, December 02 2022 |
+| [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps     | Friday, November 04 2022 |
+| [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]] | One Tense Conversation   | Friday, October 21 2022  |
 
 
 ---
