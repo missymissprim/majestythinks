@@ -616,6 +616,10 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	margin: 0 !important;
 }
 
+.callout[data-callout="meta"] {
+	--callout-color: 162, 14, 214; /* blue */
+}
+
 .callout[data-callout="overview"] {
 	--callout-color: 0, 111, 255; /* blue */
 }
