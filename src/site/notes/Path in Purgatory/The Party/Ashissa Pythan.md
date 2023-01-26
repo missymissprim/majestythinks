@@ -45,7 +45,7 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Player</div>
-		<div class="aside-value">Majesty Champion Christian</div>
+		<div class="aside-value">Alexis “Lexie” Heron</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Campaign</div>
@@ -53,6 +53,10 @@
 	</div>
 	<section class="aside-item">
 		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Character Information</div>
+		<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Pronunciation</div>
+			<div class="aside-value"></div>
+		</div>
 		<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Pronouns</div>
 			<div class="aside-value">she/her</div>
@@ -66,13 +70,17 @@
 		<div class="aside-value"></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
+		<div class="aside-label">Title</div>
+		<div class="aside-value"></div>
+	</div>
+	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Affiliations</div>
 		<div class="aside-value"></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Titles</div>
-		<div class="aside-value"></div>
-	</div>
+			<div class="aside-label">Connections</div>
+			<div class="aside-value"></div>
+		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Occupation</div>
 		<div class="aside-value"></div>
@@ -86,6 +94,10 @@
 		<div class="aside-value">Yuan-ti (Pureblood)</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Subrace</div>
+			<div class="aside-value"></div>
+		</div>
+	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Class</div>
 		<div class="aside-value">Sorcerer, Warlock</div>
 	</div>
@@ -97,6 +109,10 @@
 		<div class="aside-label">Alignment</div>
 		<div class="aside-value">Chaotic Neutral</div>
 	</div>
+	<div class="aside-item aside-data aside-item-spacing">
+			<div class="aside-label">Languages</div>
+			<div class="aside-value">Abyssal, Common, Draconic, Infernal</div>
+		</div>
 	</section>
 		<section class="aside-item">
 		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Status</div>
@@ -160,13 +176,13 @@
 
 ## Sessions
 ### Active
-| Session                                                                               | Title                  | Date                     |
-| ------------------------------------------------------------------------------------- | ---------------------- | ------------------------ |
-| [[Path in Purgatory/Session Notes/Session 040 - 12302022\|Session 040 - 12302022]] | For Lack of Liaison    | Friday, December 30 2022 |
-| [[Path in Purgatory/Session Notes/Session 039 - 12092022\|Session 039 - 12092022]] | Loose Threads          | Friday, December 09 2022 |
-| [[Path in Purgatory/Session Notes/Session 038 - 12022022\|Session 038 - 12022022]] | Why So Serious?        | Friday, December 02 2022 |
-| [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps   | Friday, November 04 2022 |
-| [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]] | One Tense Conversation | Friday, October 21 2022  |
+| Session                                                                               | Title                    | Date                     |
+| ------------------------------------------------------------------------------------- | ------------------------ | ------------------------ |
+| [[Path in Purgatory/Session Notes/Session 041 - 01132023\|Session 041 - 01132023]] | A Plethora of Intentions | Friday, January 13 2023  |
+| [[Path in Purgatory/Session Notes/Session 040 - 12302022\|Session 040 - 12302022]] | For Lack of Liaison      | Friday, December 30 2022 |
+| [[Path in Purgatory/Session Notes/Session 039 - 12092022\|Session 039 - 12092022]] | Loose Threads            | Friday, December 09 2022 |
+| [[Path in Purgatory/Session Notes/Session 038 - 12022022\|Session 038 - 12022022]] | Why So Serious?          | Friday, December 02 2022 |
+| [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps     | Friday, November 04 2022 |
 
 
 ---
