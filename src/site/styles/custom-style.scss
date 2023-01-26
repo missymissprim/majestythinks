@@ -616,9 +616,14 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	margin: 0 !important;
 }
 
+.callout[data-callout="dream"] {
+	--callout-color: 0, 229, 192; /* teal */
+	--callout-icon: lucide-star;
+}
+
 .callout[data-callout="meta"] {
-	--callout-color: 162, 14, 214; /* blue */
-	--callout-icon: lucide-tack;
+	--callout-color: 162, 14, 214; /* purple */
+	--callout-icon: lucide-pin;
 }
 
 .callout[data-callout="overview"] {
@@ -628,6 +633,11 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 .callout[data-callout="recap"]  {
 	display:none;
+}
+
+.callout[data-callout="spoiler"] {
+	--callout-color: 162, 14, 214; /* blue */
+	--callout-icon: lucide-megaphone;
 }
 
 .callout[data-callout="summary"] {
@@ -646,7 +656,7 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 .internal-embed .markdown-embed:before {
 	color: var(--teal);
-	content: "Recap";
+	content: url("<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>") + "Recap";
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 22px;
 	font-weight: 700;
