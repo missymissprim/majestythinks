@@ -572,11 +572,6 @@ figcaption {
 }
 
 /** BLOCKQUOTE **/
-
-.markdown-preview-view aside + div > blockquote {
-  display: inline-block;
-}
-
 blockquote {
 	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 	border: 1px solid;
@@ -623,6 +618,7 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 .callout[data-callout="dream"] {
 	--callout-color: 0, 229, 192; /* teal */
+	border-image: linear-gradient(135deg, var(--teal), var(--cyan), var(--blue), var(--purple)) 1;
 	--callout-icon: lucide-star;
 }
 
@@ -640,8 +636,9 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	display:none;
 }
 
-.callout[data-callout="spoiler"] {
-	--callout-color: 162, 14, 214; /* blue */
+.callout[data-callout="spoilers"] {
+	--callout-color: 162, 14, 214; /* purple */
+	border-image: linear-gradient(135deg, var(--purple), var(--magenta), var(--red), var(--orange)) 1;
 	--callout-icon: lucide-megaphone;
 }
 
