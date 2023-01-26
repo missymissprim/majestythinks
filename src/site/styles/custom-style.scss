@@ -618,10 +618,12 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 .callout[data-callout="meta"] {
 	--callout-color: 162, 14, 214; /* blue */
+	--callout-icon: lucide-tack;
 }
 
 .callout[data-callout="overview"] {
 	--callout-color: 0, 111, 255; /* blue */
+	--callout-icon: lucide-book;
 }
 
 .callout[data-callout="recap"]  {
@@ -630,6 +632,7 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 .callout[data-callout="summary"] {
 	--callout-color: 0, 174, 239; /* cyan */
+	--callout-icon: lucide-clipboard-list;
 }
 
 /**** RECAPS ****/
