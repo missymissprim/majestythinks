@@ -34,7 +34,7 @@
 
 > Looking for previous session notes, and that *one* NPC our glorious Dungeon Master randomly mentioned? 
 
-Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital library where I develop ideas, take notes, and connect all of my Dungeons & Dragons (D&D) campaigns — Player or Dungeon Master. If you’re looking for something specific, don’t be afraid to use the search bar at the top left.
+Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital garden where I develop ideas, take notes, and connect all of my Dungeons & Dragons (D&D) campaigns — Player or Dungeon Master. If you’re looking for something specific, don’t be afraid to use the search bar at the top left.
 
 | Campaign                                                                     | Adventure                                | Role           | Status                                     |
 | ---------------------------------------------------------------------------- | ---------------------------------------- | -------------- | ------------------------------------------ |
