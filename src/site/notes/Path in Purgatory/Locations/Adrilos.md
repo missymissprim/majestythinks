@@ -65,20 +65,22 @@
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Points of Interest</div>
-			<div class="aside-value">
-				<ul>
-					<li>Dinea</li>
-					<li>The Dualis Empire</li>
-					<li>The Falivar Desert</li>
-					<li>Gorin</li>
-					<li>Lath’lindel</li>
-				</ul>
-			</div>
+			<div class="aside-value">Dinea<br>The Dualis Empire<br>The Falivar Desert<br>Gorin<br>Lath’lindel</div>
 		</div>
 	</section>
 </aside>
 
 The continent of Adrilos is made up of 5 independent nations that are relatively racially separated. 
+
+The southeastern nation known as the [[Path in Purgatory/Locations/Dualis Empire\|Dualis Empire]] is made up of a series of city-states that all work against each other for power. The major cities involved in this power struggle are [[Path in Purgatory/Locations/Chasmia\|Chasmia]], [[Path in Purgatory/Locations/Spenwald\|Spenwald]], [[Path in Purgatory/Locations/Hidela\|Hidela]], [[Path in Purgatory/Locations/Port Laska\|Port Laska]], [[Path in Purgatory/Locations/Frenevid\|Frenevid]], [[Path in Purgatory/Locations/Lindhaven\|Lindhaven]] and [[Path in Purgatory/Locations/Azvon\|Azvon]]; a few smaller villages remain independent but many end of the territories of these larger cities.
+
+North of Dualis is the elven forest nation called [[Path in Purgatory/Locations/Lath’Lindel\|Lath’Lindel]]. The elves who live here are secretive and rarely leave their home except to trade goods with their neighbors.
+
+The northernmost nation on the continent is called [[Path in Purgatory/Locations/Dinaea\|Dinaea]] and is home primarily to the dwarves. It is separated into three cities that have been in a civil war for many years.
+
+To the west of Dualis lies the marshy nation of [[Path in Purgatory/Locations/Gorin\|Gorin]]. This land is primarily inhabited by the less “civilized” races of the world and is rife with internal conflict, though some groups manage to organize themselves well enough to strike their neighbors for land and resources.
+
+To the far west and spanning the western edge of the continent lies the desert nation called [[Path in Purgatory/Locations/Falivar Desert\|Falivar Desert]]. As no other nations have learned how to survive this vast desert, the Falivarians remain very mysterious, almost acting more as a folk tale than an actual country.''
 
 ```leaflet
 id: Adrilos
@@ -106,16 +108,6 @@ Leading Race:
 ## Climate
 ## History
 ## Other
-The southeastern nation known as the [[Path in Purgatory/Locations/Dualis Empire\|Dualis Empire]] is made up of a series of city-states that all work against each other for power. The major cities involved in this power struggle are [[Path in Purgatory/Locations/Chasmia\|Chasmia]], [[Path in Purgatory/Locations/Spenwald\|Spenwald]], [[Path in Purgatory/Locations/Hidela\|Hidela]], [[Path in Purgatory/Locations/Port Laska\|Port Laska]], [[Path in Purgatory/Locations/Frenevid\|Frenevid]], [[Path in Purgatory/Locations/Lindhaven\|Lindhaven]] and [[Path in Purgatory/Locations/Azvon\|Azvon]]; a few smaller villages remain independent but many end of the territories of these larger cities.
-
-North of Dualis is the elven forest nation called [[Path in Purgatory/Locations/Lath’Lindel\|Lath’Lindel]]. The elves who live here are secretive and rarely leave their home except to trade goods with their neighbors.
-
-The northernmost nation on the continent is called [[Path in Purgatory/Locations/Dinaea\|Dinaea]] and is home primarily to the dwarves. It is separated into three cities that have been in a civil war for many years.
-
-To the west of Dualis lies the marshy nation of [[Path in Purgatory/Locations/Gorin\|Gorin]]. This land is primarily inhabited by the less “civilized” races of the world and is rife with internal conflict, though some groups manage to organize themselves well enough to strike their neighbors for land and resources.
-
-To the far west and spanning the western edge of the continent lies the desert nation called [[Path in Purgatory/Locations/Falivar Desert\|Falivar Desert]]. As no other nations have learned how to survive this vast desert, the Falivarians remain very mysterious, almost acting more as a folk tale than an actual country.
-
 ## Religion
 Within Adrilos, there are 10 primary deities known as the Ascendant. They are:
 
