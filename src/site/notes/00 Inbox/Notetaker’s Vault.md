@@ -34,7 +34,11 @@
 
 > Looking for previous session notes, and that *one* NPC our glorious Dungeon Master randomly mentioned? 
 
-Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital garden where I develop ideas, take notes, and connect all of my Dungeons & Dragons (D&D) campaigns — Player or Dungeon Master. If you’re looking for something specific, don’t be afraid to use the search bar at the top left.
+Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital garden where I develop ideas, take notes, and connect all of my Dungeons & Dragons (D&D) campaigns — Player or Dungeon Master.  A few other TTRPG lore and mechanics may even sneak in here for additional inspiration and notes.
+
+The Notetaker’s Vault is an online repository of notes, observations and insights from various worlds across the D&D multiverse. It includes detailed reports on quests, maps, non-player characters (NPCS), and other game content. The vault is open to all players in the game, allowing anyone to contribute their experiences to the wealth of knowledge available.
+
+If you’re looking for something specific, don’t be afraid to use the search bar at the top left.
 
 | Campaign                                                                     | Adventure                                | Role           | Status                                     |
 | ---------------------------------------------------------------------------- | ---------------------------------------- | -------------- | ------------------------------------------ |
