@@ -101,11 +101,11 @@
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Class</div>
-		<div class="aside-value">Rogue, Fighter</div>
+		<div class="aside-value">Rogue<br>Fighter</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Subclass</div>
-		<div class="aside-value">Swashbuckler, Battle Master</div>
+		<div class="aside-value">Swashbuckler<br>Battle Master</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Alignment</div>
@@ -113,7 +113,7 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Languages</div>
-		<div class="aside-value">Common, Draconic, Sylvan, Thieves’ Cant, Undercommon</div>
+		<div class="aside-value">Common<br>Draconic<br>Sylvan<br>Thieves’ Cant<br>Undercommon</div>
 	</div>
 	</section>
 	<section class="aside-item">
@@ -176,5 +176,4 @@ Not much is known about this elusive Tabaxi, so this article remains empty ... f
 | [[Path in Purgatory/Session Notes/Session 010 - 05072021\|Session 010 - 05072021]] | \-               | Friday, May 07 2021     |
 
 
----
 <div id="disqus_thread"></div>
