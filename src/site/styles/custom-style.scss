@@ -1073,6 +1073,10 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		margin: 0 auto !important;
 	}
 	
+	.banner {
+		height: 180px;
+	}
+	
 	body, body .content {
 		font-size: 18px !important;
 	}
@@ -1100,11 +1104,9 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		margin: 1.5em auto !important;
 	}
 	
-	img:not(img .emoji) {
+	img:not(.banner img):not(.emoji) {
 		display: block;
-		margin: 1em auto;
 		height: auto;
-		width: 100%;
 	}
 	
 	.sticky, .sticky .left{
