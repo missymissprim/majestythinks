@@ -1073,6 +1073,10 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		margin: 0 auto !important;
 	}
 	
+	body: {
+		font-size: 16px !important;
+	}
+	
 	blockquote:before {
 		font-size: 3em;
 		height: 30px;
@@ -1085,5 +1089,9 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	
 	.caption {
 		font-size: 12px !important;
+	}
+	
+	.sticky, .sticky .left {
+		float: none !important;
 	}
 }
