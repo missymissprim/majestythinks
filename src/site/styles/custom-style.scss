@@ -1103,8 +1103,6 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	.sticky, .sticky .left{
 		display: inline-block;
 		float: none !important;
-		height: 254px;
-		margin: 1em auto;
-		width: 254px;
+		margin: 1em !important;
 	}
 }
