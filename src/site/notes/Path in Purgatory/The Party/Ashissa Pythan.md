@@ -99,11 +99,11 @@
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Class</div>
-		<div class="aside-value">Sorcerer, Warlock</div>
+		<div class="aside-value">Sorcerer<br>Warlock</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Subclass</div>
-		<div class="aside-value">Aberrant Mind, the Undead</div>
+		<div class="aside-value">Aberrant Mind<br>the Undead</div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Alignment</div>
@@ -111,7 +111,7 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Languages</div>
-			<div class="aside-value">Abyssal, Common, Draconic, Infernal</div>
+			<div class="aside-value">Abyssal<br>Common<br>Draconic<br>Infernal</div>
 		</div>
 	</section>
 		<section class="aside-item">
@@ -126,7 +126,7 @@
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Death(s)</div>
-		<div class="aside-value">Before the campaign</div>
+		<div class="aside-value">Pre-Campaign</div>
 	</div>
 	</section>
 </aside>
