@@ -51,7 +51,7 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Campaign</div>
-		<div class="aside-value"><a class="internal-link" href="path-in-purgatory/">Path in Purgatory</a></div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory">Path in Purgatory</a></div>
 	</div>
 	<section class="aside-item">
 		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Character Information</div>
@@ -124,7 +124,7 @@
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Death(s)</div>
-		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/session-notes/session-24">Session 24</a><br><a class="internal-link" href="/path-in-purgatory/session-notes/session-38">Session 38</a></div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/session-notes/session-24">Through the Sewers</a><br><a class="internal-link" href="/path-in-purgatory/session-notes/session-38">Why so Serious?</a></div>
 	</div>
 	</section>
 </aside>
