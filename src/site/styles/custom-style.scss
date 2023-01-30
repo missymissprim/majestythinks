@@ -486,6 +486,17 @@ aside {
 	opacity: .4;
 }
 
+.aside-icon {
+    align-self: center;
+    flex: 0 0 auto;
+    display: flex;
+    width: 22px;
+}
+
+.aside-icon svg {
+    fill: var(--blue);
+}
+
 .aside-item img {
 	display: flex;
 	margin: auto;
@@ -512,7 +523,11 @@ figcaption {
 }
 
 .aside-title {
+	align-items: center;
+	display: flex;
 	font-size: 22px;
+	gap: 0.25em;
+	justify-content: center;
 	letter-spacing: .03em;
 	margin: 0;
 	padding: 12px;
