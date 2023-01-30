@@ -80,11 +80,11 @@
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Affiliations</div>
-		<div class="aside-value">True Fathoms</div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/true-fathoms">True Fathoms</a></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Connections</div>
-			<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/true-fathoms">True Fathoms</a></div>
+			<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/winora">Winora</a></div>
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Occupation</div>
