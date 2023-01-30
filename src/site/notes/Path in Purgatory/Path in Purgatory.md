@@ -35,15 +35,15 @@
 Our story begins within the continent of Adrilos, where a group of unlikely adventurers find themselves in opposition with a diabolical cult known as the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]] of at the behest of the gods.
 
 ## The Party
-| image                                                                                                               | Players                                                                       | Race             | Class             | Status                                  |
-| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------- | ----------------- | --------------------------------------- |
-| ![\|35](https://www.dndbeyond.com/avatars/20708/351/1581111423-21380758.jpeg)                                       | [[Path in Purgatory/The Party/Ashissa Pythan\|Ashissa Pythan]]             | Yuan-ti          | Sorcerer, Warlock | <span class="status alive">Alive</span> |
-| ![\|35](https://www.dndbeyond.com/avatars/24584/517/1581111423-39029214.jpeg)                                       | [[Path in Purgatory/The Party/Averill Warin Kane\|Averill Warin Kane]]     | Human            | Fighter, Paladin  | <span class="status alive">Alive</span> |
-| ![\|35](https://www.dndbeyond.com/avatars/thumbnails/30641/771/61/60/1581111423-88761440.jpeg)                      | [[Path in Purgatory/The Party/Coral Eñdosymbíönt\|Coral Eñdosymbíönt]]     | Elf              | Bard, Rogue       | <span class="status alive">Alive</span> |
-| ![\|35](https://i.pinimg.com/originals/05/50/f7/0550f79da2f53dcacb8d85347169d62c.png)                               | [[Path in Purgatory/The Party/Fenmarel Mithalvarin\|Fenmarel Mithalvarin]] | Elf              | Wizard            | <span class="status alive">Alive</span> |
-| ![\|35](https://cdnb.artstation.com/p/assets/images/images/035/851/167/large/peter-kovacs-helgenhar.jpg?1616068158) | [[Path in Purgatory/The Party/Moradin Thraudmere\|Moradin Thraudmere]]     | Dwarf (Mountain) | Cleric, Artificer | <span class="status alive">Alive</span> |
-| \-                                                                                                                  | [[Path in Purgatory/The Party/Myron\|Myron]]                               | \-               | Cleric            | <span class="status alive">Alive</span> |
-| ![\|35](https://www.dndbeyond.com/avatars/24345/146/1581111423-38153234.jpeg)                                       | [[Path in Purgatory/The Party/Twin Garden\|Twin Garden]]                   | Tabaxi           | Rogue, Fighter    | <span class="status alive">Alive</span> |
+| image                                                                                                               | Players                                                                       | Race    | Class             | Status                                  |
+| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------- | ----------------- | --------------------------------------- |
+| ![\|35](https://www.dndbeyond.com/avatars/20708/351/1581111423-21380758.jpeg)                                       | [[Path in Purgatory/The Party/Ashissa Pythan\|Ashissa Pythan]]             | Yuan-ti | Sorcerer, Warlock | <span class="status alive">Alive</span> |
+| ![\|35](https://www.dndbeyond.com/avatars/24584/517/1581111423-39029214.jpeg)                                       | [[Path in Purgatory/The Party/Averill Warin Kane\|Averill Warin Kane]]     | Human   | Fighter, Paladin  | <span class="status alive">Alive</span> |
+| ![\|35](https://www.dndbeyond.com/avatars/thumbnails/30641/771/61/60/1581111423-88761440.jpeg)                      | [[Path in Purgatory/The Party/Coral Eñdosymbíönt\|Coral Eñdosymbíönt]]     | Elf     | Bard, Rogue       | <span class="status alive">Alive</span> |
+| ![\|35](https://i.pinimg.com/originals/05/50/f7/0550f79da2f53dcacb8d85347169d62c.png)                               | [[Path in Purgatory/The Party/Fenmarel Mithalvarin\|Fenmarel Mithalvarin]] | Elf     | Wizard            | <span class="status alive">Alive</span> |
+| ![\|35](https://cdnb.artstation.com/p/assets/images/images/035/851/167/large/peter-kovacs-helgenhar.jpg?1616068158) | [[Path in Purgatory/The Party/Moradin Thraudmere\|Moradin Thraudmere]]     | Dwarf   | Cleric, Artificer | <span class="status alive">Alive</span> |
+| \-                                                                                                                  | [[Path in Purgatory/The Party/Myron\|Myron]]                               | \-      | Cleric            | <span class="status alive">Alive</span> |
+| ![\|35](https://www.dndbeyond.com/avatars/24345/146/1581111423-38153234.jpeg)                                       | [[Path in Purgatory/The Party/Twin Garden\|Twin Garden]]                   | Tabaxi  | Rogue, Fighter    | <span class="status alive">Alive</span> |
 
 
 ## Introduction
@@ -96,7 +96,7 @@ For more detailed information about our adventure, read the <a class="internal-l
 3. Gaelira → Elliot
 4. Illian → Fenmarel
 5. Kriva → ???
-6. Laf’Loran → Corinne???d 
+6. Laf’Loran → Corinne??? 
 7. Sendri → Moradin
 8. Ursa → Myron
 9. Vala → Averill
