@@ -64,7 +64,7 @@
 			<div class="aside-value">she/her</div>
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Age:</div>
+			<div class="aside-label">Age</div>
 			<div class="aside-value">237</div>
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
@@ -77,6 +77,10 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Affiliations</div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/illian">Illian</a></div>
+	</div>
+	<div class="aside-item aside-data aside-item-spacing">
+		<div class="aside-label">Connections</div>
 		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/illian">Illian</a></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
