@@ -122,7 +122,7 @@ Six known individuals made deals and pacts with demon lords and devil princes. G
 | [[Path in Purgatory/NPCs/Cardinal Arcanis\|Cardinal Arcanis]]                   |             | <span class="status alive">Alive</span> |
 | [[Path in Purgatory/NPCs/Cardinal Divitae\|Cardinal Divitae]]                   |             | <span class="status alive">Alive</span> |
 | [[Path in Purgatory/NPCs/Cardinal Immortuos\|Cardinal Immortuos]]               |             | <span class="status alive">Alive</span> |
-| [[Path in Purgatory/NPCs/Sovereign Luthais Avadorn\|Sovereign Luthais Avadorn]] |             | <span class="status alive">Alive</span> |
+| [[Path in Purgatory/NPCs/Sovereign Luthais Avadorn\|Sovereign Luthais Avadorn]] |             | <span class="status dead">Dead</span>   |
 
 
 ### Known Members
