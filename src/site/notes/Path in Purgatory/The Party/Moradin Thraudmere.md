@@ -36,7 +36,7 @@
 			<div class="aside-value">he/him</div>
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Age:</div>
+			<div class="aside-label">Age</div>
 			<div class="aside-value"></div>
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
@@ -47,8 +47,12 @@
 		<div class="aside-label">Titles</div>
 		<div class="aside-value"></div>
 	</div>
-	<div class="aside-item aside-data aside-item-spacing">
+		<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Affiliations</div>
+		<div class="aside-value"></div>
+	</div>
+	<div class="aside-item aside-data aside-item-spacing">
+		<div class="aside-label">Connections</div>
 		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/sendri">Sendri</a></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
