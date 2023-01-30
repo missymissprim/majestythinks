@@ -53,7 +53,7 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Campaign</div>
-		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/">Path in Purgatory</a></div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory">Path in Purgatory</a></div>
 	</div>
 	<section class="aside-item">
 		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Character Information</div>
@@ -67,7 +67,7 @@
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
 			<div class="aside-label">Age</div>
-			<div class="aside-value">~1000+~</div>
+			<div class="aside-value">~1000+</div>
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Aliases</div>
@@ -126,7 +126,7 @@
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Death(s)</div>
-		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/session notes/session-041-01132023">Under Aden Vala</a></div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/session notes/session-41">A Plethora of Intentions</a></div>
 	</div>
 	</section>
 </aside>
