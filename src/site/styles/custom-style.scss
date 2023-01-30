@@ -192,6 +192,8 @@ body {
 	
 	--link-decoration: none;
 	
+	--list-indent: 3.5em;
+	
 	--hr-thickness: 1px;
 	
 	--tag-background: transparent;
@@ -296,11 +298,7 @@ body {
 		font-weight: 300;
 	}
 	
-	ol > li::marker {
-		color: var(--black-60);
-	}
-	
-	ul > li::marker {
+	ol > li::marker, ul > li::marker {
 		color: var(--blue-40);
 	}
 	
