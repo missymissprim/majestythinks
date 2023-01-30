@@ -498,7 +498,7 @@ aside {
 	fill: var(--blue);
 }
 
-.aside-item img {
+.aside-item img:not(.emoji) {
 	display: flex;
 	margin: auto;
 }
