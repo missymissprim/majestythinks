@@ -131,7 +131,7 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Death(s)</div>
-		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/session-notes/session-038-12022022/">Why So Serious</a></div>
+		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/session-notes/session-038/">Why So Serious?</a></div>
 	</div>
 	</section>
 </aside>
