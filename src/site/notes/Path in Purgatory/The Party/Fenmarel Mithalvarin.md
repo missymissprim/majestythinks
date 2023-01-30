@@ -158,6 +158,7 @@
 ### Loot
 - [[Path in Purgatory/Items/Gaelira’s Emerald\|Gaelira’s Emerald]]
 
+---
 
 ## Sessions
 ### Active
@@ -169,8 +170,6 @@
 | [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots       | Friday, July 22 2022     |
 | [[Path in Purgatory/Session Notes/Session 030 - 05292022\|Session 030 - 05292022]] | Close Call           | Sunday, May 29 2022      |
 
-
----
 
 ### Mentioned
 | Session                                                                               | Title                  | Date                       |
