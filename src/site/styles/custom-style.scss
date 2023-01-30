@@ -487,14 +487,15 @@ aside {
 }
 
 .aside-icon {
-    align-self: center;
-    flex: 0 0 auto;
-    display: flex;
-    width: 22px;
+	align-self: center;
+	flex: 0 0 auto;
+	display: flex;
+	height: 22px;
+	width: 22px;
 }
 
 .aside-icon svg {
-    fill: var(--blue);
+	fill: var(--blue);
 }
 
 .aside-item img {
