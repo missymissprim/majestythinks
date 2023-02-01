@@ -23,11 +23,11 @@
 		<div class="frontmatter-section mod-tags">
 			<span class="frontmatter-section-label">Tags</span>
 			<div class="frontmatter-section-data frontmatter-section-tags">
-				<a class="tag"onclick="toggleTagSearch(this)">#cleric</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#dragonmark</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#elf</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#player</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#ranger</a>
+				<a class="tag"onclick="toggleTagSearch(this)">cleric</a>
+				<a class="tag" onclick="toggleTagSearch(this)">dragonmark</a>
+				<a class="tag" onclick="toggleTagSearch(this)">elf</a>
+				<a class="tag" onclick="toggleTagSearch(this)">player</a>
+				<a class="tag" onclick="toggleTagSearch(this)">ranger</a>
 			</div>
 		</div>
 	</div>
