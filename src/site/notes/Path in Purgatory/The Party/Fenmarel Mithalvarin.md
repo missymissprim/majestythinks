@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/path-in-purgatory/the-party/fenmarel-mithalvarin/","tags":["player, wizard"]}
+{"dg-publish":true,"permalink":"/path-in-purgatory/the-party/fenmarel-mithalvarin/","tags":["elf","player","wizard"]}
 ---
 
 <div class="wiki-header">
@@ -23,8 +23,15 @@
 		<div class="frontmatter-section mod-tags">
 			<span class="frontmatter-section-label">Tags</span>
 			<div class="frontmatter-section-data frontmatter-section-tags">
-				<a class="tag"onclick="toggleTagSearch(this)">#player</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#wizard</a>
+				<a class="tag" onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					elf</a>
+				<a class="tag"onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					player</a>
+				<a class="tag" onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					wizard</a>
 			</div>
 		</div>
 	</div>
@@ -77,7 +84,7 @@
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Affiliations</div>
-		<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/npcs/illian">Illian</a></div>
+		<div class="aside-value"></div>
 	</div>
 	<div class="aside-item aside-data aside-item-spacing">
 		<div class="aside-label">Connections</div>
