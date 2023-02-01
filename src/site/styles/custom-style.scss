@@ -334,10 +334,12 @@ body {
 	}
 	
 	a.tag, .cm-hashtag {
+		align-items: center;
 		border: none !important;
 		border-bottom: solid 2px var(--cyan) !important;
 		border-radius: 0 !important;
 		color: var(--black-40) !important;
+		display: flex;
 		font-size: .9em;
 		font-weight: 300;
 		letter-spacing: .05em;
@@ -807,9 +809,9 @@ footer {
 }
 
 .frontmatter-container .frontmatter-tag-icon .svg-icon {
-	width: 12px;
-	height: 12px;
-	stroke-width: 2.5px;
+	width: 10px;
+	height: 10px;
+	stroke-width: 2px;
 }
 
 .frontmatter-container .frontmatter-alias {
