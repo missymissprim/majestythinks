@@ -847,6 +847,21 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 	width: 0px !important;
 }
 
+/** SEARCH BOX **/
+.search-box, .search-box input, input[type=search] {
+	border-radius: 0;
+}
+
+#search-results .searchresult {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	padding: 1.5em;
+}
+
+.header-meta a {
+	margin-right: .25em;
+}
+
 /** SIDEBAR **/
 /**** LINK GRAPH ****/
 .graph .graph-title-container {
