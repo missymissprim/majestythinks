@@ -169,7 +169,7 @@ body {
 	--text-on-accent: white;
 	--text-error: var(--red);
 	--text-success: var(--green);
-	--text-accent: var(--blue-40) !important;
+	--text-accent: var(--blue-80) !important;
 	--text-accent-hover: var(--cyan);
 	--text-selection: var(--cyan-10);
 	
@@ -326,7 +326,7 @@ body {
 		text-decoration-line: none !important;
 	}
 
-	a:not(.navbar-inner a):hover, .cm-hmd-internal-link:hover {
+	a:not(.navbar-inner a, .search-link):hover, .cm-hmd-internal-link:hover {
 		box-sizing: border-box;
 		border-bottom: 2px solid var(--cyan);
 		border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
@@ -855,11 +855,12 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 #search-results .searchresult {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
+	font-weight: 300;
 	padding: 1.5em;
 }
 
 .header-meta a {
-	margin-right: .25em;
+	margin-right: .5em;
 }
 
 /** SIDEBAR **/
