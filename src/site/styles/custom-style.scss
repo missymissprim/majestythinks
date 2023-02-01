@@ -806,6 +806,12 @@ footer {
 	color: var(--cyan);
 }
 
+.frontmatter-container .frontmatter-tag-icon .svg-icon {
+	width: 12px;
+	height: 12px;
+	stroke-width: 2.5px;
+}
+
 .frontmatter-container .frontmatter-alias {
 	background-color: var(--cyan-10);
 	letter-spacing: .05em;
