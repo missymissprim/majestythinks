@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/the-abyss/the-party/shanti-halydove/","tags":["cleric dragonmark elf player ranger"]}
+{"dg-publish":true,"permalink":"/the-abyss/the-party/shanti-halydove/","tags":["cleric","dragonmark","elf","player","ranger"]}
 ---
 
 <div class="wiki-header">
