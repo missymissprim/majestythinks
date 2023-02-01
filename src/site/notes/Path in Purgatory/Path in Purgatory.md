@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/path-in-purgatory","permalink":"/path-in-purgatory/","tags":["campaign, game"]}
+{"dg-publish":true,"dg-permalink":"/path-in-purgatory","permalink":"/path-in-purgatory/","tags":["campaign","directory","game","homebrew","overview"]}
 ---
 
 <div class="wiki-header">
@@ -23,9 +23,21 @@
 		<div class="frontmatter-section mod-tags">
 			<span class="frontmatter-section-label">Tags</span>
 			<div class="frontmatter-section-data frontmatter-section-tags">
-				<a class="tag"onclick="toggleTagSearch(this)">#campaign</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#homebrew</a>
-				<a class="tag" onclick="toggleTagSearch(this)">#overview</a>
+				<a class="tag"onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					campaign</a>
+				<a class="tag"onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					directory</a>
+				<a class="tag"onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					game</a>
+				<a class="tag" onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					homebrew</a>
+				<a class="tag" onclick="toggleTagSearch(this)">
+					<span class="frontmatter-tag-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></span>
+					overview</a>
 			</div>
 		</div>
 	</div>
