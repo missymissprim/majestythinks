@@ -67,7 +67,7 @@
 			<div class="aside-value">she/her</div>
 		</div>
 		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Age:</div>
+			<div class="aside-label">Age</div>
 			<div class="aside-value">147</div>
 		</div>
 	<div class="aside-item aside-data aside-item-spacing">
