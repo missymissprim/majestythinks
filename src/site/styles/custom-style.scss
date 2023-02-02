@@ -622,6 +622,11 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	margin: 0 !important;
 }
 
+.callout[data-callout="addon"] {
+	--callout-color: 225, 102, 0; /* orange */
+	--callout-icon: lucide-puzzle;
+}
+
 .callout[data-callout="dream"] {
 	--callout-color: 0, 229, 192; /* teal */
 	border-image: linear-gradient(135deg, var(--teal), var(--cyan), var(--blue), var(--purple)) 1;
@@ -829,6 +834,43 @@ footer {
 
 .frontmatter-container .frontmatter-section-tags .tag {
 	display: flex;
+}
+
+/** HIGHLIGHTS & MARKS **/
+.htlr-yellow {
+	background-color: var(--yellow-20);
+}
+
+.htlr-orange {
+	background-color: var(--orange-20);
+}
+
+.htlr-red {
+	background-color: var(--red-20);
+}
+
+.htlr-magenta {
+	background-color: var(--magenta-20);
+}
+
+.htlr-purple {
+	background-color: var(--purple-20);
+}
+
+.htlr-blue {
+	background-color: var(--blue-20);
+}
+
+.htlr-cyan {
+	background-color: var(--cyan-20);
+}
+
+.htlr-teal {
+	background-color: var(--teal-20);
+}
+
+.htlr-green {
+	background-color: var(--green-20);
 }
 
 /** IMAGES **/
