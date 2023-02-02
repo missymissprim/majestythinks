@@ -1133,13 +1133,16 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 }
 
 @media (min-width: 924px) {
-	blockquote {
-		display: flex;
-		flex-direction: column;
-	}
+
 }
 
 @media (min-width: 401px) {
+	blockquote, .markdown-preview-view blockquote,
+	.markdown-rendered blockquote {
+		display: flex;
+		flex-direction: column;
+	}
+	
 	blockquote:before {
 		font-size: 6em;
 		height: 52px;
@@ -1164,7 +1167,8 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		font-size: 18px !important;
 	}
 	
-	blockquote {
+	blockquote, , .markdown-preview-view blockquote,
+	.markdown-rendered blockquote {
 		display: inline-block;
 	}
 	
