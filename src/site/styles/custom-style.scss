@@ -1132,11 +1132,23 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	}
 }
 
-@media (min-width: 575px) {
+@media (min-width: 701px) {
 	blockquote, .markdown-preview-view blockquote,
 	.markdown-rendered blockquote {
 		display: flex;
 		flex-direction: column;
+	}
+}
+
+@media (max-width: 700px) {
+	aside {
+		float: none;
+		margin: 0 auto !important;
+	}
+	
+	blockquote, .markdown-preview-view blockquote,
+	.markdown-rendered blockquote {
+		display: inline-block;
 	}
 }
 
@@ -1154,7 +1166,7 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 
 @media (max-width: 400px) {
 	aside {
-		margin: 0 auto !important;
+		width: 100%;
 	}
 	
 	.banner {
@@ -1163,11 +1175,6 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	
 	body, body .content {
 		font-size: 18px !important;
-	}
-	
-	blockquote, , .markdown-preview-view blockquote,
-	.markdown-rendered blockquote {
-		display: inline-block;
 	}
 	
 	blockquote:before {
