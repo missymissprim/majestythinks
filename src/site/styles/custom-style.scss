@@ -623,7 +623,7 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 }
 
 .callout[data-callout="addon"] {
-	--callout-color: 225, 102, 0; /* orange */
+	--callout-color: 255, 102, 0; /* orange */
 	--callout-icon: lucide-puzzle;
 }
 
@@ -837,39 +837,39 @@ footer {
 }
 
 /** HIGHLIGHTS & MARKS **/
-.htlr-yellow {
+.markdown-rendered .htlr-yellow {
 	background-color: var(--yellow-20);
 }
 
-.htlr-orange {
+.markdown-rendered .htlr-orange {
 	background-color: var(--orange-20);
 }
 
-.htlr-red {
+.markdown-rendered .htlr-red {
 	background-color: var(--red-20);
 }
 
-.htlr-magenta {
+.markdown-rendered .htlr-magenta {
 	background-color: var(--magenta-20);
 }
 
-.htlr-purple {
+.markdown-rendered .htlr-purple {
 	background-color: var(--purple-20);
 }
 
-.htlr-blue {
+.markdown-rendered .htlr-blue {
 	background-color: var(--blue-20);
 }
 
-.htlr-cyan {
+.markdown-rendered .htlr-cyan {
 	background-color: var(--cyan-20);
 }
 
-.htlr-teal {
+.markdown-rendered .htlr-teal {
 	background-color: var(--teal-20);
 }
 
-.htlr-green {
+.markdown-rendered .htlr-green {
 	background-color: var(--green-20);
 }
 
