@@ -339,7 +339,6 @@ body {
 		border-bottom: solid 2px var(--cyan) !important;
 		border-radius: 0 !important;
 		color: var(--black-40) !important;
-		display: flex;
 		font-size: .9em;
 		font-weight: 300;
 		letter-spacing: .05em;
@@ -808,12 +807,6 @@ footer {
 	color: var(--cyan);
 }
 
-.frontmatter-container .frontmatter-tag-icon .svg-icon {
-	width: 10px;
-	height: 10px;
-	stroke-width: 2px;
-}
-
 .frontmatter-container .frontmatter-alias {
 	background-color: var(--cyan-10);
 	letter-spacing: .05em;
@@ -821,6 +814,16 @@ footer {
 
 .frontmatter-container .frontmatter-alias, .fontmatter-container .frontmatter-tag {
 	color: var(--black-40) !important;
+}
+
+.frontmatter-container .frontmatter-tag-icon .svg-icon {
+	width: 10px;
+	height: 10px;
+	stroke-width: 2px;
+}
+
+.frontmatter-container .frontmatter-tag a.tag {
+	display: flex;
 }
 
 .frontmatter-container .frontmatter-section-aliases, .frontmatter-container .frontmatter-section-tags {
