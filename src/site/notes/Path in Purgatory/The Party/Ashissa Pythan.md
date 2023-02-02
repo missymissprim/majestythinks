@@ -144,6 +144,7 @@
 </aside>
 
 > *Sup ... Bro~*
+> 
 > — Ashissa to Myron in Port Laska
 
 ## Appearance
