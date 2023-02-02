@@ -582,8 +582,6 @@ blockquote {
 	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 	border: 1px solid;
 	border-left-width: 5px !important;
-	display: flex;
-	flex-direction: column;
 	margin: 1.5em auto 2em !important;
 	padding: 2em !important;
 }
@@ -1136,7 +1134,8 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 
 @media (min-width: 924px) {
 	blockquote {
-		min-width: 456px;
+		display: flex;
+		flex-direction: column;
 	}
 }
 
@@ -1163,6 +1162,10 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	
 	body, body .content {
 		font-size: 18px !important;
+	}
+	
+	blockquote {
+		display: inline-block;
 	}
 	
 	blockquote:before {
