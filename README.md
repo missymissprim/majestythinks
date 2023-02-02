@@ -1,9 +1,4 @@
-# Digital Obsidian Garden
-This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
-See the README in the plugin repo for information on how to set it up.
+#Digital Garden
+The Notetaker’s Vault is an online repository of notes, observations and insights from various worlds across the D&D multiverse. It includes detailed reports on quests, maps, non-player characters (NPCS), and other game content. The vault is open to all players in the game, allowing anyone to contribute their experiences to the wealth of knowledge available.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oleeskild/digitalgarden)
-
----
-## Custom Styling
-I encourage you to change the default styling to make the site your own. Please modify the custom-style.scss when doing so to avoid future conflict when updating the template.
+The vault originates from Obsidian and has been published online for ease of access using the [Digital Obsidian Garden](https://github.com/oleeskild/digitalgarden) template and the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden).
