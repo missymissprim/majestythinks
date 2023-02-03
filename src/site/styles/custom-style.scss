@@ -181,7 +181,7 @@ body {
 	--font-text-size: 20px;
 	
 	--ax3: var(--blue) !important;
-	--background-secondary: var(--cyan-2_5) !important;
+	--background-secondary: var(--cyan-5) !important;
 	--interactive-accent-hover: var(--cyan);
 	
 	--callout-content-padding: 0 1em;
@@ -218,7 +218,7 @@ body {
 	}
 	
 	.filetree-sidebar {
-		padding: 2em 1em 1em 2em !important;
+		padding: 4em 1em 1em 2em !important;
 	}
 
 	/**** TYPOGRAPHY ****/
@@ -347,6 +347,10 @@ body {
 		padding: 0;
 		text-decoration:none !important;
 		text-transform: none;
+	}
+	
+	fa {
+		color: var(--blue);
 	}
 	
 	.attune {
@@ -617,7 +621,7 @@ blockquote > :last-child:not(:only-child) {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	margin: 2em auto;
-	padding: 2em;
+	padding: 1.5em;
 }
 
 .callout-title-inner {
@@ -915,7 +919,12 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 	border-radius: 0;
 }
 
+.search-container {
+	background-color: rgba(0, 174, 239, .25); /*cyan*/
+}
+
 #search-results .searchresult {
+	border-radius: 0px;
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1em;
 	font-weight: 300;
@@ -1135,9 +1144,10 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		margin-top: 3%;
 	}
 	
-	.filetree-sidebar, .sidebar, .sidebar-container {
+	.filetree-sidebar, .sidebar {
 		width: calc(280px + 1em);
 		overflow-x: hidden;
+		margin-top: 3em;
 	}
 }
 
