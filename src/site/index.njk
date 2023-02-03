@@ -15,8 +15,8 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <div class="content cm-s-obsidian">
-
+    <main class="content cm-s-obsidian">
+	<header>
       {% if settings.dgShowInlineTitle === true %}
         <h1>{{ noteTitle  }}</h1>
       {% endif %}
@@ -34,6 +34,7 @@
           </div>
         {% endif %}
       </div>
+      </header>
 
       {%- for garden in collections.gardenEntry -%}
         {{garden.templateContent | link | taggify | highlight | safe }}
@@ -42,7 +43,7 @@
 	    <p>The Notetaker’s Vault is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
 	    <p>©Majesty Thinks is affiliated with Majesty Champion, LLC. All rights reserved.</p>
 	</footer>
-    </div>
+    </main>
     
     <script>
 	    twemoji.parse(document.body)
