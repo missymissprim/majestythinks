@@ -218,7 +218,8 @@ body {
 	}
 	
 	.filetree-sidebar {
-		padding: 4em 1em 1em 2em !important;
+		background-color: white;
+		padding: 4em 0em 1em 3em !important;
 	}
 
 	/**** TYPOGRAPHY ****/
@@ -259,6 +260,10 @@ body {
 		font-weight: 400;
 		letter-spacing: 0.05em;
 		text-transform: none;
+	}
+	
+	fa {
+		color: var(--blue);
 	}
 	
 	.fa-sticky-note {
@@ -347,10 +352,6 @@ body {
 		padding: 0;
 		text-decoration:none !important;
 		text-transform: none;
-	}
-	
-	fa {
-		color: var(--blue);
 	}
 	
 	.attune {
@@ -936,6 +937,10 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 }
 
 /** SIDEBAR **/
+.sidebar {
+	margin-right: 2em;
+}
+
 /**** LINK GRAPH ****/
 .graph {
 	font-family: "Source Sans Pro", sans-serif;
@@ -1147,7 +1152,6 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	.filetree-sidebar, .sidebar {
 		width: calc(280px + 1em);
 		overflow-x: hidden;
-		margin-top: 3em;
 	}
 }
 
