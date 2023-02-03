@@ -21,30 +21,32 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {%include "components/searchContainer.njk"%}
     {% endif %}
 
-    <div class="content cm-s-obsidian">
-      {% if settings.dgShowInlineTitle === true %}
-        <h1>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
-      {% endif %}
-      <div class="header-meta">
-        {% if settings.dgShowTags === true and tags %}
-          <div class="header-tags">
-            {% for tag in tags %}
-              {% if tag != 'gardenEntry' and tag !='note' %}
-                <a class="tag" onclick="toggleTagSearch(this)">
-                  #{{tag}}
-                </a>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
+    <main class="content cm-s-obsidian">
+	<header>
+	      {% if settings.dgShowInlineTitle === true %}
+		<h1>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
+	      {% endif %}
+	      <div class="header-meta">
+		{% if settings.dgShowTags === true and tags %}
+		  <div class="header-tags">
+		    {% for tag in tags %}
+		      {% if tag != 'gardenEntry' and tag !='note' %}
+			<a class="tag" onclick="toggleTagSearch(this)">
+			  #{{tag}}
+			</a>
+		      {% endif %}
+		    {% endfor %}
+		  </div>
+		{% endif %}
+	      </div>
+	</header>
 
       {{ content | link | taggify | highlight | safe}}
       <footer>
             <p>The Notetaker’s Vault is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
             <p>©Majesty Thinks is affiliated with Majesty Champion, LLC. All rights reserved.</p>
         </footer>
-    </div>
+    </main>
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk"%}
