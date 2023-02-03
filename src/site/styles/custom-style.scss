@@ -256,6 +256,7 @@ body {
 	
 	.filename, .toc-container li a {
 		color: var(--blue-60) !important;
+		font-family: "Source Sans Pro", sans-serif;
 		font-size: 14px;
 		font-weight: 400;
 		letter-spacing: 0.05em;
@@ -318,7 +319,7 @@ body {
 		box-sizing: border-box;
 		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Source Code Pro", sans-serif;
 		font-size: .8em;
 		font-weight: 600;
 		letter-spacing: .1em;
