@@ -928,7 +928,15 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 
 /** SIDEBAR **/
 /**** LINK GRAPH ****/
+.graph {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
 .graph .graph-title-container {
+	width: 280px !important;
+}
+
+.graph .graph-title {
 	display: none;
 }
 
@@ -938,7 +946,7 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 	width: 280px;
 }
 
-.force-graph-container canvas {
+#link-graph .force-graph-container canvas {
 	height: 280px !important;
 	width: 280px !important;
 }
