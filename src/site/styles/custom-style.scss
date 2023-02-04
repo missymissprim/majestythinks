@@ -6,7 +6,7 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
     	
-	cursor: url('/img/cursor.png'), auto;
+	cursor: url('/img/cursor.png'), auto !important;
 	font-variant-numeric: lining-nums;
 	-moz-font-feature-settings: "lnum";
 	-webkit-font-feature-settings: "lnum";
@@ -212,7 +212,7 @@ body {
 	}
 	
 	a, div, span, a:hover, div:hover, span:hover{
-		cursor: url('/img/cursor.png'), auto;
+		cursor: url('/img/cursor.png'), auto !important;
 	}
 	
 	.navbar {
