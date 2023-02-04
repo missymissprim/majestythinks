@@ -172,7 +172,7 @@ body {
 	--text-success: var(--green);
 	--text-accent: var(--blue-80) !important;
 	--text-accent-hover: var(--cyan);
-	--text-selection: var(--cyan-10);
+	--text-selection: var(--cyan-5) !important;
 	
 	--normal-text: 300;
 	--spacing-p: 1.5em;
@@ -211,7 +211,7 @@ body {
 		user-select: none;*/
 	}
 	
-	a, div, span, :hover {
+	a, div, span, a:hover, div:hover, span:hover{
 		cursor: url('/img/cursor.png'), auto;
 	}
 	
