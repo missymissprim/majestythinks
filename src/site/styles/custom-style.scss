@@ -951,6 +951,7 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 /**** LINK GRAPH ****/
 .graph {
 	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
 }
 
 .graph .graph-title-container {
@@ -970,6 +971,18 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 #link-graph .force-graph-container canvas {
 	height: 280px !important;
 	width: 280px !important;
+}
+
+#graph-controls .depth-control {
+	align-contents: center;
+}
+
+#graph-controls .depth-control label {
+	font-size: .8em;
+}
+
+#graph-controls .depth-control .slider {
+	margin-top: -0.25em;
 }
 
 input[type=range]::-webkit-slider-thumb {
