@@ -972,6 +972,11 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 	width: 280px !important;
 }
 
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: 0px !important;
+}
+
 /**** TOC & BACKLINKS ****/
 .toc, .backlinks {
 	margin-bottom: 1em;
