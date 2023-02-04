@@ -451,7 +451,7 @@ body {
 /** BODY END **/
 
 /**** ASIDE ****/
-.main aside {
+main aside {
 	border: 1px solid var(--blue);
 	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 	border-top-width: 5px;
