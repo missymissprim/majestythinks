@@ -211,6 +211,10 @@ body {
 		user-select: none;*/
 	}
 	
+	a, div, span, :hover {
+		cursor: url('/img/cursor.png'), auto;
+	}
+	
 	.navbar {
 		background-color: white;
 		box-shadow: 0 0 10px 0 rgba(35, 31, 32, .15);
