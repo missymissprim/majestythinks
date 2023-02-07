@@ -938,6 +938,10 @@ img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon),
 }
 
 .city {
+	fill: var(--magenta-40);
+}
+
+.cityMajor {
 	fill: var(--magenta);
 }
 
