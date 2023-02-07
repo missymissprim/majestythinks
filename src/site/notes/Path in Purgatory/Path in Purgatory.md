@@ -72,7 +72,7 @@ Our story begins within the continent of Adrilos, where a group of unlikely adve
 </div>
 
 
-<div id="adrilos" class="map"></div>
+<div id="adrilosMap" class="map"></div>
 
 
 ## Story Tracker
