@@ -895,7 +895,7 @@ footer {
 }
 
 /** IMAGES **/
-img:not(.floaterL img):not(.floaterR img):not(.emoji), 
+img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon), 
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content>img[width] {
 	display:block;
 	margin: 0 auto !important;
