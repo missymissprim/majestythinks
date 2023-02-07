@@ -917,6 +917,11 @@ img:not(.floaterL img):not(.floaterR img):not(.emoji),
 	z-index: 1000;
 }
 
+/** MAPS **/
+#map {
+	height: 500px
+}
+
 /** SCROLLBAR **/
 body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.native-scrollbars) ::-webkit-scrollbar {
 	width: 0px !important;
