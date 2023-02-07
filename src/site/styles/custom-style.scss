@@ -338,11 +338,15 @@ body {
 		text-decoration-line: none !important;
 	}
 
-	a:not(.navbar-inner a, .search-link):hover, .cm-hmd-internal-link:hover {
+	a:not(.leaflet-control-zoom-in, .leaflet-control-zoom-out, .navbar-inner a, .search-link):hover, .cm-hmd-internal-link:hover {
 		box-sizing: border-box;
 		border-bottom: 2px solid var(--cyan);
 		border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
 		color: var(--blue) !important;
+	}
+	
+	.leaflet-bar a:hover {
+		background-color: white;
 	}
 	
 	a.tag, .cm-hashtag {
