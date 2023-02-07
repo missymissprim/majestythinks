@@ -6,7 +6,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section">
     {%include "components/notegrowthhistory.njk"%}
@@ -22,30 +21,37 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endif %}
 
     <main class="content cm-s-obsidian">
-	<header>
-	      {% if settings.dgShowInlineTitle === true %}
-		<h1>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
-	      {% endif %}
-	      <div class="header-meta">
-		{% if settings.dgShowTags === true and tags %}
-		  <div class="header-tags">
-		    {% for tag in tags %}
-		      {% if tag != 'gardenEntry' and tag !='note' %}
-			<a class="tag" onclick="toggleTagSearch(this)">
-			  #{{tag}}
-			</a>
-		      {% endif %}
-		    {% endfor %}
-		  </div>
-		{% endif %}
-	      </div>
-	</header>
-
+      <header>
+        {% if settings.dgShowInlineTitle === true %}
+          <h1>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
+        {% endif %}
+        <div class="header-meta">
+          {% if settings.dgShowTags === true and tags %}
+            <div class="header-tags">
+              {% for tag in tags %}
+                {% if tag != 'gardenEntry' and tag !='note' %}
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #{{tag}}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% for imp in dynamics.common.header %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.notes.header %}
+        {% include imp %}
+      {% endfor %}
+      </header>
       {{ content | hideDataview | link | taggify | highlight | safe}}
-      <footer>
-            <p>The Notetaker’s Vault is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
-            <p>©Majesty Thinks is affiliated with Majesty Champion, LLC. All rights reserved.</p>
-        </footer>
+      {% for imp in dynamics.common.afterContent %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.notes.afterContent %}
+        {% include imp %}
+      {% endfor %}
     </main>
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
@@ -55,37 +61,12 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
-    
-    <script>
-	    twemoji.parse(document.body)
-    </script>
-    
-    {%include "components/maps.njk"%}
-    
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://majestythinks.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	<script>
-		$(document).ready(function() {
-		  $('body').bind('cut copy', function(e) {
-		      e.preventDefault();
-		    });
-		});
-	</script>
+    {% include "components/references.njk" %}
+    {% for imp in dynamics.common.footer %}
+      {% include imp %}
+    {% endfor %}
+    {% for imp in dynamics.notes.footer %}
+      {% include imp %}
+    {% endfor %}
   </body>
 </html>
