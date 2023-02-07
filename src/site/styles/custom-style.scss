@@ -954,8 +954,12 @@ img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon),
 	fill: var(--yellow);
 }
 
-.pinpoint {
+.party {
 	fill: var(--cyan);
+}
+
+.pinpoint, .tower {
+	fill: var(--blue);
 }
 
 .setting {
