@@ -967,14 +967,14 @@ img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon),
 }
 
 .leaflet-tooltip {
-	background-color: var(--cyan);
-	border-color: var(--cyan);
-	color: white;
+	background-color: var(--cyan) !important;
+	border-color: var(--cyan) !important;
+	color: white !important;
 	font-size: 1em;
 }
 
 .leaflet-tooltip-top:before {
-	border-top-color: var(--cyan);
+	border-top-color: var(--cyan) !important;
 }
 
 /** SCROLLBAR **/
