@@ -61,10 +61,19 @@
 		image = L.imageOverlay('https://majestythinks.netlify.app/img/Adrilos.jpeg', bounds).addTo(map);
 
 		const cities = L.layerGroup();
+		const local = L.layerGroup();
 
-		var chasmia = L.marker([1070, 1924], { icon: city }).addTo(cities);
-		var dhamAuram = L.marker([2536, 2264], { icon: city }).addTo(cities);
-		var frenevid = L.marker([686, 2373], { icon: city }).addTo(cities);
+
+		var adenVala = L.marker([1619, 1896], { icon: city }).addTo(cities).bindTooltip('Aden Vala',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/aden-vala/');});
+
+		var beldaSil = L.marker([1719, 2340], { icon: setting }).addTo(local).bindTooltip('Belda Sil',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/aden-vala/');});
+
+		var chasmia = L.marker([1070, 1924], { icon: city }).addTo(cities).bindTooltip('Chasmia',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/chasmia/');});
+
+		var dhamAuram = L.marker([2536, 2264], { icon: city }).addTo(cities).bindTooltip('Dham Auram',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/dhamAuram/');});
+
+		var frenevid = L.marker([686, 2373], { icon: city }).addTo(cities).bindTooltip('Frenevid',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/frenevid/');});
+
 
 		var encounter1 = L.marker([913, 1691], { icon: encounter }).bindTooltip('Void Walker Activity',{direction: 'top', offset: [0, -20]});
 
@@ -83,11 +92,12 @@
 		};
 
 		map.addLayer(cities);
-
+		map.addLayer(local);
 
 		var overlayMaps = {
 		"Cities": cities,
 			"God Towers": godTowers,
+			"Locations": local,
 			"Void Gates": voidGates
 		};
 
