@@ -3,7 +3,6 @@
   <head>
     <title>{{ noteTitle }}</title>
     {%include "components/pageheader.njk"%}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section">
     {%include "components/notegrowthhistory.njk"%}
@@ -16,7 +15,7 @@
       {%include "components/searchContainer.njk"%}
     {% endif %}
     <main class="content cm-s-obsidian">
-	<header>
+      <header>
       {% if settings.dgShowInlineTitle === true %}
         <h1>{{ noteTitle  }}</h1>
       {% endif %}
@@ -34,20 +33,23 @@
           </div>
         {% endif %}
       </div>
+      {% for imp in dynamics.common.header %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.index.header %}
+        {% include imp %}
+      {% endfor %}
       </header>
-
       {%- for garden in collections.gardenEntry -%}
         {{garden.templateContent | hideDataview | link | taggify | highlight | safe }}
       {%- endfor -%}
-	<footer>
-	    <p>The Notetaker’s Vault is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
-	    <p>©Majesty Thinks is affiliated with Majesty Champion, LLC. All rights reserved.</p>
-	</footer>
+      {% for imp in dynamics.common.afterContent %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.index.afterContent %}
+        {% include imp %}
+      {% endfor %}
     </main>
-    
-    <script>
-	    twemoji.parse(document.body)
-    </script>
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk" %}
@@ -56,12 +58,11 @@
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
     {% endif %}
-	<script>
-		$(document).ready(function() {
-		  $('body').bind('cut copy', function(e) {
-		      e.preventDefault();
-		    });
-		});
-	</script>
+    {% for imp in dynamics.common.footer %}
+      {% include imp %}
+    {% endfor %}
+    {% for imp in dynamics.index.footer %}
+      {% include imp %}
+    {% endfor %}
     </body>
   </html>
