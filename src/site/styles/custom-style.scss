@@ -954,10 +954,6 @@ img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon),
 	fill: var(--yellow);
 }
 
-.party {
-	fill: var(--cyan);
-}
-
 .pinpoint, .tower {
 	fill: var(--blue);
 }
@@ -975,6 +971,7 @@ img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon),
 	border-color: var(--cyan) !important;
 	color: white !important;
 	font-size: 1em;
+	text-align: center;
 }
 
 .leaflet-tooltip-top:before {
