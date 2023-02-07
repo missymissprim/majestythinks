@@ -85,18 +85,7 @@ The Story Tracker is a note-keeping tool to help report important information ab
 	- [ ] Travel to East Haven and Targos (Icewind Dale)
 
 
-```leaflet
-id: Faerun
-image: https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg
-height: 750px
-minZoom: 5
-maxZoom: 10
-defaultZoom: 7
-unit: mile
-scale: 16
-```
-
-<div id="map faerun"></div>
+<div id="map"></div>
 
 ## List of NPCs
 ### Supporting Characters
