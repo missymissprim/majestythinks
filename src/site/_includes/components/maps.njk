@@ -18,6 +18,14 @@
 		iconAnchor: [10,30],
 	});
 
+	const cityMajor = L.divIcon({
+		html: `
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>`,
+		className: "cityMajor",
+		iconSize: [20, 20],
+		iconAnchor: [10,30],
+	});
+
 	const encounter = L.divIcon({
 		html: `
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32z"/></svg>`,
@@ -67,24 +75,82 @@
 		const voidGates = L.layerGroup();
 
 
-		var adenVala = L.marker([1619, 1896], { icon: city }).addTo(cities).bindTooltip('Aden Vala',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/aden-vala/');});
+		var adenVala = L.marker([1619, 1896], { icon: cityMajor }).addTo(cities).bindTooltip('Aden Vala',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/aden-vala/');});
+
+		var azvon = L.marker([743, 1530], { icon: cityMajor }).addTo(cities).bindTooltip('Azvon',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/azvon/');});
 
 		var beldaSil = L.marker([1719, 2340], { icon: setting }).addTo(local).bindTooltip('Belda Sil',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/aden-vala/');});
 
-		var chasmia = L.marker([1070, 1924], { icon: city }).addTo(cities).bindTooltip('Chasmia',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/chasmia/');});
+		var centrasta = L.marker([520, 1025], { icon: cityMajor }).addTo(cities).bindTooltip('Centrasta',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/centrasta/');});
 
-		var dhamAuram = L.marker([2536, 2264], { icon: city }).addTo(cities).bindTooltip('Dham Auram',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/dhamAuram/');});
+		var chasmia = L.marker([1070, 1924], { icon: cityMajor }).addTo(cities).bindTooltip('Chasmia',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/chasmia/');});
 
-		var frenevid = L.marker([686, 2373], { icon: city }).addTo(cities).bindTooltip('Frenevid',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/frenevid/');});
+		var denvelle = L.marker([1367, 1882], { icon: city }).addTo(cities).bindTooltip('Denvelle',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/denvelle/');});
+
+		var dhamAdamas = L.marker([2376, 1392], { icon: cityMajor }).addTo(cities).bindTooltip('Dham Adamas',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/dham-adamas/');});
+
+		var dhamAuram = L.marker([2536, 2264], { icon: cityMajor }).addTo(cities).bindTooltip('Dham Auram',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/dham-auram/');});
+
+		var dhamCanas = L.marker([2094, 1858], { icon: city }).addTo(cities).bindTooltip('Dham Canas',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/dham-canas/');});
+
+		var dinea = L.marker([2324, 1816], { icon: setting }).addTo(local).bindTooltip('Dinea',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/dinea/');});
+
+		var dualis = L.marker([920, 1896], { icon: setting }).addTo(local).bindTooltip('Dualis Empire',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/dulas/');});
+
+		var eldrisal = L.marker([516, 1740], { icon: city }).addTo(cities).bindTooltip('Eldrisal',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/eldrisal/');});
+
+		var endale = L.marker([807, 2076], { icon: city }).addTo(cities).bindTooltip('Endale',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/endale/');});
+
+		var ethmirin = L.marker([1864, 1860], { icon: city }).addTo(cities).bindTooltip('Ethmirin',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/frenevid/');});
+
+		var falivar = L.marker([1271, 982], { icon: setting }).addTo(local).bindTooltip('Falivar Desert',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/falivar-desert/');});
+
+		var feah = L.marker([699, 1722], { icon: city }).addTo(cities).bindTooltip('Feah',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/feah/');});
+
+		var felindra = L.marker([1879, 2122], { icon: cityMajor }).addTo(cities).bindTooltip('Felindra',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/felindra/');});
+
+		var frenevid = L.marker([686, 2373], { icon: cityMajor }).addTo(cities).bindTooltip('Frenevid',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/frenevid/');});
+
+		var gorin = L.marker([702, 1018], { icon: setting }).addTo(local).bindTooltip('Gorin',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/gorin/');});
+
+		var govar = L.marker([512, 542], { icon: city }).addTo(cities).bindTooltip('Govar',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/govar/');});
+
+		var hidela = L.marker([1194, 1510], { icon: cityMajor }).addTo(cities).bindTooltip('Hidela',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/hidela/');});
+
+		var ichivar = L.marker([538, 1321], { icon: city }).addTo(cities).bindTooltip('Ichivar',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/ichivar/');});
+
+		var lindhaven = L.marker([927, 1690], { icon: cityMajor }).addTo(cities).bindTooltip('Lindhaven',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/lindhaven/');});
+
+		var loria = L.marker([1703, 1544], { icon: city }).addTo(cities).bindTooltip('Loria',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/loria/');});
+
+		var nivar = L.marker([867, 1241], { icon: city }).addTo(cities).bindTooltip('Nivar',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/nivar/');});
+
+		var orinHaas = L.marker([1422, 982], { icon: city }).addTo(cities).bindTooltip('Orin Ha’as',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/orin-haas/');});
+
+		var portLaska = L.marker([1243, 2192], { icon: cityMajor }).addTo(cities).bindTooltip('Pork Laska',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/port-laska/');});
+
+		var riverna = L.marker([1154, 2010], { icon: city }).addTo(cities).bindTooltip('Riverna',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/riverna/');});
+
+		var sanvar = L.marker([795, 1004], { icon: city }).addTo(cities).bindTooltip('Sanvar',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/Sanvar/');});
+
+		var spenwald = L.marker([611, 1916], { icon: cityMajor }).addTo(cities).bindTooltip('Spenwald',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/Spenwald/');});
+
+		var wisderne = L.marker([1405, 1657], { icon: city }).addTo(cities).bindTooltip('Wisderne',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/wisderne/');});
+
+		var yonvar = L.marker([908, 648], { icon: city }).addTo(cities).bindTooltip('Yonvar',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/Yonvar/');});
 
 
-		var encounter1 = L.marker([913, 1691], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [0, -20]});
+		var encounter1 = L.marker([913, 1690], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [0, -20]}); //Lindhaven
 
-		var godTower1 = L.marker([1719, 2340], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]});
+		var godTower1 = L.marker([1719, 2340], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Belda Sil
+		var godTower2 = L.marker([520, 1025], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Centrasta
+		var godTower3 = L.marker([1722, 599], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Falivar Desert
+		var godTower4 = L.marker([1108, 1807], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Heaven’s Tower
+		var godTower5 = L.marker([1481, 1644], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Sealed Paradise
 
-		var voidGate1 = L.marker([686, 2373], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});
-		var voidGate2 = L.marker([2536, 2264], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});
-		var voidGate3 = L.marker([1619, 1896], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});			
+		var voidGate1 = L.marker([686, 2373], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]}); //Frenevid
+		var voidGate2 = L.marker([2536, 2264], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]}); //Dham Auram
+		var voidGate3 = L.marker([1619, 1896], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});	//AdenVala		
 
 		var baseLayers = {
 
@@ -94,7 +160,7 @@
 		map.addLayer(local);
 
 		var overlayMaps = {
-		"Cities": cities,
+			"Cities": cities,
 			"Encounters": encounters,
 			"God Towers": godTowers,
 			"Locations": local,
@@ -102,6 +168,12 @@
 		};
 
 		var layerControl = L.control.layers(baseLayers, overlayMaps).addTo(map);
+
+		var towerLatLngs = [godTower1.getLatLng(), godTower3.getLatLng(), godTower2.getLatLng(), godTower4.getLatLng()];
+		var voidLatLngs = [voidGate1.getLatLng(), voidGate2.getLatLng(), voidGate3.getLatLng()];
+
+		var towerPolygon = L.polygon(towerLatLngs, {color: 'var(--cyan)'}).addTo(godTowers);
+		var voidPolygon = L.polygon(voidLatLngs, {color: 'var(--orange)'}).addTo(voidGates);
 
 	}
 
