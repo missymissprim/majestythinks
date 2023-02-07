@@ -11,43 +11,51 @@
 	var image;
 
 	const city = L.divIcon({
-		html: `
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>`,
+		html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>`,
 		className: "city",
 		iconSize: [20, 20],
 		iconAnchor: [10,30],
 	});
 
 	const cityMajor = L.divIcon({
-		html: `
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>`,
+		html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>`,
 		className: "cityMajor",
 		iconSize: [20, 20],
 		iconAnchor: [10,30],
 	});
 
 	const encounter = L.divIcon({
-		html: `
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32z"/></svg>`,
+		html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32z"/></svg>`,
 		className: "encounter",
-		iconSize: [20, 20],
-		iconAnchor: [10,25],
+		iconSize: [25, 25],
+		iconAnchor: [10, 25],
+	});
+
+	const party = L.icon({
+		iconUrl: "https://majestythinks.netlify.app/img/party-icon.png",
+		iconSize: [30, 30],
+		iconAnchor: [15, 30],
 	});
 
 	const pinpoint = L.divIcon({
-		html: `
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 32C32 14.3 46.3 0 64 0H320c17.7 0 32 14.3 32 32s-14.3 32-32 32H290.5l11.4 148.2c36.7 19.9 65.7 53.2 79.5 94.7l1 3c3.3 9.8 1.6 20.5-4.4 28.8s-15.7 13.3-26 13.3H32c-10.3 0-19.9-4.9-26-13.3s-7.7-19.1-4.4-28.8l1-3c13.8-41.5 42.8-74.8 79.5-94.7L93.5 64H64C46.3 64 32 49.7 32 32zM160 384h64v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V384z"/></svg>`,
+		html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 32C32 14.3 46.3 0 64 0H320c17.7 0 32 14.3 32 32s-14.3 32-32 32H290.5l11.4 148.2c36.7 19.9 65.7 53.2 79.5 94.7l1 3c3.3 9.8 1.6 20.5-4.4 28.8s-15.7 13.3-26 13.3H32c-10.3 0-19.9-4.9-26-13.3s-7.7-19.1-4.4-28.8l1-3c13.8-41.5 42.8-74.8 79.5-94.7L93.5 64H64C46.3 64 32 49.7 32 32zM160 384h64v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V384z"/></svg>`,
 		className: "pinpoint",
-		iconSize: [20, 20],
-		iconAnchor: [10,30],
+		iconSize: [15, 15],
+		iconAnchor: [10, 30],
 	});
 
 	const setting = L.divIcon({
-		html: `
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"/></svg>`,
+		html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 192c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192z"/></svg>`,
 		className: "setting",
 		iconSize: [20, 20],
-		iconAnchor: [10,30],
+		iconAnchor: [10, 30],
+	});
+
+	const tower = L.divIcon({
+		html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 204.2V48c0-8.8 7.2-16 16-16H72c8.8 0 16 7.2 16 16V88c0 4.4 3.6 8 8 8h32c4.4 0 8-3.6 8-8V48c0-8.8 7.2-16 16-16h80c8.8 0 16 7.2 16 16V88c0 4.4 3.6 8 8 8h32c4.4 0 8-3.6 8-8V48c0-8.8 7.2-16 16-16h56c8.8 0 16 7.2 16 16V204.2c0 12.1-6.8 23.2-17.7 28.6l-28.6 14.3c-10.8 5.4-17.7 16.5-17.5 28.6C322.2 360.7 336 416 336 416H48s13.8-55.3 15.8-140.2c.3-12.1-6.6-23.2-17.5-28.6L17.7 232.8C6.8 227.4 0 216.3 0 204.2zM176 320h32c8.8 0 16-7.2 16-16V256c0-17.7-14.3-32-32-32s-32 14.3-32 32v48c0 8.8 7.2 16 16 16zM32 448H352c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>`,
+		className: "tower",
+		iconSize: [17, 17],
+		iconAnchor: [7, 20],
 	});
 
 	const thumbtack = L.divIcon({
@@ -55,7 +63,7 @@
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 32C32 14.3 46.3 0 64 0H320c17.7 0 32 14.3 32 32s-14.3 32-32 32H290.5l11.4 148.2c36.7 19.9 65.7 53.2 79.5 94.7l1 3c3.3 9.8 1.6 20.5-4.4 28.8s-15.7 13.3-26 13.3H32c-10.3 0-19.9-4.9-26-13.3s-7.7-19.1-4.4-28.8l1-3c13.8-41.5 42.8-74.8 79.5-94.7L93.5 64H64C46.3 64 32 49.7 32 32zM160 384h64v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V384z"/></svg>`,
 		className: "thumbtack",
 		iconSize: [20, 20],
-		iconAnchor: [10,30],
+		iconAnchor: [10, 30],
 	});
 
 
@@ -139,14 +147,20 @@
 
 		var yonvar = L.marker([908, 648], { icon: city }).addTo(cities).bindTooltip('Yonvar',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/Yonvar/');});
 
+		var encounter1 = L.marker([524, 1321], { icon: encounter }).addTo(encounters).bindTooltip('Tiefling Genocide<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Ichivar
+		var encounter2 = L.marker([913, 1690], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Lindhaven
+		var encounter3 = L.marker([1229, 2192], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Port Laska
+		var encounter4 = L.marker([1140, 2010], { icon: encounter }).addTo(encounters).bindTooltip('Gorin Incursion<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Riverna
+		var encounter5 = L.marker([781, 1004], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Sanvar
+		var encounter6 = L.marker([597, 1916], { icon: encounter }).addTo(encounters).bindTooltip('Conflict<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Spenwald
 
-		var encounter1 = L.marker([913, 1690], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [0, -20]}); //Lindhaven
+		var godTower1 = L.marker([1719, 2340], { icon: tower }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [3, -20]}); //Belda Sil
+		var godTower2 = L.marker([520, 1025], { icon: tower }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [3, -20]}); //Centrasta
+		var godTower3 = L.marker([1722, 599], { icon: tower }).addTo(godTowers).bindTooltip('Sky Pillar',{direction: 'top', offset: [3, -20]}); //Falivar Desert
+		var godTower4 = L.marker([1108, 1807], { icon: tower }).addTo(godTowers).bindTooltip('Heaven’s Tower',{direction: 'top', offset: [3, -20]}); //Heaven’s Tower
+		var godTower5 = L.marker([1481, 1644], { icon: tower }).addTo(godTowers).bindTooltip('Sealed Paradise',{direction: 'top', offset: [3, -20]}); //Sealed Paradise
 
-		var godTower1 = L.marker([1719, 2340], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Belda Sil
-		var godTower2 = L.marker([520, 1025], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Centrasta
-		var godTower3 = L.marker([1722, 599], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Falivar Desert
-		var godTower4 = L.marker([1108, 1807], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Heaven’s Tower
-		var godTower5 = L.marker([1481, 1644], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]}); //Sealed Paradise
+		var nameless = L.marker([1590, 1896], { icon: party, draggable: true }).addTo(map).bindTooltip('The Nameless Ones',{direction: 'top', offset: [0, -20]});
 
 		var voidGate1 = L.marker([686, 2373], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]}); //Frenevid
 		var voidGate2 = L.marker([2536, 2264], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]}); //Dham Auram
@@ -156,11 +170,12 @@
 
 		};
 
-		map.addLayer(cities);
-		map.addLayer(local);
+		map.addLayer(encounters);
+		map.addLayer(godTowers);
+		map.addLayer(voidGates);
 
 		var overlayMaps = {
-			"Cities": cities,
+		"Cities": cities,
 			"Encounters": encounters,
 			"God Towers": godTowers,
 			"Locations": local,
@@ -172,9 +187,8 @@
 		var towerLatLngs = [godTower1.getLatLng(), godTower3.getLatLng(), godTower2.getLatLng(), godTower4.getLatLng()];
 		var voidLatLngs = [voidGate1.getLatLng(), voidGate2.getLatLng(), voidGate3.getLatLng()];
 
-		var towerPolygon = L.polygon(towerLatLngs, {color: 'var(--cyan)'}).addTo(godTowers);
+		var towerPolygon = L.polygon(towerLatLngs, {color: 'var(--blue)'}).addTo(godTowers);
 		var voidPolygon = L.polygon(voidLatLngs, {color: 'var(--orange)'}).addTo(voidGates);
-
 	}
 
 	map.fitBounds(bounds);
