@@ -85,7 +85,7 @@ The Story Tracker is a note-keeping tool to help report important information ab
 	- [ ] Travel to East Haven and Targos (Icewind Dale)
 
 
-<div id="map faerun"></div>
+<div id="faerun" class="map"></div>
 
 ## List of NPCs
 ### Supporting Characters
