@@ -71,7 +71,7 @@ Our story begins within the continent of Adrilos, where a group of unlikely adve
 	</ol>
 </div>
 
-![Adrilos](https://majestythinks.netlify.app/img/Adrilos.jpeg)
+<div id="adrilos" class="map"></div>
 
 ## Story Tracker
 
