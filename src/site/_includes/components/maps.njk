@@ -1,7 +1,7 @@
 <script>
     var map = L.map('faerun', {
     crs: L.CRS.Simple,
-    minZoom: -2
+    minZoom: -5
 });
 
     var bounds = [[0,0], [6600,10200]];
@@ -14,7 +14,7 @@
     minZoom: -5
 });
 
-    var bounds = [[0,0], [10200,6600]];
+    var bounds = [[0,0], [3072,2732]];
     var image = L.imageOverlay('img/Adrilos.jpeg', bounds).addTo(map);
     map.fitBounds(bounds);
 </script>
