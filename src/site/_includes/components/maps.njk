@@ -1,10 +1,20 @@
 <script>
-    var map = L.map('map', {
+    var map = L.map('faerun', {
     crs: L.CRS.Simple,
     minZoom: -5
 });
 
-    var bounds = [[0,0], [1000,1000]];
-    var image = L.imageOverlay('https://majestythinks.netlify.app/img/Adrilos.jpeg', bounds).addTo(map);
+    var bounds = [[0,0], [10200,6600]];
+    var image = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds).addTo(map);
+    map.fitBounds(bounds);
+    
+    
+    var map = L.map('adrilos', {
+    crs: L.CRS.Simple,
+    minZoom: -5
+});
+
+    var bounds = [[0,0], [10200,6600]];
+    var image = L.imageOverlay('img/Adrilos.jpeg', bounds).addTo(map);
     map.fitBounds(bounds);
 </script>
