@@ -61,7 +61,10 @@
 		image = L.imageOverlay('https://majestythinks.netlify.app/img/Adrilos.jpeg', bounds).addTo(map);
 
 		const cities = L.layerGroup();
+		const encounters = L.layerGroup();
 		const local = L.layerGroup();
+		const godTowers = L.layerGroup();
+		const voidGates = L.layerGroup();
 
 
 		var adenVala = L.marker([1619, 1896], { icon: city }).addTo(cities).bindTooltip('Aden Vala',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/aden-vala/');});
@@ -75,17 +78,13 @@
 		var frenevid = L.marker([686, 2373], { icon: city }).addTo(cities).bindTooltip('Frenevid',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/frenevid/');});
 
 
-		var encounter1 = L.marker([913, 1691], { icon: encounter }).bindTooltip('Void Walker Activity',{direction: 'top', offset: [0, -20]});
+		var encounter1 = L.marker([913, 1691], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [0, -20]});
 
-		var godTower1 = L.marker([1719, 2340], { icon: pinpoint }).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]});
+		var godTower1 = L.marker([1719, 2340], { icon: pinpoint }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [0, -20]});
 
-		var voidGate1 = L.marker([686, 2373], { icon: thumbtack }).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});
-		var voidGate2 = L.marker([2536, 2264], { icon: thumbtack }).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});
-		var voidGate3 = L.marker([1619, 1896], { icon: thumbtack }).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});
-
-		const godTowers = L.layerGroup([godTower1]);
-		const voidGates = L.layerGroup([voidGate1, voidGate2, voidGate3]);
-
+		var voidGate1 = L.marker([686, 2373], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});
+		var voidGate2 = L.marker([2536, 2264], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});
+		var voidGate3 = L.marker([1619, 1896], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});			
 
 		var baseLayers = {
 
@@ -96,6 +95,7 @@
 
 		var overlayMaps = {
 		"Cities": cities,
+			"Encounters": encounters,
 			"God Towers": godTowers,
 			"Locations": local,
 			"Void Gates": voidGates
