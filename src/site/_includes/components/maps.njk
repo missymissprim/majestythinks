@@ -7,6 +7,8 @@
     var bounds = [[0,0], [6600,10200]];
     var image = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds).addTo(map);
     map.fitBounds(bounds);
+    
+    var popup = L.popup();
 
 function onMapClick(e) {
     popup
