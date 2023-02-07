@@ -1,9 +1,8 @@
 <script>
 
     let mapID = document.getElementsByClassName("map")[0].id;
-    document.getElementByClassName("map").innerHTML = mapID;
     
-    var map = L.map(mapID, {
+    var map = L.map(mapID.toString();, {
             crs: L.CRS.Simple,
             minZoom: -5
         });;
