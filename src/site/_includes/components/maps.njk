@@ -69,7 +69,14 @@
 
 	if (mapID === "faerun") {
 		bounds = [[0,0], [6600,10200]];
-		image = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds).addTo(map); 
+		image = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds).addTo(map);
+		
+		//Locations
+		var anguisConda = L.marker([3528, 4157], { icon: setting }).addTo(map).bindTooltip('Anguis’Conda',{direction: 'top', offset: [0, -20]});
+		var luskan = L.marker([5704, 3943], { icon: cityMajor }).addTo(map).bindTooltip('Luskan',{direction: 'top', offset: [0, -20]});
+		var neverwinter = L.marker([5243, 4064], { icon: cityMajor }).addTo(map).bindTooltip('Neverwinter',{direction: 'top', offset: [0, -20]});
+		var triboar = L.marker([5135, 4753], { icon: city }).addTo(map).bindTooltip('Triboar',{direction: 'top', offset: [0, -20]});
+		var waterdeep = L.marker([4148, 4608], { icon: cityMajor }).addTo(map).bindTooltip('Waterdeep',{direction: 'top', offset: [0, -20]});
 	}
 
 	else if (mapID === "adrilos") {
