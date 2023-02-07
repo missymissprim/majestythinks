@@ -82,7 +82,8 @@
 		const godTowers = L.layerGroup();
 		const voidGates = L.layerGroup();
 
-
+		
+		//Locations
 		var adenVala = L.marker([1619, 1896], { icon: cityMajor }).addTo(cities).bindTooltip('Aden Vala',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/aden-vala/');});
 
 		var azvon = L.marker([743, 1530], { icon: cityMajor }).addTo(cities).bindTooltip('Azvon',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/azvon/');});
@@ -147,13 +148,19 @@
 
 		var yonvar = L.marker([908, 648], { icon: city }).addTo(cities).bindTooltip('Yonvar',{direction: 'top', offset: [0, -20]}).on("click", function onClick(e) { window.location = ('https://majestythinks.netlify.app/path-in-purgatory/locations/Yonvar/');});
 
-		var encounter1 = L.marker([524, 1321], { icon: encounter }).addTo(encounters).bindTooltip('Tiefling Genocide<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Ichivar
-		var encounter2 = L.marker([913, 1690], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Lindhaven
-		var encounter3 = L.marker([1229, 2192], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Port Laska
-		var encounter4 = L.marker([1140, 2010], { icon: encounter }).addTo(encounters).bindTooltip('Gorin Incursion<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Riverna
-		var encounter5 = L.marker([781, 1004], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Sanvar
-		var encounter6 = L.marker([597, 1916], { icon: encounter }).addTo(encounters).bindTooltip('Conflict<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Spenwald
+		
+		//Encounters
+		var encounter1 = L.marker([2362, 1392], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Dham Adamas
+		var encounter2 = L.marker([1865, 2122], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Felindra
+		var encounter3 = L.marker([524, 1321], { icon: encounter }).addTo(encounters).bindTooltip('Tiefling Genocide<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Ichivar
+		var encounter4 = L.marker([913, 1690], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Lindhaven
+		var encounter5 = L.marker([1229, 2192], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Port Laska
+		var encounter6 = L.marker([1140, 2010], { icon: encounter }).addTo(encounters).bindTooltip('Gorin Incursion<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Riverna
+		var encounter7 = L.marker([781, 1004], { icon: encounter }).addTo(encounters).bindTooltip('Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Sanvar
+		var encounter8 = L.marker([597, 1916], { icon: encounter }).addTo(encounters).bindTooltip('Conflict<br>Void Walker Activity',{direction: 'top', offset: [3, -20]}); //Spenwald
 
+		
+		//God Towers
 		var godTower1 = L.marker([1719, 2340], { icon: tower }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [3, -20]}); //Belda Sil
 		var godTower2 = L.marker([520, 1025], { icon: tower }).addTo(godTowers).bindTooltip('God Tower',{direction: 'top', offset: [3, -20]}); //Centrasta
 		var godTower3 = L.marker([1722, 599], { icon: tower }).addTo(godTowers).bindTooltip('Sky Pillar',{direction: 'top', offset: [3, -20]}); //Falivar Desert
@@ -161,7 +168,8 @@
 		var godTower5 = L.marker([1481, 1644], { icon: tower }).addTo(godTowers).bindTooltip('Sealed Paradise',{direction: 'top', offset: [3, -20]}); //Sealed Paradise
 
 		var nameless = L.marker([1590, 1896], { icon: party, draggable: true }).addTo(map).bindTooltip('The Nameless Ones',{direction: 'top', offset: [0, -20]});
-
+		
+		// Void Gates
 		var voidGate1 = L.marker([686, 2373], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]}); //Frenevid
 		var voidGate2 = L.marker([2536, 2264], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]}); //Dham Auram
 		var voidGate3 = L.marker([1619, 1896], { icon: thumbtack }).addTo(voidGates).bindTooltip('Void Gate',{direction: 'top', offset: [0, -20]});	//AdenVala		
@@ -169,7 +177,8 @@
 		var baseLayers = {
 
 		};
-
+		
+		//Default Layers
 		map.addLayer(encounters);
 		map.addLayer(godTowers);
 		map.addLayer(voidGates);
@@ -197,7 +206,7 @@
 	function onMapClick(e) {
 		popup
 		.setLatLng(e.latlng)
-		.setContent("You clicked the map at " + e.latlng.toString())
+		.setContent(e.latlng.toString())
 		.openOn(map);
 	}
 	map.on('click', onMapClick);
