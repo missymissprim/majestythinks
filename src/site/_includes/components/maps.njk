@@ -1,0 +1,10 @@
+<script>
+    var map = L.map('map', {
+    crs: L.CRS.Simple,
+    minZoom: -5
+});
+
+    var bounds = [[0,0], [1000,1000]];
+    var image = L.imageOverlay('/img/Adrilos.jpeg', bounds).addTo(map);
+    map.fitBounds(bounds);
+</script>
