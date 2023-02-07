@@ -96,6 +96,8 @@ unit: mile
 scale: 16
 ```
 
+<div id="map faerun"></div>
+
 ## List of NPCs
 ### Supporting Characters
 | Name                                                             | Description                                  | Role    | Status                                      |
