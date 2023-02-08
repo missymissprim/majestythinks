@@ -72,12 +72,17 @@
 		image = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds).addTo(map);
 		
 		//Locations
-		var anguisConda = L.marker([3528, 4157], { icon: setting }).addTo(map).bindTooltip('Anguis’Conda',{direction: 'top', offset: [0, -20]});
+		var anguisConda = L.marker([1807, 1675], { icon: setting }).addTo(map).bindTooltip('Anguis’Conda',{direction: 'top', offset: [0, -20]});
+		var candlekeep = L.marker([1837, 5190], { icon: tower }).addTo(map).bindTooltip('Candlekeep',{direction: 'top', offset: [0, -20]});
+		var heavensBreath = L.marker([4636, 4702], { icon: city }).addTo(map).bindTooltip('Heaven’s Breath',{direction: 'top', offset: [0, -20]});
 		var luskan = L.marker([5704, 3943], { icon: cityMajor }).addTo(map).bindTooltip('Luskan',{direction: 'top', offset: [0, -20]});
 		var neverwinter = L.marker([5243, 4064], { icon: cityMajor }).addTo(map).bindTooltip('Neverwinter',{direction: 'top', offset: [0, -20]});
-		var triboar = L.marker([5135, 4753], { icon: city }).addTo(map).bindTooltip('Triboar',{direction: 'top', offset: [0, -20]});
+		var portLlast = L.marker([5370, 4000], { icon: city }).addTo(map).bindTooltip('Port Llast',{direction: 'top', offset: [0, -20]});
+		var sanMateo = L.marker([3289, 1920], { icon: city }).addTo(map).bindTooltip('San’Mateo',{direction: 'top', offset: [0, -20]});
+		var triboar = L.marker([5135, 4753], { icon: cityMajor }).addTo(map).bindTooltip('Triboar',{direction: 'top', offset: [0, -20]});
 		var waterdeep = L.marker([4148, 4608], { icon: cityMajor }).addTo(map).bindTooltip('Waterdeep',{direction: 'top', offset: [0, -20]});
-		
+		var westridge = L.marker([4914, 4746], { icon: city }).addTo(map).bindTooltip('Westridge',{direction: 'top', offset: [0, -20]});
+
 		var seven = L.marker([5704, 3943], { icon: party, draggable: true }).addTo(map).bindTooltip('The Generic Seven',{direction: 'top', offset: [0, -20]});
 	}
 
