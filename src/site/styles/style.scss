@@ -75,7 +75,7 @@ a {
     font-size: 92px;
 }
 
-blockquote {
+blocke {
     background: #ffffff17;
     border-left: 10px solid #C1DBE3;
     margin: 1.5em 10px;
@@ -168,7 +168,7 @@ p>code {
 .callout[data-callout="quote"],
 .callout[data-callout="cite"] {
     --callout-color: 158, 158, 158;
-    --callout-icon: quote-glyph;
+    --callout-icon: lucide-quote;
 }
 .callout {
     overflow: hidden;
