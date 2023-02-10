@@ -84,7 +84,6 @@ The Story Tracker is a note-keeping tool to help report important information ab
 	- [x] Visit the temple of Wee Jas
 	- [ ] Travel to East Haven and Targos (Icewind Dale)
 
-
 <div id="faerun" class="map"></div>
 
 ## List of NPCs
