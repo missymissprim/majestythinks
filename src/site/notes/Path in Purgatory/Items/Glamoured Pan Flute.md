@@ -94,5 +94,3 @@
 This pan flute appears to be made of pure gold and adorned with various tiny gems. It is incredibly finely crafted and gently whistles a sweet tune when the wind picks up.
 
 While attuned to this item, you gain proficiency in Charisma ([[Performance\|Performance]]) checks. Also, you can channel the subtle magic of this instrument to subtly alter the mental state of someone within listening distance. You may cast the [[Charm Person\|Charm Person]] spell once per day (resets at dawn).
-
-<p class="attune">&ast;requires attunement</p>
