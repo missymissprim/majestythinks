@@ -169,11 +169,11 @@ The Cardinals do not agree on which method, but neither do they interfere with o
 ### Mentioned
 | Session                                                                               | Title                  | Date                     |
 | ------------------------------------------------------------------------------------- | ---------------------- | ------------------------ |
+| [[Path in Purgatory/Session Notes/Session 042 - 01272023\|Session 042 - 01272023]] | The Sovereign’s Lament | Friday, January 27 2023  |
 | [[Path in Purgatory/Session Notes/Session 040 - 12302022\|Session 040 - 12302022]] | For Lack of Liaison    | Friday, December 30 2022 |
 | [[Path in Purgatory/Session Notes/Session 038 - 12022022\|Session 038 - 12022022]] | Why So Serious?        | Friday, December 02 2022 |
 | [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps   | Friday, November 04 2022 |
 | [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]] | One Tense Conversation | Friday, October 21 2022  |
-| [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots         | Friday, July 22 2022     |
 
 
 ---
