@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/path-in-purgatory/items/holy-shield-tattoo/","tags":["item, magic, tattoo"]}
+{"dg-publish":true,"permalink":"/path-in-purgatory/items/holy-shield-tattoo/","tags":["homebrew","item","magic","tattoo"]}
 ---
 
 <div class="wiki-header">
