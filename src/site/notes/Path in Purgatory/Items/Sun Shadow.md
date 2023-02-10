@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/path-in-purgatory/items/sun-shadow/","tags":["artifact","item","longsword","magic","paladin","versatile"]}
+{"dg-publish":true,"permalink":"/path-in-purgatory/items/sun-shadow/","tags":["artifact","item","longsword","magic","paladin","weapon","versatile"]}
 ---
 
 <div class="wiki-header">
@@ -47,7 +47,6 @@
 </div>
 
 [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]] ∙ [[Path in Purgatory/Magic Items\|Magic Items]]
-
 # Sun Shadow
 
 <aside>
@@ -63,7 +62,7 @@
 	<div class="aside-bkg aside-item aside-header aside-item-spacing center">General Information</div>
 	<div class="aside-data aside-item aside-item-spacing">
 			<div class="aside-label">Alias</div>
-			<div class="aside-value">The Pale Reflection, The Dark Emissary</div>
+			<div class="aside-value">The Pale Reflection<br>The Dark Emissary</div>
 		</div>
 		<div class="aside-data aside-item aside-item-spacing">
 			<div class="aside-label">Type</div>
@@ -90,7 +89,7 @@
 	<div class="aside-bkg aside-item aside-header aside-item-spacing center">Historical Information</div>
 	<div class="aside-data aside-item aside-item-spacing">
 			<div class="aside-label">Owners</div>
-			<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/lore/zenith-knight/">The Zenith Knight</a>, <a class="internal-link" href="/path-in-purgatory/the-party/averill-kane/">Averill Kane</a> (Current)</div>
+			<div class="aside-value"><a class="internal-link" href="/path-in-purgatory/lore/zenith-knight/">The Zenith Knight</a><br><a class="internal-link" href="/path-in-purgatory/the-party/averill-kane/">Averill Kane</a> (Current)</div>
 		</div>
 	</section>
 </aside>
