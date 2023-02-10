@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/path-in-purgatory/items/carilla-s-onyx/","tags":["artifact","gem","god","item","magic"]}
+{"dg-publish":true,"permalink":"/path-in-purgatory/items/carilla-s-onyx/","tags":["artifact","gem","god","homebrew","item","magic"]}
 ---
 
 <div class="wiki-header">
@@ -44,7 +44,6 @@
 </div>
 
 [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]] ∙ [[Path in Purgatory/Magic Items\|Magic Items]]
-
 # Carilla’s Onyx
 
 <aside>
@@ -98,11 +97,11 @@
 ### Awakened
 This onyx seems to swirl with galaxies when looked at closely. It radiates a chill aura that continually gives a looming sense of fate to whoever wears it. The gem has come alive, resonating with its wearer. Even still, the onyx seems to have further gifts to bestow, hidden deep within its light. (You can only be attuned to one god-gem at a time. Unattuning from a god-gem resets it to a dormant state.)
 
-While attuned to this Onyx you gain the folliwng benefits:
+While attuned to this Onyx you gain the following benefits:
 
 - You have advantage on death saving throws.
 - If you die, you return to life with 1 hit point. This effect of the onyx has a recharge time of 1 week.
 - You have advantage on Wisdom saving throws.
 - You gain [[30 Resources/Definitions/Darkvision\|darkvision]] out to 60 feet. If you already have [[30 Resources/Definitions/Darkvision\|darkvision]], the range of that feature is extended by 60 feet.
 
-This item also has 10 charges which can be used to imbue your attacks with death-power. When you make an attack, you can expend a number of charges, up to your proficiency bonus, to deal an additional 1d10 of necrotic damage per charge, and regain hitpoints equal to the damage dealt by this feature. The Onyx regains one 1d6 + 4 charges on a long rest.
+This item also has 10 charges which can be used to imbue your attacks with death-power. When you make an attack, you can expend a number of charges, up to your proficiency bonus, to deal an additional 1d10 of necrotic damage per charge, and regain hit points equal to the damage dealt by this feature. The Onyx regains one 1d6 + 4 charges on a long rest.
