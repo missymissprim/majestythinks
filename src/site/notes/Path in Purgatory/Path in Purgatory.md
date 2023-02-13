@@ -110,7 +110,7 @@ For more detailed information about our adventure, read the [[Path in Purgatory/
 3. Gaelira → Elliot
 4. Illian → Fenmarel
 5. Kriva → ???
-6. Laf’Loran → Corinne??? 
+6. Laf’Loran → Corinne
 7. Sendri → Moradin
 8. Ursa → Myron
 9. Vala → Averill
@@ -121,7 +121,7 @@ For more detailed information about our adventure, read the [[Path in Purgatory/
 2. The fey may have been used and sacrificed to possibly open a portal to the Feywild. [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]]
 3. The name “Empty One” could possibly refer to his never-ending hunger for chaos, power, and destruction, or could be a void of emotions, etc. [[Path in Purgatory/Session Notes/Session 008 - 04092021\|Session 008 - 04092021]] & [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]]
 4. The Void Walkers obviously have high connections in all the major cities. They may glean information from the Dawn Martyrs, the Chasmian intelligence organization. Regardless, everyone is compromised to a degree. [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]]
-5. Zossa and Zuri may be champions of Baraban and Laf’Loran respectively. Zossa was attacked by the Void Walkers early on while traveling to Frenevid. [[Path in Purgatory/Session Notes/Session 010 - 05072021\|Session 010 - 05072021]]. He may be a threat to the Void Walkers.
+5. Zossa may be a champion of Baraban. Zossa was attacked by the Void Walkers early on while traveling to Frenevid ([[Path in Purgatory/Session Notes/Session 010 - 05072021\|Session 010 - 05072021]]). He may be a threat to the Void Walkers.
 6. The Void Walkers are creating conflicts between cities/kingdoms/empires as a distraction. <span class="spoiler">What if the bloodshed represents the sacrifices needed to open the Void Gates.</span>
 7. Lord Kasper may be a Void Walker ... baseless assumption, however everyone is suspect. 
 8. The Minotaur is either a bishop or Cardinal Fero ...
