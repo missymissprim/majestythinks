@@ -101,7 +101,7 @@ For more detailed information about our adventure, read the [[Path in Purgatory/
 - [ ] Ursa’s Opal (currently in Spenwald, Ascendant Temple)
 - [ ] Kriva’s Ruby (somewhere in Dualis)
 - [x] Gaelira’s Emerald (currently with Fen)
-- [x] Laf’Loran’s Geode (currently with Averill)
+- [x] Laf’Loran’s Geode (currently with Corinne)
 - [x] Carilla’s Onyx (currently with Ashissa)
 
 ##### The Champions
