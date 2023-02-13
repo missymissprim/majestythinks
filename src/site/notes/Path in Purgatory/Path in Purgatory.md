@@ -129,6 +129,7 @@ For more detailed information about our adventure, read the [[Path in Purgatory/
 
 ##### Things of Note
 1. 300 years ago, the Felgrand family took over Chasmia, and Duke Elnaril has been in charge of Felindra since then. 🤔
+2. Fen pointed out that there might be something special about Riverna. A lot of Void Walker activity has been happening within the past decade beginning with the Gorin Incursion.
 
 ## List of NPCs
 
