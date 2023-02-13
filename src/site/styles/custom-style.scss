@@ -452,6 +452,11 @@ body {
 	.roboto {
 		font-family: "Source Sans Pro", sans-serif !important;
 	}
+	
+	.leaflet-contianer {
+		background-color: transparent;
+		border: 1px solid var(--black-10);
+	}
 }
 /** BODY END **/
 
@@ -928,7 +933,7 @@ img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon),
 }
 
 #adrilos.map {
-	height: 800px;
+	height: 900px;
 }
 
 .leaflet-container {
