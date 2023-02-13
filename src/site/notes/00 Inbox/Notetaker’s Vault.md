@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-inbox/notetaker-s-vault/","title":"Notetaker’s Vault","tags":["directory","home","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/00-inbox/notetaker-s-vault/","title":"Notetaker’s Vault","tags":["directory","home","gardenEntry"]}
 ---
 
 <div class="wiki-header">
@@ -43,13 +43,3 @@ Hello, hello 👋🏽 My name is **Majesty Champion** and this is my digital gar
 The Notetaker’s Vault is an online repository of notes, observations and insights from various worlds across the D&D multiverse. It includes detailed reports on quests, maps, non-player characters (NPCS), and other game content. The vault is open to all players in the game, allowing anyone to contribute their experiences to the wealth of knowledge available.
 
 If you’re looking for something specific, don’t be afraid to use the search bar at the top left.
-
-| Campaign                                                                     | Adventure                                | Role           | Status                                     |
-| ---------------------------------------------------------------------------- | ---------------------------------------- | -------------- | ------------------------------------------ |
-| [[O’ Fresh Meat/O’ Fresh Meat\|O’ Fresh Meat]]                            | Curse of Strahd                          | Dungeon Master | <span class="status missing">Hiatus</span> |
-| [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]]                | Homebrew                                 | Player         | <span class="status alive">Active</span>   |
-| [[Through the Planes/Through the Planes\|Through the Planes]]             | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status alive">Active</span>   |
-| [[The Abyss/The Abyss\|The Abyss]]                                        | Out of the Abyss                         | Player         | <span class="status alive">Active</span>   |
-| [[Who Always Roamed/Who Always Roamed\|Who Always Roamed]]                | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status missing">Hiatus</span> |
-| [[The Generic Seven/The Generic Seven\|The Generic Seven]]                | Waterdeep Dragon Heist, Homebrew         | Player         | <span class="status alive">Active</span>   |
-| [[Vampire the Masquerade/Vampire the Masquerade\|Vampire the Masquerade]] | Vampire: the Masquerade                  | Player         | <span class="status dead">Inactive</span>  |
