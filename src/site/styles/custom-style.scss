@@ -6,7 +6,7 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
     	
-	cursor: url('/img/cursor.png'), auto !important;
+	/* cursor: url('/img/cursor.png'), auto !important; */
 	font-variant-numeric: lining-nums;
 	-moz-font-feature-settings: "lnum";
 	-webkit-font-feature-settings: "lnum";
@@ -212,9 +212,9 @@ body {
 		user-select: none;*/
 	}
 	
-	a, div, span, a:hover, div:hover, span:hover{
+	/* a, div, span, a:hover, div:hover, span:hover{
 		cursor: url('/img/cursor.png'), auto !important;
-	}
+	} */
 	
 	.navbar {
 		background-color: white;
@@ -269,7 +269,7 @@ body {
 		text-transform: none;
 	}
 	
-	fa {
+	.fa {
 		color: var(--blue);
 	}
 	
@@ -775,7 +775,8 @@ hr {
 }
 
 /** FILE TREE **/
-.logo {
+.filetree-sidebar .logo {
+	display: inline-block !important;
 	width: 1.5em;
 }
 
@@ -997,6 +998,10 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 	border-radius: 0;
 }
 
+.search-container.active {
+	z-index: 1001;
+}
+
 .search-container {
 	background-color: rgba(0, 174, 239, .25); /*cyan*/
 }
@@ -1032,16 +1037,21 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 	display: none;
 }
 
-#link-graph {
+.sidebar .graph-fs, #full-graph, #link-graph {
 	border-radius: 0px;
+}
+
+.sidebar .graph #link-graph:not(.graph-fs #link-graph) {
+	background: transparent !important;
+	border: 1px solid var(--black-20);
 	height: 280px;
 	width: 280px;
 }
 
-#link-graph .force-graph-container canvas {
+/*#link-graph .force-graph-container canvas {
 	height: 280px !important;
 	width: 280px !important;
-}
+}*/
 
 #graph-controls .depth-control {
 	align-contents: center;
@@ -1239,7 +1249,7 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 }
 
 /** RESPONSIVE **/
-@media (min-width: 1400px) {
+@media (min-width: 1401px) {
 	.content {
 		margin-top: 3%;
 	}
@@ -1247,10 +1257,6 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	.filetree-sidebar, .sidebar {
 		width: calc(280px + 1em);
 		overflow-x: hidden;
-	}
-	
-	.logo {
-		display: inline-block !important;
 	}
 }
 
