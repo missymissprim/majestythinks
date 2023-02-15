@@ -1251,7 +1251,7 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	}
 }
 
-@media (min-width: 1399px) {
+@media (max-width: 1399px) {
 	.navbar .navbar-inner .logo,
 	.navbar .navbar-inner .sitename {
 		display: none;
