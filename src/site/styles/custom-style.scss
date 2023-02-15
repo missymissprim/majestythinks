@@ -260,7 +260,7 @@ body {
 		margin-left: 20px;
 	}
 	
-	.filename, .toc-container li a {
+	.filename, .sitename, .toc-container li a {
 		color: var(--blue-60) !important;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 14px;
@@ -775,6 +775,11 @@ hr {
 }
 
 /** FILE TREE **/
+.logo {
+	display: inline-block;
+	width: 1em;
+}
+
 .search-button {
 	border-color: var(--cyan) !important;
 	border-radius: 0px;
@@ -1259,6 +1264,11 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		float: none;
 		margin: 0 auto !important;
 		width: 100%
+	}
+	
+	.navbar .navbar-inner .logo,
+	.navbar .navbar-inner .sitename {
+		display: none;
 	}
 }
 
