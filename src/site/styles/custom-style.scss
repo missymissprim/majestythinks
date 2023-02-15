@@ -935,6 +935,7 @@ img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon),
 /** MAPS **/
 #map, .map {
 	min-height: 500px
+	z-index: 1;
 }
 
 #adrilos.map {
@@ -1043,7 +1044,7 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 
 .sidebar .graph #link-graph:not(.graph-fs #link-graph) {
 	background: transparent !important;
-	border: 1px solid var(--black-20);
+	border: 1px solid var(--black-10);
 	height: 280px;
 	width: 280px;
 }
