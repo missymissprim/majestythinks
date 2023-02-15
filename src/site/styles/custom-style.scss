@@ -776,7 +776,6 @@ hr {
 
 /** FILE TREE **/
 .logo {
-	display: inline-block !important;
 	width: 1.5em;
 }
 
@@ -1240,7 +1239,7 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 }
 
 /** RESPONSIVE **/
-@media (min-width: 1401px) {
+@media (min-width: 1400px) {
 	.content {
 		margin-top: 3%;
 	}
@@ -1248,6 +1247,10 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	.filetree-sidebar, .sidebar {
 		width: calc(280px + 1em);
 		overflow-x: hidden;
+	}
+	
+	.logo {
+		display: inline-block !important;
 	}
 }
 
