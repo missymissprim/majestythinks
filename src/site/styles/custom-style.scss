@@ -313,7 +313,7 @@ body {
 		margin-left: -1.45em;
 	}
 
-	a:not(.filename, .tags, .timeline-content a, .toc ul li a) {
+	a:not(.filename, .tag, .timeline-content a, .toc ul li a) {
 		box-sizing: border-box;
 		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
