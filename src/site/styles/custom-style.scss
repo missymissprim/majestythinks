@@ -137,6 +137,7 @@ body {
 	--h6-weight: 900;
 	    
 	/** LINE HEIGHTS **/
+	--line-height: 1.8;
 	--line-height-normal: 1.8;
 	--line-height-tight: 1.8;
 	
@@ -144,6 +145,9 @@ body {
 	--link-color: var(--cyan);
 	--link-color-hover: var(--blue);
 	--link-unresolved-opacity: 0.4;
+	
+	/** LISTS **/
+	--list-spacing: 0.25em;
 	
 	/** RADIUSES **/
 	--radius-s: 0px;
@@ -1278,14 +1282,14 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 
 .timeline-item {
     background-color: white;
-    box-shadow: 0 0 10px 0 rgba(35, 31, 32, .1);
     display: flex;
     max-width: 400px;
 }
 
 .timeline-content {
-    font-size: .8em;
-    width: 100%;
+	border: 1px solid var(--timeline-icon-color);
+	font-size: .8em;
+	width: 100%;
 }
 
 .timeline-content-head {
@@ -1408,33 +1412,35 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
         z-index: 1;
     }
 
-    .timeline-item:nth-child(odd) .timeline-content-head:before {
-        left: 109%;
-    }
+	.timeline-item:nth-child(odd) .timeline-content-head:before {
+		left: 109.25%;
+	}
 
     .timeline-item:nth-child(even) .timeline-content-head:before {
-        right: 108.5%;
+        right: 108.75%;
     }
 
     .timeline-content-head:after {
-        border: medium solid;
+        background-color: var(--timeline-color);
         content: " ";
-        height: 0;
+        height: 20px;
         position: absolute;
-        width: 0;
+        width: 20px;
         z-index: 1;
     }
 
     .timeline-item:nth-child(odd) .timeline-content-head:after {
-        border-color: transparent transparent transparent var(--timeline-color);
-        border-width: 20px 0 20px 20px;
-        right: -4.75%
+        border-right: 1px solid var(--timeline-icon-color);
+        border-top: 1px solid var(--timeline-icon-color);
+        right: -6%;
+        transform: translate(-50%, -1px) rotate(45deg);
     }
 
     .timeline-item:nth-child(even) .timeline-content-head:after {
-        border-color: transparent var(--timeline-color) transparent transparent;
-        border-width: 20px 20px 20px 0;
-        left: -4.75%;
+        border-bottom: 1px solid var(--timeline-icon-color);
+        border-left: 1px solid var(--timeline-icon-color);
+        left: -6%;
+        transform: translate(50%, -1px) rotate(45deg);
     }
 }
 
