@@ -45,7 +45,7 @@ body {
 	--yellow-20: #fffccc;
 	--yellow-10: #fffde5;
 	--yellow-5: #fffef2;
-	--color-yellow: var(--yellow);
+	--color-yellow: #ffd600;
 
 	--black: #231f20;
 	--black-80: #4f4c4d;
@@ -321,7 +321,7 @@ body {
 		margin-left: -1.45em;
 	}
 
-	a:not(.timeline-contenta a) {
+	a:not(.tags, .timeline-content a) {
 		box-sizing: border-box;
 		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
@@ -1025,6 +1025,11 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 }
 
 /**** LINK GRAPH ****/
+.sidebar .graph {
+	min-height: 280px;
+	width: 280px;
+}
+
 .graph {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300;
@@ -1335,7 +1340,9 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 }
 
 .timeline-content-head-date {
-    margin-bottom: -0.25em;
+	font-family: "Source Serif Pro", serif;
+	font-weight: 300;
+	margin-bottom: 0.25em;
 }
 
 .timeline-content-head-title {
@@ -1350,6 +1357,10 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 
 .timeline-content-body {
     padding: 1.5em;
+}
+
+.timeline-content p {
+	margin-block-start: -0.25em;
 }
 
 .timeline-content a {
