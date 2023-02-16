@@ -321,7 +321,7 @@ body {
 		margin-left: -1.45em;
 	}
 
-	a {
+	a:not(.timeline-contenta a) {
 		box-sizing: border-box;
 		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
@@ -1247,6 +1247,186 @@ td {
 body:not(.row-hover) .table-view-table>tbody>tr:hover {
 	background-color: var(--cyan-5) !important;
 	color: var(--blue);
+}
+
+/** TIMELINE **/
+.timeline {
+    margin: 2em auto !important;
+    max-width: 800px;
+    position: relative;
+}
+
+.timeline::after {
+    background-color: var(--black-20);
+    bottom: 0;
+    content: '';
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 1px;
+    z-index: -1;
+}
+
+.timeline-item {
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(35, 31, 32, .1);
+    display: flex;
+    max-width: 400px;
+}
+
+.timeline-content {
+    font-size: .8em;
+    width: 100%;
+}
+
+.timeline-content-head {
+    align-items: center;
+    background-color: var(--timeline-color);
+    display: flex;
+    gap: 1em;
+    padding: .5em 1.5em;
+    position: relative;
+}
+
+.timeline-content.yellow {
+    --timeline-color: var(--yellow-20);
+    --timeline-icon-color: var(--color-yellow);
+}
+
+.timeline-content.orange {
+    --timeline-color: var(--orange-20);
+    --timeline-icon-color: var(--orange);
+}
+
+.timeline-content.red {
+    --timeline-color: var(--red-20);
+    --timeline-icon-color: var(--red);
+}
+
+.timeline-content.magenta {
+    --timeline-color: var(--magenta-20);
+    --timeline-icon-color: var(--magenta);
+}
+
+.timeline-content.purple {
+    --timeline-color: var(--purple-20);
+    --timeline-icon-color: var(--purple);
+}
+
+.timeline-content.blue {
+    --timeline-color: var(--blue-20);
+    --timeline-icon-color: var(--blue);
+}
+
+.timeline-content.cyan {
+    --timeline-color: var(--cyan-20);
+    --timeline-icon-color: var(--cyan);
+}
+
+.timeline-content.teal {
+    --timeline-color: var(--teal-20);
+    --timeline-icon-color: var(--teal);
+}
+
+.timeline-content-head-icon, .timeline-content-head-icon svg {
+    stroke: var(--timeline-icon-color);
+    height: 40px;
+    width: 40px;
+}
+
+.timeline-content-head-date {
+    margin-bottom: -0.25em;
+}
+
+.timeline-content-head-title {
+    color: var(--timeline-icon-color);
+    font-family: "Source Serif Pro", serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: .25em;
+    white-space: pre-wrap;
+}
+
+.timeline-content-body {
+    padding: 1.5em;
+}
+
+.timeline-content a {
+    border: 2px solid var(--timeline-icon-color);
+    color: var(--timeline-icon-color);
+    font-family: "Source Code Pro", monospace;
+    font-size: .8em;
+    font-weight: 600;
+    letter-spacing: .1em;
+    padding: 0.25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.timeline-content a:hover {
+    color: var(--blue);
+}
+
+@media screen and (min-width: 840px) {
+    .timeline-item {
+        width: 45%;
+    }
+    
+    .timeline-item:nth-child(odd) {
+        margin-right: 5%;
+    }
+
+    .timeline-item:nth-child(even) {
+        margin-left: 55%;
+    }
+    
+    .timeline-content-head:before {
+        background-color: var(--black-20);
+        border: 4px solid white;
+        border-radius: 50%;
+        content: "";
+        height: 9px;
+        position: absolute;
+        width: 9px;
+        z-index: 1;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content-head:before {
+        left: 109%;
+    }
+
+    .timeline-item:nth-child(even) .timeline-content-head:before {
+        right: 108.5%;
+    }
+
+    .timeline-content-head:after {
+        border: medium solid;
+        content: " ";
+        height: 0;
+        position: absolute;
+        width: 0;
+        z-index: 1;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content-head:after {
+        border-color: transparent transparent transparent var(--timeline-color);
+        border-width: 20px 0 20px 20px;
+        right: -4.75%
+    }
+
+    .timeline-item:nth-child(even) .timeline-content-head:after {
+        border-color: transparent var(--timeline-color) transparent transparent;
+        border-width: 20px 20px 20px 0;
+        left: -4.75%;
+    }
+}
+
+@media screen and (max-width: 839px) {
+    .timeline-item {
+        margin: 0 auto 1.5em;
+        min-width: 280px;
+    }
 }
 
 /** RESPONSIVE **/
