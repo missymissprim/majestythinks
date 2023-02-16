@@ -26,7 +26,6 @@ body {
 	--magenta-20: #fbcce8;
 	--magenta-10: #fde5f3;
 	--magenta-5: #fef2f9;
-	--color-pink: var(--magenta);
 
 	--cyan: #00aeef;
 	--cyan-80: #33bef2;
@@ -36,7 +35,6 @@ body {
 	--cyan-10: #e5f7fD;
 	--cyan-5: #f2fbfe;
 	--cyan-2_5: #f9fdff;
-	--color-cyan: var(--cyan);
 
 	--yellow: #ffef00;
 	--yellow-80: #fff233;
@@ -45,7 +43,6 @@ body {
 	--yellow-20: #fffccc;
 	--yellow-10: #fffde5;
 	--yellow-5: #fffef2;
-	--color-yellow: #ffd600;
 
 	--black: #231f20;
 	--black-80: #4f4c4d;
@@ -70,7 +67,6 @@ body {
 	--orange-40: #ffc299;
 	--orange-20: #ffe0cc;
 	--orange-10: #fff0e5;
-	--color-orange: var(--orange);
 
 	--red: #ff1623;
 	--red-80: #ff454f;
@@ -78,7 +74,6 @@ body {
 	--red-40: #ffa2a7;
 	--red-20: #ffd0d3;
 	--red-10: #ffe8e9;
-	--color-red: var(--red);
 
 	--purple: #a20ed6;
 	--purple-80: #b53ede;
@@ -86,7 +81,6 @@ body {
 	--purple-40: #da9fef;
 	--purple-20: #eccff7;
 	--purple-10: #f6e7fb;
-	--color-purple: var(--purple);
 
 	--blue: #006fff;
 	--blue-80: #338cff;
@@ -94,7 +88,6 @@ body {
 	--blue-40: #99c5ff;
 	--blue-20: #cce2ff;
 	--blue-10: #e5f0ff;
-	--color-blue: var(--blue);
 
 	--teal: #00e5c0;
 	--teal-80: #33eacd;
@@ -110,7 +103,6 @@ body {
 	--green-40: #beff99;
 	--green-20: #deffcc;
 	--green-10: #efffe5;
-	--color-green: var(--green);
 	
 	/** HEADINGS **/
 	--h1-color: var(--blue);
@@ -321,7 +313,7 @@ body {
 		margin-left: -1.45em;
 	}
 
-	a:not(.tags, .timeline-content a) {
+	a:not(.filename, .tags, .timeline-content a, .toc ul li a) {
 		box-sizing: border-box;
 		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
@@ -459,6 +451,18 @@ body {
 	}
 }
 /** BODY END **/
+
+/** THEME LIGHT **/
+.theme-light {
+	--color-yellow: #ffd600;
+	--color-orange: #f47920;
+	--color-red: #ef373e;
+	--color-pink: #ee3d8b;
+	--color-purple: #a23f97;
+	--color-blue: #0075bc;
+	--color-cyan: #00a9b7;
+	--color-green: #3cb14a;
+}
 
 /**** ASIDE ****/
 main aside {
@@ -1340,7 +1344,7 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 }
 
 .timeline-content-head-date {
-	font-family: "Source Serif Pro", serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300;
 	margin-bottom: 0.25em;
 }
@@ -1361,6 +1365,7 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 
 .timeline-content p {
 	margin-block-start: -0.25em;
+	margin-block-end: .5em;
 }
 
 .timeline-content a {
