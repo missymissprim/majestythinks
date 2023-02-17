@@ -579,36 +579,25 @@ figcaption {
 
 /** BACK TO TOP BUTTON **/
 #button {
-	display: inline-block;
 	background-color: var(--cyan);
-	width: 40px;
-	height: 40px;
-	text-align: center;
 	border-radius: 50%;
-	position: fixed;
+	padding: 0.25em;
+	position: sticky;
 	bottom: 30px;
-	right: 30px;
+	left: 95%;
 	transition: background-color .3s, 
 	opacity .5s, visibility .5s;
-	opacity: 0;
-	visibility: hidden;
 	z-index: 1000;
+
+	--offset: 500px;
+	place-self: end;
+	margin-top: calc(100vh + var(--offset));
 }
 
 #button::after {
 	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='12' y1='19' x2='12' y2='5'%3E%3C/line%3E%3Cpolyline points='5 12 12 5 19 12'%3E%3C/polyline%3E%3C/svg%3E");
-	font-size: 2em;
-	line-height: 40px;
-}
-
-#button:hover {
-	cursor: pointer;
-	background-color: var(--blue);
-}
-
-#button.show {
-	opacity: 1;
-	visibility: visible;
+	position: relative;
+	top: .2em;
 }
 
 /** BANNER **/
