@@ -732,82 +732,77 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 /****** STATBLOCK ******/
 .callout[data-callout="statblock"] {
-    border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
-    border-width: 1px;
-    border-bottom-width: 5px;
-    border-top-width: 5px;
-    display: block;
+	border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
+	border-width: 1px;
+	border-bottom-width: 5px;
+	border-top-width: 5px;
+	--callout-icon: lucide-fingerprint;
+	display: block;
 }
 
 .callout[data-callout="statblock"] .callout-icon {
-    margin-left: -0.5em;
-    margin-right: 0.25em;
+	margin-left: -0.5em;
+	margin-right: 0.25em;
 }
 
 .callout[data-callout="statblock"] .callout-content {
-    font-size: .7875em;
-    column-count: 2;
-    gap: 2em;
-    margin-top: 1em;
+	font-size: .7875em;
+	column-count: 2;
+	gap: 2em;
+	margin-top: 1em;
 }
 
 .callout[data-callout="statblock"] .callout-content table {
-    border: none !important;
-    font-size: 1em;
-    margin: 1em auto !important;
-    width: 100%;
-    max-width: 100%;
+	border: none !important;
+	font-size: 1em;
+	margin: 1em auto !important;
+	width: 100%;
+	max-width: 100%;
 }
 
 .markdown-rendered .callout[data-callout="statblock"] table tbody > tr,
 .markdown-rendered .callout[data-callout="statblock"] table tbody > tr:hover {
-    background-color: transparent !important;
-    color: var(--black-60);
+	background-color: transparent !important;
+	color: var(--black-60);
 }
 
 .markdown-rendered .callout[data-callout="statblock"] table thead > tr > th,
 .markdown-rendered .callout[data-callout="statblock"] table tbody > tr > td {
-    border: none !important;
-    padding: 0 10px;
+	border: none !important;
+	padding: 0 10px;
 }
 
 .markdown-rendered .callout[data-callout="statblock"] table thead > tr > th:first-child,
 .markdown-rendered .callout[data-callout="statblock"] table tbody > tr > td:first-child {
-    padding-left: 0px !important;
+	padding-left: 0px !important;
 }
 
 .markdown-rendered .callout[data-callout="statblock"] table thead > tr > th:last-child,
 .markdown-rendered .callout[data-callout="statblock"] table tbody > tr > td:last-child {
-    padding-right: 0px !important;
+	padding-right: 0px !important;
 }
 
 .callout[data-callout="statblock"] .callout-content h3 {
-    color: var(--black-60) !important;
+	color: var(--black-60) !important;
 }
 
 .callout[data-callout="statblock"] .callout-content h3:after{
-    background: -webkit-linear-gradient(
-        0deg,
-        var(--orange) 0%,
-        var(--red) 25%,
-        var(--magenta) 75%,
-        var(--purple) 100%
-    ) !important;
-    clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
-    content: "";
-    height: 3px;
-    display: block;
-    margin: 0.25em 0 !important;
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
-    width: 100%;
+	background: -webkit-linear-gradient(0deg, var(--orange) 0%, var(--red) 25%, var(--magenta) 75%, var(--purple) 100%) !important;
+	clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
+	content: "";
+	height: 3px;
+	display: block;
+	margin: 0.25em 0 !important;
+	-webkit-clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
+	width: 100%;
 }
 
 .callout[data-callout="statblock"] .callout-content hr {
-    border: 1.5px solid var(--color-blue);
-    border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow)) 1;
-    margin: 1em auto;
-    clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
+	border: 1.5px solid var(--color-blue);
+	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow)) 1;
+	margin: 1em auto;
+	clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
+	-webkit-clip-path: polygon(0 0, 0 100%, 100% 50%) !important;
 }
 
 /**** RECAPS ****/
