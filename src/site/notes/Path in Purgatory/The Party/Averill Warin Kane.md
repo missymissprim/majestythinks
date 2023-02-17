@@ -309,15 +309,19 @@ Averill was considered to be Lawful Good, however, he is willing to do questiona
 - [[Path in Purgatory/Items/Sun Shadow\|Sun Shadow]]
 
 > [!statblock]- Averill Warin Kane  
-> *Medium humanoid (Human, Variant), Lawful Natural*  
+> *Medium humanoid (Human, Variant), Lawful Natural* 
+> 
 > ---
 > **Armor Class** 24 (half plate, + 1, shield)  
 > **Hit Points** 137 (12d10 + 48)  
 > **Speed** 30 ft.  
+> 
 > ---
+> 
 > |STR|DEX|CON|INT|WIS|CHA|  
 > |:---:|:---:|:---:|:---:|:---:|:---:|  
 > |18 (+4)|14 (+2)|18 (+4)|13 (+1)|15 (+2)|17 (+3)|  
+> 
 > ---
 > **Saving Throws** Strength +8, Constitution +8  
 > **Skills** Athletics +8, Intimidation +7, Perception +10, Persuasion +7, Survival +6  
@@ -325,6 +329,7 @@ Averill was considered to be Lawful Good, however, he is willing to do questiona
 > **Senses** blindsight 10 ft., passive Perception 20  
 > **Languages** Common, Draconic, Elvish  
 > **Challenge** 9 (5,000 XP)  
+> 
 > ---
 > ***Action Surge.*** Once per short rest, Averill can take one additional action.
 > 
