@@ -321,7 +321,7 @@ body {
 		margin-left: -1.45em;
 	}
 
-	a:not(.filename, .tag, .timeline-content a, .toc ul li a) {
+	a:not(#button, .filename, .tag, .timeline-content a, .toc ul li a) {
 		box-sizing: border-box;
 		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
@@ -339,7 +339,7 @@ body {
 		text-decoration-line: none !important;
 	}
 
-	a:not(.leaflet-control-zoom-in, .leaflet-control-zoom-out, .navbar-inner a, .search-link):hover, .cm-hmd-internal-link:hover {
+	a:not(#button, .leaflet-control-zoom-in, .leaflet-control-zoom-out, .navbar-inner a, .search-link):hover, .cm-hmd-internal-link:hover {
 		box-sizing: border-box;
 		border-bottom: 2px solid var(--cyan);
 		border-image: linear-gradient(90deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1 !important;
@@ -602,6 +602,12 @@ figcaption {
 	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='12' y1='19' x2='12' y2='5'%3E%3C/line%3E%3Cpolyline points='5 12 12 5 19 12'%3E%3C/polyline%3E%3C/svg%3E");
 	position: relative;
 	top: .2em;
+}
+
+.referred {
+	border: none;
+	padding: 0px;
+	margin: 0;
 }
 
 /** BANNER **/
