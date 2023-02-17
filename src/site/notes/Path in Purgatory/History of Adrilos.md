@@ -95,8 +95,8 @@
 				</div>
 			</div>
 			<div class="timeline-content-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-				<a class="internal-link" href="War of Gehenna">Read More</a>
+				<p>A great battle, considered to be the war to “end” all wars, between the Ten Ascendant and the devils of the Nine Hells.</p>
+				<a class="internal-link" href="/path-in-purgatory/lore/war-of-gehenna">Read More</a>
 			</div>
 		</div>
 	</div>
@@ -112,8 +112,8 @@
 				</div>
 			</div>
 			<div class="timeline-content-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-				<a class="internal-link" href="Blight Year">Read More</a>
+				<p>A cataclysm of destruction where nearly all the races and known history were wiped out, possibly as a direct result when the gods left Adrilos.</p>
+				<a class="internal-link" href="/path-in-purgatory/lore/blight-year">Read More</a>
 			</div>
 		</div>
 	</div>
@@ -162,7 +162,6 @@
 			</div>
 			<div class="timeline-content-body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-				<a class="internal-link" href="War of Gehenna">Read More</a>
 			</div>
 		</div>
 	</div>
@@ -210,8 +209,8 @@
 				</div>
 			</div>
 			<div class="timeline-content-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
-				<a class="internal-link" href="Void Walkers">Read More</a>
+				<p>A cult of zealots have risen to notoriety led by six individuals known as Cardinals.</p>
+				<a class="internal-link" href="/path-in-purgatory/npcs/void-walkers">Read More</a>
 			</div>
 		</div>
 	</div>
@@ -300,7 +299,7 @@
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path><path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"></path><path d="M2 21h20"></path><path d="M7 8v2"></path><path d="M12 8v2"></path><path d="M17 8v2"></path><path d="M7 4h.01"></path><path d="M12 4h.01"></path><path d="M17 4h.01"></path></svg>
 				</div>
 				<div class="timeline-content-head-inner">
-					<div class="timeline-content-head-date">23 Years Ago</div>
+					<div class="timeline-content-head-date">26 Years Ago</div>
 					<div class="timeline-content-head-title">Myron</div>
 				</div>
 			</div>
@@ -313,7 +312,7 @@
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path><path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"></path><path d="M2 21h20"></path><path d="M7 8v2"></path><path d="M12 8v2"></path><path d="M17 8v2"></path><path d="M7 4h.01"></path><path d="M12 4h.01"></path><path d="M17 4h.01"></path></svg>
 				</div>
 				<div class="timeline-content-head-inner">
-					<div class="timeline-content-head-date">20 Years Ago</div>
+					<div class="timeline-content-head-date">26 Years Ago</div>
 					<div class="timeline-content-head-title">Ashissa Pythan</div>
 				</div>
 			</div>
