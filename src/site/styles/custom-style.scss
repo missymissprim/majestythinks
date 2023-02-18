@@ -1175,10 +1175,18 @@ footer {
 }
 
 /** IMAGES **/
+img:not(.emoji, .leaflet-marker-icon) {
+	transform: transition .2s ease-in-out;
+}
+
 img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR img, .leaflet-marker-icon), 
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content>img[width] {
 	display:block;
 	margin: 0 auto !important;
+}
+
+img:not(.emoji, leaflet-marker-icon):hover {
+	transform: scale(2);
 }
 
 .floaterL {
@@ -1186,6 +1194,7 @@ img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR im
 	float:left;
 	margin-right: 1.5em !important;
 	margin-top: 0.5em;
+	overflow: hidden;
 	z-index: 1000;
 }
 
@@ -1194,6 +1203,7 @@ img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR im
 	float:right;
 	margin-left: 1.5em;
 	margin-top: 0.5em;
+	overflow: hidden;
 	z-index: 1000;
 }
 
