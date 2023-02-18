@@ -66,27 +66,7 @@
 		iconAnchor: [10, 30],
 	});
 
-
-	if (mapID === "faerun") {
-		bounds = [[0,0], [6600,10200]];
-		image = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds).addTo(map);
-		
-		//Locations
-		var anguisConda = L.marker([1807, 1675], { icon: setting }).addTo(map).bindTooltip('Anguis’Conda',{direction: 'top', offset: [0, -20]});
-		var candlekeep = L.marker([1837, 5190], { icon: tower }).addTo(map).bindTooltip('Candlekeep',{direction: 'top', offset: [0, -20]});
-		var heavensBreath = L.marker([4636, 4702], { icon: city }).addTo(map).bindTooltip('Heaven’s Breath',{direction: 'top', offset: [0, -20]});
-		var luskan = L.marker([5704, 3943], { icon: cityMajor }).addTo(map).bindTooltip('Luskan',{direction: 'top', offset: [0, -20]});
-		var neverwinter = L.marker([5243, 4064], { icon: cityMajor }).addTo(map).bindTooltip('Neverwinter',{direction: 'top', offset: [0, -20]});
-		var portLlast = L.marker([5370, 4000], { icon: city }).addTo(map).bindTooltip('Port Llast',{direction: 'top', offset: [0, -20]});
-		var sanMateo = L.marker([3289, 1920], { icon: city }).addTo(map).bindTooltip('San’Mateo',{direction: 'top', offset: [0, -20]});
-		var triboar = L.marker([5135, 4753], { icon: cityMajor }).addTo(map).bindTooltip('Triboar',{direction: 'top', offset: [0, -20]});
-		var waterdeep = L.marker([4148, 4608], { icon: cityMajor }).addTo(map).bindTooltip('Waterdeep',{direction: 'top', offset: [0, -20]});
-		var westridge = L.marker([4914, 4746], { icon: city }).addTo(map).bindTooltip('Westridge',{direction: 'top', offset: [0, -20]});
-
-		var seven = L.marker([5704, 3943], { icon: party, draggable: true }).addTo(map).bindTooltip('The Generic Seven',{direction: 'top', offset: [0, -20]});
-	}
-
-	else if (mapID === "adrilos") {
+	if (mapID === "adrilos") {
 		bounds = [[0,0], [3072,2732]];
 		image = L.imageOverlay('https://majestythinks.netlify.app/img/Adrilos.jpeg', bounds).addTo(map);
 
@@ -212,6 +192,53 @@
 
 		var towerPolygon = L.polygon(towerLatLngs, {color: 'var(--blue)'}).addTo(godTowers);
 		var voidPolygon = L.polygon(voidLatLngs, {color: 'var(--orange)'}).addTo(voidGates);
+	}
+	
+	else if (mapID === "faerun") {
+		bounds = [[0,0], [6600,10200]];
+		image = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds).addTo(map);
+		
+		//Locations
+		var anguisConda = L.marker([1807, 1675], { icon: setting }).addTo(map).bindTooltip('Anguis’Conda',{direction: 'top', offset: [0, -20]});
+		var candlekeep = L.marker([1837, 5190], { icon: tower }).addTo(map).bindTooltip('Candlekeep',{direction: 'top', offset: [0, -20]});
+		var heavensBreath = L.marker([4636, 4702], { icon: city }).addTo(map).bindTooltip('Heaven’s Breath',{direction: 'top', offset: [0, -20]});
+		var luskan = L.marker([5704, 3943], { icon: cityMajor }).addTo(map).bindTooltip('Luskan',{direction: 'top', offset: [0, -20]});
+		var neverwinter = L.marker([5243, 4064], { icon: cityMajor }).addTo(map).bindTooltip('Neverwinter',{direction: 'top', offset: [0, -20]});
+		var portLlast = L.marker([5370, 4000], { icon: city }).addTo(map).bindTooltip('Port Llast',{direction: 'top', offset: [0, -20]});
+		var sanMateo = L.marker([3289, 1920], { icon: city }).addTo(map).bindTooltip('San’Mateo',{direction: 'top', offset: [0, -20]});
+		var triboar = L.marker([5135, 4753], { icon: cityMajor }).addTo(map).bindTooltip('Triboar',{direction: 'top', offset: [0, -20]});
+		var waterdeep = L.marker([4148, 4608], { icon: cityMajor }).addTo(map).bindTooltip('Waterdeep',{direction: 'top', offset: [0, -20]});
+		var westridge = L.marker([4914, 4746], { icon: city }).addTo(map).bindTooltip('Westridge',{direction: 'top', offset: [0, -20]});
+
+		var seven = L.marker([5704, 3943], { icon: party, draggable: true }).addTo(map).bindTooltip('The Generic Seven',{direction: 'top', offset: [0, -20]});
+	}
+	
+	else if (mapID === "icewindDale") {
+		bounds = [[0,0], [4215,6000]];
+		image = L.imageOverlay('https://media.dndbeyond.com/compendium-images/idrotf/7Av7Gi2DxDtdzZPt/map-poster.jpg', bounds).addTo(map);
+		
+		var seven = L.marker([290, 1235], { icon: party, draggable: true }).addTo(map).bindTooltip('The Generic Seven',{direction: 'top', offset: [0, -20]});
+	}
+	
+	else if (mapID === "motherhorn") {
+		bounds = [[0,0], [5700,4200]];
+		image = L.imageOverlay('https://media.dndbeyond.com/compendium-images/twbtw/JtUXxjur9QWtb7E3/map-4.2-motherhorn.jpg', bounds).addTo(map);
+		
+		var cursed = L.marker([4712, 2514], { icon: party, draggable: true }).addTo(map).bindTooltip('The Cursed Keepers',{direction: 'top', offset: [0, -20]});
+	}
+	
+	else if (mapID === "palaceHeartsDesireLower") {
+		bounds = [[0,0], [5700,4200]];
+		image = L.imageOverlay('https://media.dndbeyond.com/compendium-images/twbtw/JtUXxjur9QWtb7E3/map-5.1-palace-lower.jpg', bounds).addTo(map);
+		
+		var cursed = L.marker([550, 1880], { icon: party, draggable: true }).addTo(map).bindTooltip('The Cursed Keepers',{direction: 'top', offset: [0, -20]});
+	}
+	
+	else if (mapID === "palaceHeartsDesireUpper") {
+		bounds = [[0,0], [5700,4200]];
+		image = L.imageOverlay('https://media.dndbeyond.com/compendium-images/twbtw/JtUXxjur9QWtb7E3/map-5.2-palace-upper.jpg', bounds).addTo(map);
+		
+		var cursed = L.marker([4712, 2514], { icon: party, draggable: true }).addTo(map).bindTooltip('The Cursed Keepers',{direction: 'top', offset: [0, -20]});
 	}
 
 	map.fitBounds(bounds);
