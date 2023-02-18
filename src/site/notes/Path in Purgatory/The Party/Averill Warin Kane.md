@@ -45,34 +45,34 @@
 >[!profile]
 >![|300](https://www.dndbeyond.com/avatars/24584/517/1581111423-39029214.jpeg)
 >
-|              |                            |
-| ------------ | -------------------------- |
-| **Type:**    | Player Character           |
-| **Player**   | Majesty Champion Christian |
-| **Campaign** | [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]]      |
+>|              |                            |
+>| ------------ | -------------------------- |
+>| **Type:**    | Player Character           |
+>| **Player**   | Majesty Champion Christian |
+>| **Campaign** | [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]]      |
 >
 >#### Character Information
-|                   |                                  |
-| ----------------- | -------------------------------- |
-| **Pronunciation** | AV-rill                          |
-| **Pronouns**      | he/him                           |
-| **Age**           | 34                               |
-| **Aliases**       | Warden                           |
-| **Titles**        | Captain                          |
-| **Affiliations**  | Dawn Striders, the Dubois Family |
-| **Occupation**    | Soldier                          |
-| **Creature Type** | Humanoid                         |
-| **Race**          | Human (Variant )                 |
-| **Class**         | Fighter, Paladin     |
-| **Subclass**      | Echo Knight, Oath of Vengeance   |
-| **Alignment**     | Lawful Neutral                   |
-| **Languages**     | Common, Draconic, Elvish         |
+>|                   |                                  |
+>| ----------------- | -------------------------------- |
+>| **Pronunciation** | AV-rill                          |
+>| **Pronouns**      | he/him                           |
+>| **Age**           | 34                               |
+>| **Aliases**       | Warden                           |
+>| **Titles**        | Captain                          |
+>| **Affiliations**  | Dawn Striders, the Dubois Family |
+>| **Occupation**    | Soldier                          |
+>| **Creature Type** | Humanoid                         |
+>| **Race**          | Human (Variant )                 |
+>| **Class**         | Fighter, Paladin     |
+>| **Subclass**      | Echo Knight, Oath of Vengeance   |
+>| **Alignment**     | Lawful Neutral                   |
+>| **Languages**     | Common, Draconic, Elvish         |
 >
 >#### Status
-|                      |                                         |
-| -------------------- | --------------------------------------- |
-| **Status**           | <span class="status alive">Alive</span> |
-| **Cause of Death**   | N/A                                     |
+>|                      |                                         |
+>| -------------------- | --------------------------------------- |
+>| **Status**           | <span class="status alive">Alive</span> |
+>| **Cause of Death**   | N/A                                     |
 | **Death(s)** | N/A                                     |
 
 Averill is a young soldier who once longed for adventure, but seems reluctant in many aspects. While he prefers to go solo, he has found himself amongst a rambunctious group (the [[Nameless Ones\|Nameless Ones]]), traveling around the continent in order to stop the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]]. Though he originally cared little for the gods, Averill’s journey has led him to become a paladin of [[Path in Purgatory/NPCs/Vala\|Vala]], who has shown an interest in the fighter.
