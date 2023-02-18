@@ -742,136 +742,137 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block.cm-callout>.callout[data-callout~=profile],
 .callout[data-callout~=profile] {
-    border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
-    --callout-color: 0, 111, 255;
-    --callout-padding: 0;
-    border: 1px solid var(--table, var(--background-modifier-border));
-    border-top-width: 6px;
-    border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
-    box-shadow: none;
-    margin-top: 1em;
-    margin-left: 1em;
-    width: 320px !important;
-    max-width: 320px;
-    float: right;
-    padding: 1em 1em 1.25em !important;
-    mix-blend-mode: unset;
+	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
+	--callout-color: 0, 111, 255;
+	--callout-icon: lucide-fingerprint;
+	--callout-padding: 0;
+	border: 1px solid var(--table, var(--background-modifier-border));
+	border-top-width: 6px;
+	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
+	box-shadow: none;
+	margin-top: 1em;
+	margin-left: 1em;
+	width: 320px !important;
+	max-width: 320px;
+	float: right;
+	padding: 1em 1em 1.25em !important;
+	mix-blend-mode: unset;
 }
 
 .callout[data-callout~=profile] .callout-title {
-    padding: 12px;
-    justify-content: center;
+	padding: 12px;
+	justify-content: center;
 }
 
 .callout[data-callout~=profile].is-collapsed .callout-fold {
-    border: 1px solid var(--hr, var(--background-modifier-border));
-    padding: 5px 10px;
+	border: 1px solid var(--hr, var(--background-modifier-border));
+	padding: 5px 10px;
 }
 
 .callout[data-callout~=profile]:not(:hover):not(.is-collapsed) .callout-title {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .callout[data-callout~=profile]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]):not(:hover, .is-collapsed) > .callout-title {
-    display: flex;
-    gap: 0;
+	display: flex;
+	gap: 0;
 }
 
 .callout[data-callout~=profile]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]).is-collapsed .callout-title {
-    border: 1px solid var(--hr, var(--background-modifier-border));
-    display: flex;
+	border: 1px solid var(--hr, var(--background-modifier-border));
+	display: flex;
 }
 
 .callout[data-callout~=profile]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]) .callout-fold, .callout[data-callout~=profile]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]) .callout-title .callout-title-inner {
-    display: unset;
-    align-items: center;
-    align-content: center;
-    padding: 5px 10px;
+	display: unset;
+	align-items: center;
+	align-content: center;
+	padding: 5px 10px;
 }
 
 .callout[data-callout~=profile]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]) .callout-fold {
-    padding: unset;
-    margin-top: auto;
-    margin-bottom: auto;
+	padding: unset;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .callout[data-callout~=profile]:is([data-callout-metadata~=show-title], [data-callout-metadata~=s-t]).is-collapsed .callout-fold {
-    border: 0;
+	border: 0;
 }
 
 .callout[data-callout~=profile] .callout-content {
-    padding: 0px;
-    margin: 0;
-    overflow-x: hidden;
+	padding: 0px;
+	margin: 0;
+	overflow-x: hidden;
 }
 
 .callout[data-callout~=profile] table,
 .markdown-source-view.mod-cm6.is-readable-line-width .callout[data-callout~=profile] table {
-    border: none !important;
-    font-size: 0.8em;
-    margin: 0 !important;
-    margin-left: 0 !important;
-    width: 100%;
-    white-space: pre-line;
+	border: none !important;
+	font-size: 0.8em;
+	margin: 0 !important;
+	margin-left: 0 !important;
+	width: 100%;
+	white-space: pre-line;
 }
 
 .callout[data-callout~=profile] thead>tr:last-child {
-    border: none !important;
+	border: none !important;
 }
 
 .callout[data-callout~=profile] tbody>tr:nth-child(odd),
 .callout[data-callout~=profile] tbody>tr:hover,
 [data-callout~=profile] tbody>tr>td:hover {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 .callout[data-callout~=profile] table th {
-    display:none;
+	display:none;
 }
 
 .callout[data-callout~=profile] table td {
-    border: none;
-    font-weight: 300;
-    white-space: pre-line;
-    word-wrap: normal;
-    word-break: normal;
-    padding: 6px 0px !important;
-    vertical-align: top;
+	border: none;
+	font-weight: 300;
+	white-space: pre-line;
+	word-wrap: normal;
+	word-break: normal;
+	padding: 6px 0px !important;
+	vertical-align: top;
 }
 
 .callout[data-callout~=profile] table td:first-child {
-    width: 120px;
-    max-width: 120px;
+	width: 120px;
+	max-width: 120px;
 }
 
 .callout[data-callout~=profile] table td strong {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 .callout[data-callout~=profile] :is(p, table) {
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin: 0 !important;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin: 0 !important;
 }
 
 .callout[data-callout~=profile] :is(h1, h2, h3, h4, h5, h6) {
-    border-bottom: 1px solid var(--blue);
-    border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
-    color: var(--blue) !important;
-    font-family: "Source Sans Pro", sans-serif !important;
-    font-size: 14px;
-    text-align: center;
-    margin: 0 0 1em;
-    padding: 24px 0 3px;
-    font-weight: 700;
-    letter-spacing: .25em;
-    text-transform: uppercase;
+	border-bottom: 1px solid var(--blue);
+	border-image: linear-gradient(135deg, var(--blue), var(--cyan), var(--teal), var(--green), var(--yellow), var(--orange), var(--red), var(--magenta), var(--purple)) 1;
+	color: var(--blue) !important;
+	font-family: "Source Sans Pro", sans-serif !important;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 0 1em;
+	padding: 24px 0 3px;
+	font-weight: 700;
+	letter-spacing: .25em;
+	text-transform: uppercase;
 }
 
 .callout[data-callout~=profile] p, .callout[data-callout~=profile] .internal-embed, .callout[data-callout~=profile] img {
-  margin: auto auto 1em;
-  padding: auto;
-  text-align: center;
+	margin: auto;
+	padding: auto;
+	text-align: center;
 }
 
 /****** STATBLOCK ******/
@@ -1170,7 +1171,7 @@ footer {
 }
 
 /** IMAGES **/
-img:not(.emoji, .floaterL img, .floaterR img, .leaflet-marker-icon), 
+img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR img, .leaflet-marker-icon), 
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content>img[width] {
 	display:block;
 	margin: 0 auto !important;
@@ -1488,17 +1489,17 @@ th, .markdown-rendered th, .dataview.table-view-table th {
 }
 
 th:first-child:not(.callout[data-callout~=statblock] table th),
-td:first-child:not(.callout[data-callout~=statblock] table td) {
+td:first-child:not(.callout[data-callout~=profile] table td, .callout[data-callout~=statblock] table td) {
 	padding-left: 12px !important;
 }
 
 th:last-child:not(.callout[data-callout~=statblock] table th),
-td:last-child:not(.callout[data-callout~=statblock] table td) {
+td:last-child:not(.callout[data-callout~=profile] table td, .callout[data-callout~=statblock] table td) {
 	padding-right: 12px !important;
 }
 
 th:not(.callout[data-callout~=statblock] table th),
-td:not(.callout[data-callout~=statblock] table th) {
+td:not(.callout[data-callout~=profile] table td, .callout[data-callout~=statblock] table td) {
 	border: none !important;
 	padding: 12px !important;
 }
