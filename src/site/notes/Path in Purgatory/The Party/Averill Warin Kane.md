@@ -59,14 +59,14 @@
 >| **Age**           | 34                               |
 >| **Aliases**       | Warden                           |
 >| **Titles**        | Captain                          |
->| **Affiliations**  | Dawn Striders, the Dubois Family |
+>| **Affiliations**  | Dawn Striders<br>the Dubois Family |
 >| **Occupation**    | Soldier                          |
 >| **Creature Type** | Humanoid                         |
 >| **Race**          | Human (Variant )                 |
 >| **Class**         | Fighter, Paladin     |
->| **Subclass**      | Echo Knight, Oath of Vengeance   |
+>| **Subclass**      | Echo Knight<br>Oath of Vengeance   |
 >| **Alignment**     | Lawful Neutral                   |
->| **Languages**     | Common, Draconic, Elvish         |
+>| **Languages**     | Common<br>Draconic<br>Elvish         |
 >
 >#### Status
 >|                      |                                         |
@@ -79,7 +79,7 @@
 Averill is a young soldier who once longed for adventure, but seems reluctant in many aspects. While he prefers to go solo, he has found himself amongst a rambunctious group (the [[Nameless Ones\|Nameless Ones]]), traveling around the continent in order to stop the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]]. Though he originally cared little for the gods, Averill’s journey has led him to become a paladin of [[Path in Purgatory/NPCs/Vala\|Vala]], who has shown an interest in the fighter.
 
 ## Description
-Standing 6ʹ2ʺ with dark expresso-like skin, Averill is surprising limber despite being broad. He has heterochromia, inheriting both his father’s piercing icy blue and his mother’s warm brown eyes — a strange feature he shares with his youngest sister. His graying hair is styled in short dreadlocks, paired with a fade and thick goatee. While he looks intimidating and imposing, he’s strangely quiet and bashful.
+Standing 6'2" with dark expresso-like skin, Averill is surprising limber despite being broad. He has heterochromia, inheriting both his father’s piercing icy blue and his mother’s warm brown eyes — a strange feature he shares with his youngest sister. His graying hair is styled in short dreadlocks, paired with a fade and thick goatee. While he looks intimidating and imposing, he’s strangely quiet and bashful.
 
 ### Personality
 Polite and respectful, Averill is a reluctant leader, and participant especially when he feels the situation is too dangerous for his friends. He believes his current stoic demeanor allows him to remain unnoticed, but lately as felt a rekindling of rebelliousness. 
