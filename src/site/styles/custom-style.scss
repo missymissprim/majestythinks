@@ -320,7 +320,7 @@ body {
 		margin-left: -1.45em;
 	}
 
-	a:not(#button, .filename, .tag, .timeline-content a, .toc ul li a) {
+	a:not(#button, .filename, .leaflet-control-zoom-in, .leaflet-control-zoom-out, .tag, .timeline-content a, .toc ul li a) {
 		box-sizing: border-box;
 		border-bottom: 2px solid transparent;
 		color: var(--cyan) !important;
@@ -1204,6 +1204,10 @@ img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR im
 
 #adrilos.map {
 	height: 900px;
+}
+
+#motherhorn.map {
+	height: 800px;
 }
 
 .leaflet-container {
