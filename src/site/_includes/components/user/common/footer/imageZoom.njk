@@ -1,10 +1,10 @@
-<script>    
+<script>
     const toggle = document.querySelector('img');
-
+    
     toggle.addEventListener('mousemove', onZoom);
     toggle.addEventListener('mouseover', onZoom);
     toggle.addEventListener('mouseleave', offZoom);
-
+    
     function onZoom(e){
         const x = e.clientX - e.target.offsetLeft;
         const y = e.clientY - e.target.offsetTop;
