@@ -42,106 +42,38 @@
 
 # Averill Warin Kane
 
-<aside>
-	<div class="aside-bkg aside-item aside-title center">
-		<div class="aside-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96l576 0c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128H0zM64 405.3c0-29.5 23.9-53.3 53.3-53.3H234.7c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 320c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64zM352 208c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z"/></svg></div>
-		<div class="aside-title-inner">Profile</div>
-	</div>
-	<section class="aside-item">
-		<img height="300" src="https://www.dndbeyond.com/avatars/24584/517/1581111423-39029214.jpeg">
-		<figcaption class="aside-caption aside-item-spacing center">Official 2023 portrait</figcaption>
-	</section>
-	<div class="aside-data aside-item aside-item-spacing">
-		<div class="aside-label">Type</div>
-		<div class="aside-value">Player Character</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Player</div>
-		<div class="aside-value">Majesty Champion Christian</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Campaign</div>
-		<div class="aside-value"><a class="internal-link" href="">Path in Purgatory</a></div>
-	</div>
-	<section class="aside-item">
-		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Character Information</div>
-		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Pronunciation</div>
-			<div class="aside-value">AV-rill</div>
-		</div>
-		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Pronouns</div>
-			<div class="aside-value">he/him</div>
-		</div>
-		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Age</div>
-			<div class="aside-value">34</div>
-		</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Aliases</div>
-		<div class="aside-value">Warden</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Titles</div>
-		<div class="aside-value">Captain</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Affiliations</div>
-		<div class="aside-value"><a class="internal-link" href="/path-in-pugatory/npcs/dawn-striders">Dawn Striders</a></div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Connections</div>
-		<div class="aside-value"><a class="internal-link" href="/path-in-pugatory/npcs/vala">Vala</a></div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Occupation</div>
-		<div class="aside-value">Soldier</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Creature Type</div>
-		<div class="aside-value">Humanoid</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Race</div>
-		<div class="aside-value">Human</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Sub-race</div>
-		<div class="aside-value">Variant</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Class</div>
-		<div class="aside-value">Fighter<br>Paladin</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Subclass</div>
-		<div class="aside-value">Echo Knight<br>Oath of Vengeance</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Alignment</div>
-		<div class="aside-value">Lawful Neutral</div>
-	</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Languages</div>
-		<div class="aside-value">Common<br>Draconic<br>Elvish</div>
-	</div>
-	</section>
-		<section class="aside-item">
-		<div class="aside-bkg aside-item aside-header aside-item-spacing center">Status</div>
-		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Status</div>
-			<div class="aside-value"><span class="status alive">Alive</span></div>
-		</div>
-		<div class="aside-item aside-data aside-item-spacing">
-			<div class="aside-label">Cause of Death</div>
-			<div class="aside-value"></div>
-		</div>
-	<div class="aside-item aside-data aside-item-spacing">
-		<div class="aside-label">Death(s)</div>
-		<div class="aside-value"></div>
-	</div>
-	</section>
-</aside>
+>[!profile]
+>![|300](https://www.dndbeyond.com/avatars/24584/517/1581111423-39029214.jpeg)
+>
+|              |                            |
+| ------------ | -------------------------- |
+| **Type:**    | Player Character           |
+| **Player**   | Majesty Champion Christian |
+| **Campaign** | [[Path in Purgatory/Path in Purgatory\|Path in Purgatory]]      |
+>
+>#### Character Information
+|                   |                                  |
+| ----------------- | -------------------------------- |
+| **Pronunciation** | AV-rill                          |
+| **Pronouns**      | he/him                           |
+| **Age**           | 34                               |
+| **Aliases**       | Warden                           |
+| **Titles**        | Captain                          |
+| **Affiliations**  | Dawn Striders, the Dubois Family |
+| **Occupation**    | Soldier                          |
+| **Creature Type** | Humanoid                         |
+| **Race**          | Human (Variant )                 |
+| **Class**         | Fighter, Paladin     |
+| **Subclass**      | Echo Knight, Oath of Vengeance   |
+| **Alignment**     | Lawful Neutral                   |
+| **Languages**     | Common, Draconic, Elvish         |
+>
+>#### Status
+|                      |                                         |
+| -------------------- | --------------------------------------- |
+| **Status**           | <span class="status alive">Alive</span> |
+| **Cause of Death**   | N/A                                     |
+| **Death(s)** | N/A                                     |
 
 Averill is a young soldier who once longed for adventure, but seems reluctant in many aspects. While he prefers to go solo, he has found himself amongst a rambunctious group (the [[Nameless Ones\|Nameless Ones]]), traveling around the continent in order to stop the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]]. Though he originally cared little for the gods, Averill’s journey has led him to become a paladin of [[Path in Purgatory/NPCs/Vala\|Vala]], who has shown an interest in the fighter.
 
