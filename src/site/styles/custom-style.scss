@@ -225,7 +225,6 @@ body {
 	
 	.filetree-sidebar {
 		background-color: white;
-		padding: 4em 0em 1em 3em !important;
 	}
 
 	/**** TYPOGRAPHY ****/
@@ -892,7 +891,6 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 
 .callout[data-callout="statblock"] .callout-content {
 	font-size: .7875em;
-	column-count: 2;
 	gap: 2em;
 	margin-top: 1em;
 }
@@ -1036,6 +1034,11 @@ hr {
 }
 
 /** FILE TREE **/
+.fullpage-overlay {
+	background-color: rgba(0, 174, 239, 0.25);
+	position: fixed;
+}
+
 .filetree-sidebar .logo {
 	display: inline-block !important;
 	width: 1.5em;
@@ -1717,9 +1720,18 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		width: calc(280px + 1em);
 		overflow-x: hidden;
 	}
+	
+	.filetree-sidebar {
+		padding: 4em 0em 1em 3em;
+	}
 }
 
 @media (max-width: 1399px) {
+	
+	.filetree-sidebar {
+		padding: 2em 1.25em;
+	}
+	
 	.navbar .navbar-inner .logo,
 	.navbar .navbar-inner .sitename {
 		display: none;
@@ -1732,13 +1744,21 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 		display: flex;
 		flex-direction: column;
 	}
+	
+	.callout[data-callout="statblock"] .callout-content {
+		column-count: 2;
+	}
 }
 
 @media (max-width: 600px) {
-	aside {
+	aside, .callout[data-callout="profile"] {
 		float: none;
 		margin: 0 auto !important;
 		width: 100%
+	}
+	
+	.callout[data-callout="statblock"] .callout-content {
+		column-count: 1;
 	}
 }
 
