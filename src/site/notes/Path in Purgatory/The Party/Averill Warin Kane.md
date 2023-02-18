@@ -73,7 +73,8 @@
 >| -------------------- | --------------------------------------- |
 >| **Status**           | <span class="status alive">Alive</span> |
 >| **Cause of Death**   | N/A                                     |
-| **Death(s)** | N/A                                     |
+>| **Death(s)** | N/A                                     |
+>
 
 Averill is a young soldier who once longed for adventure, but seems reluctant in many aspects. While he prefers to go solo, he has found himself amongst a rambunctious group (the [[Nameless Ones\|Nameless Ones]]), traveling around the continent in order to stop the [[Path in Purgatory/NPCs/Void Walkers\|Void Walkers]]. Though he originally cared little for the gods, Averill’s journey has led him to become a paladin of [[Path in Purgatory/NPCs/Vala\|Vala]], who has shown an interest in the fighter.
 
