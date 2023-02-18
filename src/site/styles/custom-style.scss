@@ -724,7 +724,7 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	--callout-icon: lucide-megaphone;
 }
 
-.callout[data-callout="summary"] {
+.callout[data-callout="session"] {
 	--callout-color: 0, 174, 239; /* cyan */
 	--callout-icon: lucide-clipboard-list;
 }
@@ -880,6 +880,7 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	border-width: 1px;
 	border-bottom-width: 5px;
 	border-top-width: 5px;
+	--callout-color: 0, 111, 255;
 	--callout-icon: lucide-fingerprint;
 	display: block;
 }
