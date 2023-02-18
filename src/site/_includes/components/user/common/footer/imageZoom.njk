@@ -1,17 +1,19 @@
-const toggle = document.querySelector('img');
+<script>    
+    const toggle = document.querySelector('img');
 
-toggle.addEventListener('mousemove', onZoom);
-toggle.addEventListener('mouseover', onZoom);
-toggle.addEventListener('mouseleave', offZoom);
+    toggle.addEventListener('mousemove', onZoom);
+    toggle.addEventListener('mouseover', onZoom);
+    toggle.addEventListener('mouseleave', offZoom);
 
-function onZoom(e){
-    const x = e.clientX - e.target.offsetLeft;
-    const y = e.clientY - e.target.offsetTop;
-    toggle.style.transformOrigin = `${x}px ${y}px`;
-    toggle.style.transform = "scale(3)";
- }
+    function onZoom(e){
+        const x = e.clientX - e.target.offsetLeft;
+        const y = e.clientY - e.target.offsetTop;
+        toggle.style.transformOrigin = `${x}px ${y}px`;
+        toggle.style.transform = "scale(3)";
+     }
 
-function offZoom(e){
-    toggle.style.transformOrigin = `center center`;
-    toggle.style.transform = "scale(1)";
-}
+    function offZoom(e){
+        toggle.style.transformOrigin = `center center`;
+        toggle.style.transform = "scale(1)";
+    }
+</script>
