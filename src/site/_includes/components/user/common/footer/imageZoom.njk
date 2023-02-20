@@ -21,8 +21,8 @@
     });
 
     function onZoom(e){
-        var x = e.clientX - e.target.offsetWidth;
-        var y = e.clientY - e.target.offsetHeight;
+        var x = e.pageX - e.target.offsetWidth;
+        var y = e.pageY - e.target.offsetHeight;
         img[zooms.indexOf(this)].style.transformOrigin = `${x}px ${y}px`;
         img[zooms.indexOf(this)].style.transform = "scale(3)";
         console.log({x,y});
