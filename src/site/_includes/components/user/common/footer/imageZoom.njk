@@ -21,8 +21,8 @@
     });
 
     function onZoom(e){
-        var x = ((e.clientX - e.target.offsetLeft) / e.target.width) * 100;
-        var y = ((e.clientY - e.target.offsetTop) / e.target.height) * 100;
+        var x = ((e.clientX - e.target.offsetLeft) / e.target.offsetWidth) * 100;
+        var y = ((e.clientY - e.target.offsetTop) / e.target.offsetHeight) * 100;
         
         var a = e.clientX;
         var b = e.clientY;
@@ -30,8 +30,8 @@
         var d = e.pageY;
         var f = e.target.offsetLeft;
         var g = e.target.offsetTop;
-        var h = e.target.width;
-        var i = e.target.height;
+        var h = e.target.offsetWidth;
+        var i = e.target.offsetHeight;
         
         img[zooms.indexOf(this)].style.transformOrigin = `${x}% ${y}%`;
         img[zooms.indexOf(this)].style.transform = "scale(3)";
