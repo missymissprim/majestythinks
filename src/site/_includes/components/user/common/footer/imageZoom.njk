@@ -1,19 +1,30 @@
 <script>
-    const toggle = document.querySelector('img');
-    
-    toggle.addEventListener('mousemove', onZoom);
-    toggle.addEventListener('mouseover', onZoom);
-    toggle.addEventListener('mouseleave', offZoom);
-    
+    const containerL = Array.from(document.querySelectorAll('.floaterL'));
+    const containerR = Array.from(document.querySelectorAll('.floaterR'));
+    const merged = [...containerL, ...containerR];
+
+    merged.forEach(contain => {
+        contain.setAttribute('id', 'zoom');
+    });
+
+    const zooms = Array.from(document.querySelectorAll('#zoom'));
+    const img = Array.from(document.querySelectorAll('#zoom img'));
+
+    zooms.forEach(zoom => {
+        zoom.addEventListener('mousemove', onZoom);
+        zoom.addEventListener('mouseover', onZoom);
+        zoom.addEventListener('mouseleave', offZoom);
+    });
+
     function onZoom(e){
-        const x = e.clientX - e.target.offsetLeft;
-        const y = e.clientY - e.target.offsetTop;
-        toggle.style.transformOrigin = `${x}px ${y}px`;
-        toggle.style.transform = "scale(3)";
-     }
+        var x = e.clientX - e.target.offsetLeft;
+        var y = e.pageY - e.target.offsetTop;
+        img[zooms.indexOf(this)].style.transformOrigin = `${x}px ${y}px`;
+        img[zooms.indexOf(this)].style.transform = "scale(3)";
+    }
 
     function offZoom(e){
-        toggle.style.transformOrigin = `center center`;
-        toggle.style.transform = "scale(1)";
+        img[zooms.indexOf(this)].style.transformOrigin = 'center center';
+        img[zooms.indexOf(this)].style.transform = "scale(1)";
     }
 </script>
