@@ -21,9 +21,9 @@
     });
 
     function onZoom(e){
-        var x = e.pageX - e.target.offsetWidth;
-        var y = e.pageY - e.target.offsetHeight;
-        img[zooms.indexOf(this)].style.transformOrigin = `${x}px ${y}px`;
+        var x = e.pageX - e.target.offsetLeft / e.target.width * 100;
+        var y = e.pageY - e.target.offsetTop / e.target.height * 100;
+        img[zooms.indexOf(this)].style.transformOrigin = `${x}% ${y}%`;
         img[zooms.indexOf(this)].style.transform = "scale(3)";
         console.log({x,y});
     }
