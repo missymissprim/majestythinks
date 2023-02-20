@@ -23,13 +23,24 @@
     function onZoom(e){
         var x = ((e.clientX - e.target.offsetLeft) / e.target.width) * 100;
         var y = ((e.clientY - e.target.offsetTop) / e.target.height) * 100;
+        
+        var a = e.clientX;
+        var b = e.clientY;
+        var c = e.pageX;
+        var d = e.pageY;
+        var f = e.target.offsetLeft;
+        var g = e.target.offsetTop;
+        var h = e.target.width;
+        var i = e.target.height;
+        
         img[zooms.indexOf(this)].style.transformOrigin = `${x}% ${y}%`;
         img[zooms.indexOf(this)].style.transform = "scale(3)";
+        
         console.log({x,y});
-        console.log({e.clientX,e.clientY});
-        console.log({e.PageX,e.PageY});
-        console.log({e.target.offsetLeft,e.target.offsetTop});
-        console.log({e.e.target.width,e.target.height});
+        console.log({a,b});
+        console.log({c,d});
+        console.log({f,g});
+        console.log({h,i});
     }
 
     function offZoom(e){
