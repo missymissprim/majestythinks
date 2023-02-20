@@ -26,6 +26,10 @@
         img[zooms.indexOf(this)].style.transformOrigin = `${x}% ${y}%`;
         img[zooms.indexOf(this)].style.transform = "scale(3)";
         console.log({x,y});
+        console.log({e.clientX,e.clientY});
+        console.log({e.PageX,e.PageY});
+        console.log({e.target.offsetLeft,e.target.offsetTop});
+        console.log({e.e.target.width,e.target.height});
     }
 
     function offZoom(e){
