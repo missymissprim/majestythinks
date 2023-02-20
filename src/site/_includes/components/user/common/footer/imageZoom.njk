@@ -32,6 +32,12 @@
         var g = e.target.offsetTop;
         var h = e.target.offsetWidth;
         var i = e.target.offsetHeight;
+        var j = img[zooms.indexOf(this)].offsetLeft;
+        var k = img[zooms.indexOf(this)].offsetTop;
+        var l = img[zooms.indexOf(this)].offsetWidth;
+        var m = img[zooms.indexOf(this)].offsetHeight;
+        var n = img[zooms.indexOf(this)].width;
+        var o = img[zooms.indexOf(this)].height;
         
         img[zooms.indexOf(this)].style.transformOrigin = `${x}% ${y}%`;
         img[zooms.indexOf(this)].style.transform = "scale(3)";
@@ -41,6 +47,8 @@
         console.log({c,d});
         console.log({f,g});
         console.log({h,i});
+        console.log({j,k});
+        console.log({l,m});
     }
 
     function offZoom(e){
