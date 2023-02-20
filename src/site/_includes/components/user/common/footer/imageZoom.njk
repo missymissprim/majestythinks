@@ -10,6 +10,10 @@
     const zooms = Array.from(document.querySelectorAll('#zoom'));
     const img = Array.from(document.querySelectorAll('#zoom img'));
 
+    console.log(merged);
+    console.log(img);
+    console.log(zooms);
+
     zooms.forEach(zoom => {
         zoom.addEventListener('mousemove', onZoom);
         zoom.addEventListener('mouseover', onZoom);
@@ -18,9 +22,10 @@
 
     function onZoom(e){
         var x = e.clientX - e.target.offsetLeft;
-        var y = e.pageY - e.target.offsetTop;
+        var y = e.clientY - e.target.offsetTop;
         img[zooms.indexOf(this)].style.transformOrigin = `${x}px ${y}px`;
         img[zooms.indexOf(this)].style.transform = "scale(3)";
+        console.log({x,y});
     }
 
     function offZoom(e){
