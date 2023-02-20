@@ -21,8 +21,8 @@
     });
 
     function onZoom(e){
-        var x = ((e.clientX - e.target.offsetLeft) / e.target.offsetWidth);
-        var y = ((e.clientY - e.target.offsetTop) / e.target.offsetHeight);
+        var x = e.clientX - img[zooms.indexOf(this)].offsetLeft;
+        var y = e.clientY - img[zooms.indexOf(this)].offsetTop;
         
         var a = e.clientX;
         var b = e.clientY;
