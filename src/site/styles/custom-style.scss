@@ -1292,7 +1292,8 @@ img:not(.callout[data-callout~=profile] img, .emoji, .leaflet-marker-icon),
 	height: 900px;
 }
 
-#motherhorn.map {
+#motherhorn.map, #palaceHeartsDesireLower.map, 
+#palaceHeartsDesireUpper.map, #velkynvelve.map {
 	height: 800px;
 }
 
