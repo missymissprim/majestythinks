@@ -387,9 +387,86 @@ body {
 		text-transform:uppercase;
 	}
 	
+	.glitch {
+	    /*background-color: var(--black);*/
+	    color: var(--purple);
+	    display: inline-block;
+	    font-family: "Source Code Pro", monospace;
+	    font-size: .8em;
+	    font-weight: 700;
+	    position: relative;
+	    text-transform: uppercase;
+	    text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 magenta,
+	      0.025em 0.04em 0 yellow;
+	    animation: glitch 725ms infinite;
+	}
+
+	.anti.glitch {
+	/*background-color: var(--black);*/
+	color: var(--red);
+	}
+
+	.glitch span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+
+	.glitch span:first-child {
+	animation: glitch 500ms infinite;
+	clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+	transform: translate(-0.04em, -0.03em);
+	opacity: 0.75;
+	}
+
+	.glitch span:last-child {
+	animation: glitch 375ms infinite;
+	clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+	transform: translate(0.04em, 0.03em);
+	opacity: 0.75;
+	}
+
+	@keyframes glitch {
+	    0% {
+		text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 magenta,
+		0.025em 0.04em 0 yellow;
+	    }
+	    15% {
+		text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 magenta,
+		0.025em 0.04em 0 yellow;
+	    }
+	    16% {
+		text-shadow: -0.05em -0.025em 0 cyan, 0.025em 0.035em 0 magenta,
+		-0.05em -0.05em 0 yellow;
+	    }
+	    49% {
+		text-shadow: -0.05em -0.025em 0 cyan, 0.025em 0.035em 0 magenta,
+		-0.05em -0.05em 0 yellow;
+	    }
+	    50% {
+		text-shadow: 0.05em 0.035em 0 cyan, 0.03em 0 0 magenta,
+		0 -0.04em 0 yellow;
+	    }
+	    99% {
+		text-shadow: 0.05em 0.035em 0 cyan, 0.03em 0 0 magenta,
+		0 -0.04em 0 yellow;
+	    }
+	    100% {
+		text-shadow: -0.05em 0 0 cyan, -0.025em -0.04em 0 #ec008c,
+		-0.04em -0.025em 0 yellow;
+	    }
+	}
+	
 	.small {
 		font-size: .8em;
 		color: rgb(var(--callout-color)) !important;
+	}
+	
+	.source {
+	    font-size: .8em !important;
+	    font-weight: 600 !important;
+	    letter-spacing: .1em !important;
+	    text-transform: uppercase;
 	}
 	
 	.spoiler {
