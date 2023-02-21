@@ -264,7 +264,7 @@
 			map[i].fitBounds(bounds);
 		}
 
-		else if (mapID === "palaceHeartsDesireUpper") {
+		else if (mapID[i] === "palaceHeartsDesireUpper") {
 			bounds = [[0,0], [5700,4200]];
 			image = L.imageOverlay('https://media.dndbeyond.com/compendium-images/twbtw/JtUXxjur9QWtb7E3/map-5.2-palace-upper.jpg', bounds).addTo(map[i]);
 
@@ -280,7 +280,7 @@
 			map[i].fitBounds(bounds);
 		}
 
-		else if (mapID === "velkynvelve") {
+		else if (mapID[i] === "velkynvelve") {
 			bounds = [[0,0], [3000,2084]];
 			image = L.imageOverlay('https://www.dndbeyond.com/attachments/2/430/01-04.jpg', bounds).addTo(map[i]);
 
