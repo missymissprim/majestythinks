@@ -1,16 +1,13 @@
 <script>
-    const containerL = Array.from(document.querySelectorAll('.floaterL'));
-    const containerR = Array.from(document.querySelectorAll('.floaterR'));
-    const merged = [...containerL, ...containerR];
+    const container = Array.from(document.querySelectorAll('.image-wrapper'));
 
-    merged.forEach(contain => {
+    container.forEach(contain => {
         contain.setAttribute('id', 'zoom');
     });
 
     const zooms = Array.from(document.querySelectorAll('#zoom'));
     const img = Array.from(document.querySelectorAll('#zoom img'));
-
-    console.log(merged);
+    
     console.log(img);
     console.log(zooms);
 
