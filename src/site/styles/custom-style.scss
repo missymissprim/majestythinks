@@ -205,11 +205,7 @@ body {
 	.content {
 		font-size: 20px;
 		max-width: 800px !important;
-		/*-webkit-user-select: none;
-		-webkit-touch-callout: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;*/
+		position: unset;
 	}
 	
 	/* a, div, span, a:hover, div:hover, span:hover{
