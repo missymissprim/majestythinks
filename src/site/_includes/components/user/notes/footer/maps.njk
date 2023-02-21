@@ -240,6 +240,13 @@
 		
 		var cursed = L.marker([4712, 2514], { icon: party, draggable: true }).addTo(map).bindTooltip('The Cursed Keepers',{direction: 'top', offset: [0, -20]});
 	}
+	
+	else if (mapID === "velkynvelve") {
+		bounds = [[0,0], [3000,2084]];
+		image = L.imageOverlay('https://www.dndbeyond.com/attachments/2/430/01-04.jpg', bounds).addTo(map);
+		
+		var cursed = L.marker([1904, 1684], { icon: party, draggable: true }).addTo(map).bindTooltip('The Cursed Keepers',{direction: 'top', offset: [0, -20]});
+	}
 
 	map.fitBounds(bounds);
 
