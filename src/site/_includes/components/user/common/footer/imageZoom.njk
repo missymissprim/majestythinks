@@ -22,12 +22,12 @@
 
     function onZoom(e){
         var x = e.clientX - img[zooms.indexOf(this)].offsetLeft;
-        var y = e.pageY - img[zooms.indexOf(this)].offsetTop;
+        var y = e.clientY - img[zooms.indexOf(this)].offsetHeight;
         
         var a = e.clientX;
         var b = e.clientY;
-        var c = e.pageX;
-        var d = e.pageY;
+        var c = ((e.pageX - e.target.offsetLeft) / img[zooms.indexOf(this)].width) * 100;
+        var d = ((e.pageX - e.target.offsetTop) / img[zooms.indexOf(this)].height) * 100;
         var f = e.target.offsetLeft;
         var g = e.target.offsetTop;
         var h = e.target.offsetWidth;
@@ -43,13 +43,7 @@
         img[zooms.indexOf(this)].style.transform = "scale(3)";
         
         console.log({x,y});
-        console.log({a,b});
         console.log({c,d});
-        console.log({f,g});
-        console.log({h,i});
-        console.log({j,k});
-        console.log({l,m});
-        console.log({n,o});
     }
 
     function offZoom(e){
