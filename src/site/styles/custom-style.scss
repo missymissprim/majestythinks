@@ -1171,7 +1171,7 @@ footer {
 }
 
 /** IMAGES **/
-img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR img, .leaflet-marker-icon), 
+img:not(.callout[data-callout~=profile] img, .emoji, .leaflet-marker-icon), 
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content>img[width] {
 	display:block;
 	margin: 0 auto !important;
@@ -1198,6 +1198,11 @@ img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR im
 .image-wrapper {
 	display: block;
 	overflow: hidden;
+}
+
+.image-wrapper img {
+	object-fit: cover;
+	transition: transform .5s ease-out;	
 }
 
 /** MAPS **/
