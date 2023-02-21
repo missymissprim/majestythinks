@@ -220,6 +220,11 @@
 		var seven = L.marker([290, 1235], { icon: party, draggable: true }).addTo(map).bindTooltip('The Generic Seven',{direction: 'top', offset: [0, -20]});
 	}
 	
+	else if (mapID === "luskan") {
+		bounds = [[0,0], [692,849]];
+		image = L.imageOverlay('https://www.dndbeyond.com/attachments/1/562/scag02-29.png', bounds).addTo(map);
+	}
+	
 	else if (mapID === "motherhorn") {
 		bounds = [[0,0], [5700,4200]];
 		image = L.imageOverlay('https://media.dndbeyond.com/compendium-images/twbtw/JtUXxjur9QWtb7E3/map-4.2-motherhorn.jpg', bounds).addTo(map);
@@ -239,6 +244,11 @@
 		image = L.imageOverlay('https://media.dndbeyond.com/compendium-images/twbtw/JtUXxjur9QWtb7E3/map-5.2-palace-upper.jpg', bounds).addTo(map);
 		
 		var cursed = L.marker([4712, 2514], { icon: party, draggable: true }).addTo(map).bindTooltip('The Cursed Keepers',{direction: 'top', offset: [0, -20]});
+	}
+	
+	else if (mapID === "portLlast") {
+		bounds = [[0,0], [642,640]];
+		image = L.imageOverlay('https://dmcapn.files.wordpress.com/2018/06/fort_hooktongue.jpg', bounds).addTo(map);
 	}
 	
 	else if (mapID === "velkynvelve") {
