@@ -120,7 +120,9 @@ Mundane, quiet, and hella boring — this holistically described the small villa
 His parents’, [[Path in Purgatory/NPCs/Czar Shannon Kane\|Czar]] and [[Path in Purgatory/NPCs/Maylis Eudora Kane\|Maylis]] Kane, wealthy disposition allowed Averill and his five younger siblings to live comfortably and exposed to their socialite lifestyle — or rather made them victims to it. While their parents participated in every possible social function amongst the elite — especially the [[Cloudcrest family\|Cloudcrest family]] who rule the town — Averill took it upon himself to watch over his siblings, becoming their protector and defender. He grew up fighting, and refined his talents by defending himself and his siblings against bullies, mimicking his folk-tale heroes. Unfortunately, his gallant antics often got him into trouble whenever he “damaged” his parents reputation with another “setback.” (He will neither admit nor deny, but one skirmish ended in the Cloudcrest heir acquiring a bloody nose, a newfound respect for the Kane siblings, and a friendly rivalry.)
 
 <span class="floaterR">
-	<img alt="Averill" height="300" src="https://majestythinks.netlify.app/img/Averill.png">
+	<div class="image-wrapper">
+		<img alt="Averill" height="300" src="https://majestythinks.netlify.app/img/Averill.png">
+	</div>
 	<p class="caption">Brooding Averill<br><span style="font-weight:300">Official Art by <a href="https://www.instagram.com/majestycreates/" style="font-size:1em">Majesty Creates</a></span></p>
 </span>
 
@@ -174,7 +176,9 @@ Currently off duty, Averill has spent time near [[Path in Purgatory/Locations/Po
 Several weeks before, his family informed him that the [[Cloudcrest\|Cloudcrest]] family’s youngest son [[Path in Purgatory/NPCs/Reed Cloudcrest\|Reed]], who was to be dedicated to the priesthood in [[Path in Purgatory/Locations/Chasmia\|Chasmia]], was recently murdered under strange circumstances. The boy was only five (5) years old and there were occult markings at the site. The town blamed a pair of “weirdos,” who were living outside of the town in a small hut. One man and one woman — fitting a similar description to [[Path in Purgatory/The Party/Ashissa Pythan\|Ashissa Pythan]] and [[Path in Purgatory/NPCs/Dornan Dral\|Dornan Dral]]. There weren’t any other specifics besides that.
 
 <span class="floaterR">
-	<img alt="Void Walker Symbol" height="300" src="https://majestythinks.netlify.app/img/Void%20Walker%20Symbol.png">
+	<div class="image-wrapper">
+		<img alt="Void Walker Symbol" height="300" src="https://majestythinks.netlify.app/img/Void%20Walker%20Symbol.png">
+	</div>
 	<p class="caption">Void Walker Symbol</p>
 </span>
 
