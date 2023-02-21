@@ -19,7 +19,7 @@
 
     function onZoom(e){
         var x = e.clientX - img[zooms.indexOf(this)].offsetLeft;
-        var y = e.clientY - img[zooms.indexOf(this)].offsetTop;
+        var y = e.clientY - img[zooms.indexOf(this)].offsetHeight;
         
         var a = e.clientX;
         var b = e.clientY;
