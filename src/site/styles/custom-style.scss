@@ -1195,6 +1195,11 @@ img:not(.callout[data-callout~=profile] img, .emoji, .floaterL img, .floaterR im
 	z-index: 1000;
 }
 
+.image-wrapper {
+	display: block;
+	overflow: hidden;
+}
+
 /** MAPS **/
 #map, .map {
 	min-height: 500px;
