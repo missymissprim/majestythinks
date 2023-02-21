@@ -97,7 +97,8 @@ The Story Tracker is a note-keeping tool to help report important information ab
 
 ## Session TOC
 
-| Session | Title | Summary |
-| ------- | ----- | ------- |
+| Session                                                                       | Title               | Summary                                                                                                    |
+| ----------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [[The Abyss/Session Notes/Session 001 - 02082023\|Session 001 - 02082023]] | An Attempted Escape | Captured by the drow, a group of individuals attempt to escape their fate, causing a ruckus in the prison. |
 
 
