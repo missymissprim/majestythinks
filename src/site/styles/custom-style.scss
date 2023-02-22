@@ -2,6 +2,7 @@
 
 html, body {
 	scroll-behavior: smooth;
+	overflow-y: scroll;
 }
 
 body {
@@ -533,6 +534,7 @@ body {
 /** BODY END **/
 
 .markdown-preview-view {
+	height: auto;
 	position: unset;
 }
 
