@@ -532,6 +532,10 @@ body {
 }
 /** BODY END **/
 
+.markdown-preview-view {
+	position: unset;
+}
+
 /** THEME LIGHT **/
 .theme-light {
 	--color-yellow: #ffd600;
