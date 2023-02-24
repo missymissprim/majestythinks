@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Zeyada&display=swap');
 
 html, body {
 	scroll-behavior: smooth;
@@ -1177,6 +1177,71 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 22px;
 	font-weight: 700;
+}
+
+/** COLUMNS **/
+/**** COLUMNS ****/
+.row, .markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block>div.row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .25em;
+    justify-content: center !important;
+    margin: 1.5em auto !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.row:before, .row:after{
+    display:table;
+    content: " ";
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    min-height: 1px;
+    position: relative;
+    text-align:center;
+    width: 16.667%;
+    
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    min-height: 1px;
+    position: relative;
+    text-align:center;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    min-height: 1px;
+    position: relative;
+    text-align:center;
+    width: 33.33333333%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    min-height: 1px;
+    position: relative;
+    text-align:center;
+    width: 50%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    min-height: 1px;
+    position: relative;
+    text-align:center;
+    width: 100%;
+}
+
+.col-2 img, .col-3 img,
+.col-4 img, .col-6 img,
+.col-8 img, .col-12 img {
+    width: auto !important;
+    object-fit: cover !important;
 }
 
 /** CONTENT **/
