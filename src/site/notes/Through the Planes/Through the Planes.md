@@ -52,9 +52,9 @@ A trio of adventurers are thrust into an epic adventure at the behest of a trick
 ## The Party
 | Players                                                              | Race         | Class   | Status                                  |
 | -------------------------------------------------------------------- | ------------ | ------- | --------------------------------------- |
+| [[Through the Planes/The Party/Nova Shadowlace\|Nova Shadowlace]] | Astral Pixie | Druid   | <span class="status alive">Alive</span> |
 | [[Through the Planes/The Party/Olive Therviel\|Olive Therviel]]   | Half-Elf     | Wizard  | <span class="status alive">Alive</span> |
 | [[Through the Planes/The Party/Silas\|Silas]]                     | Verdan       | Fighter | <span class="status alive">Alive</span> |
-| [[Through the Planes/The Party/Nova Shadowlace\|Nova Shadowlace]] | Astral Pixie | Druid   | <span class="status alive">Alive</span> |
 
 
 ## Introduction
