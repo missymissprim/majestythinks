@@ -51,14 +51,15 @@ According to [[Path in Purgatory/NPCs/Sovereign Luthais Avadorn\|Sovereign Lutha
 ---
 
 ### Mentioned
-| Session                                                                               | Title                    | Date                     |
-| ------------------------------------------------------------------------------------- | ------------------------ | ------------------------ |
-| [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps     | Friday, November 04 2022 |
-| [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]] | One Tense Conversation   | Friday, October 21 2022  |
-| [[Path in Purgatory/Session Notes/Session 032 - 08262022\|Session 032 - 08262022]] | Fen’s Trip               | Friday, August 26 2022   |
-| [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots           | Friday, July 22 2022     |
-| [[Path in Purgatory/Session Notes/Session 030 - 05292022\|Session 030 - 05292022]] | Close Call               | Sunday, May 29 2022      |
-| [[Path in Purgatory/Session Notes/Session 027 - 03252022\|Session 027 - 03252022]] | It’s the Spiders         | Friday, March 25 2022    |
-| [[Path in Purgatory/Session Notes/Session 020 - 10292021\|Session 020 - 10292021]] | Freeing Her Mind         | Friday, October 29 2021  |
-| [[Path in Purgatory/Session Notes/Session 019 - 10152021\|Session 019 - 10152021]] | Meeting with the Council | Friday, October 15 2021  |
-| [[Path in Purgatory/Session Notes/Session 008 - 04092021\|Session 008 - 04092021]] | \-                       | Saturday, April 09 2022  |
+| Session                                                                               | Title                      | Date                     |
+| ------------------------------------------------------------------------------------- | -------------------------- | ------------------------ |
+| [[Path in Purgatory/Session Notes/Session 043 - 02102023\|Session 043 - 02102023]] | The Aftermath (Pump it Up) | Friday, February 10 2023 |
+| [[Path in Purgatory/Session Notes/Session 037 - 11042022\|Session 037 - 11042022]] | Reluctant Next Steps       | Friday, November 04 2022 |
+| [[Path in Purgatory/Session Notes/Session 036 - 10212022\|Session 036 - 10212022]] | One Tense Conversation     | Friday, October 21 2022  |
+| [[Path in Purgatory/Session Notes/Session 032 - 08262022\|Session 032 - 08262022]] | Fen’s Trip                 | Friday, August 26 2022   |
+| [[Path in Purgatory/Session Notes/Session 031 - 07222022\|Session 031 - 07222022]] | Revnan & Roots             | Friday, July 22 2022     |
+| [[Path in Purgatory/Session Notes/Session 030 - 05292022\|Session 030 - 05292022]] | Close Call                 | Sunday, May 29 2022      |
+| [[Path in Purgatory/Session Notes/Session 027 - 03252022\|Session 027 - 03252022]] | It’s the Spiders           | Friday, March 25 2022    |
+| [[Path in Purgatory/Session Notes/Session 020 - 10292021\|Session 020 - 10292021]] | Freeing Her Mind           | Friday, October 29 2021  |
+| [[Path in Purgatory/Session Notes/Session 019 - 10152021\|Session 019 - 10152021]] | Meeting with the Council   | Friday, October 15 2021  |
+| [[Path in Purgatory/Session Notes/Session 008 - 04092021\|Session 008 - 04092021]] | \-                         | Saturday, April 09 2022  |
