@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-inbox/notetaker-s-vault/","title":"Notetaker’s Vault","tags":["directory","home","gardenEntry","gardenEntry","gardenEntry"],"dgEnableSearch":false}
+{"dg-publish":true,"permalink":"/00-inbox/notetaker-s-vault/","title":"Notetaker’s Vault","tags":["directory","home","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"dgEnableSearch":false}
 ---
 
 <div class="wiki-header">
