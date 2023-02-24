@@ -5,7 +5,7 @@
 <div class="wiki-header">
 	<div class="banner-wrapper">
 		<div class="banner">
-			<img class="banner-image full-width" src="http://corproject.com/wp-content/uploads/2017/10/Purgatory-770x439_c.jpg" style="object-position: 50% 50%">
+			<img class="banner-image full-width" src="https://majestythinks.netlify.app/img/purgatory.jpeg" style="object-position: 50% 50%">
 		</div>
 		<div class="banner-icon">
 			<div class="icon-box">📜</div>
