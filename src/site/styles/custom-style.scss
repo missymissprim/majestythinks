@@ -389,8 +389,6 @@ body {
 	}
 	
 	.glitch {
-	    /*background-color: var(--black);*/
-	    color: var(--purple);
 	    display: inline-block;
 	    font-family: "Source Code Pro", monospace;
 	    font-size: .8em;
@@ -403,8 +401,18 @@ body {
 	}
 
 	.anti.glitch {
-	/*background-color: var(--black);*/
-	color: var(--red);
+	    color: var(--red);
+	}
+
+	.party.glitch {
+	    color: var(--purple);
+	}
+
+	.tink.glitch {
+	    color: var(--magenta-80);
+	    text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 var(--purple),
+	      0.025em 0.04em 0 yellow;
+	    animation: twitch 725ms infinite;
 	}
 
 	.glitch span {
@@ -425,6 +433,20 @@ body {
 	clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
 	transform: translate(0.04em, 0.03em);
 	opacity: 0.75;
+	}
+
+	.tink.glitch span:first-child {
+	    animation: glitch 500ms infinite;
+	    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+	    transform: translate(-0.04em, -0.03em);
+	    opacity: 0.75;
+	    }
+
+	.tink.glitch span:last-child {
+	    animation: glitch 375ms infinite;
+	    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+	    transform: translate(0.04em, 0.03em);
+	    opacity: 0.75;
 	}
 
 	@keyframes glitch {
@@ -453,9 +475,105 @@ body {
 		0 -0.04em 0 yellow;
 	    }
 	    100% {
-		text-shadow: -0.05em 0 0 cyan, -0.025em -0.04em 0 #ec008c,
+		text-shadow: -0.05em 0 0 cyan, -0.025em -0.04em 0 magenta,
 		-0.04em -0.025em 0 yellow;
 	    }
+	}
+
+	@keyframes twitch {
+	    0% {
+		text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 var(--purple),
+		0.025em 0.04em 0 yellow;
+	    }
+	    15% {
+		text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 var(--purple),
+		0.025em 0.04em 0 yellow;
+	    }
+	    16% {
+		text-shadow: -0.05em -0.025em 0 cyan, 0.025em 0.035em 0 var(--purple),
+		-0.05em -0.05em 0 yellow;
+	    }
+	    49% {
+		text-shadow: -0.05em -0.025em 0 cyan, 0.025em 0.035em 0 var(--purple),
+		-0.05em -0.05em 0 yellow;
+	    }
+	    50% {
+		text-shadow: 0.05em 0.035em 0 cyan, 0.03em 0 0 var(--purple),
+		0 -0.04em 0 yellow;
+	    }
+	    99% {
+		text-shadow: 0.05em 0.035em 0 cyan, 0.03em 0 0 var(--purple),
+		0 -0.04em 0 yellow;
+	    }
+	    100% {
+		text-shadow: -0.05em 0 0 cyan, -0.025em -0.04em 0 var(--purple),
+		-0.04em -0.025em 0 yellow;
+	    }
+	}
+
+	.neon-wrapper {
+	    background: #000;
+	    font-size: 10px;
+	    margin: 4em auto;
+	    padding: 8em;
+
+	    --neon-text-color: var(--red);
+	}
+
+	.neon {
+	  font-family: "Exo 2", sans-serif;
+	  font-size: 4rem;
+	  font-weight: 400;
+	  font-style: italic;
+	  color: #fff;
+	  padding: 1rem;
+	  border: 0.25rem solid #fff;
+	  border-radius: 1rem;
+	  text-transform: uppercase;
+	  animation: flicker 1.5s infinite alternate;     
+	}
+
+	.neon::-moz-selection {
+	    background-color: var(--blue);
+	    color: var(--blue);
+	}
+
+	.neon::selection {
+	    background-color: var(--blue);
+	    color: var(--neon-text-color);
+	}
+
+	.neon:focus {
+	    outline: none;
+	}
+
+	/* Animate neon flicker */
+	@keyframes flicker {
+
+	    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+
+		text-shadow:
+		    -0.2rem -0.2rem 1rem #fff,
+		    0.2rem 0.2rem .75rem var(--neon-text-color),
+		    0 0 2rem var(--neon-text-color),
+		    0 0 4rem var(--neon-text-color),
+		    0 0 6rem var(--neon-text-color),
+		    0 0 8rem var(--neon-text-color),
+		    0 0 10rem var(--neon-text-color);
+
+		box-shadow:
+		    0 0 .5rem #fff,
+		    inset 0 0 .5rem #fff,
+		    0 0 2rem var(--blue),
+		    inset 0 0 2rem var(--blue),
+		    0 0 4rem var(--blue),
+		    inset 0 0 4rem var(--blue);        
+	    }
+
+	    20%, 24%, 55% {        
+		text-shadow: none;
+		box-shadow: none;
+	    }    
 	}
 	
 	.small {
@@ -801,6 +919,22 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	--callout-color: 162, 14, 214; /* purple */
 	border-image: linear-gradient(135deg, var(--purple), var(--magenta), var(--red), var(--orange)) 1;
 	--callout-icon: lucide-megaphone;
+}
+
+.callout[data-callout="spoilers"] .callout-content input[type="checkbox"] {
+    border-radius: 50%;
+    height: 36px;
+    margin-right: 18px;
+    width: 36px;
+}
+
+.callout[data-callout="spoilers"] .callout-content input[type=checkbox]:checked {
+    background-color: var(--purple);
+    border-color: var(--purple);
+}
+
+.callout[data-callout="spoilers"] .callout-content input[type=checkbox]:checked:after {
+    display: none;
 }
 
 .callout[data-callout="session"] {
