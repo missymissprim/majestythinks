@@ -182,10 +182,11 @@ Not much is known about this elusive Tabaxi, so this article remains empty ... f
 ---
 
 ### Mentioned
-| Session                                                                               | Title            | Date                    |
-| ------------------------------------------------------------------------------------- | ---------------- | ----------------------- |
-| [[Path in Purgatory/Session Notes/Session 020 - 10292021\|Session 020 - 10292021]] | Freeing Her Mind | Friday, October 29 2021 |
-| [[Path in Purgatory/Session Notes/Session 010 - 05072021\|Session 010 - 05072021]] | \-               | Friday, May 07 2021     |
+| Session                                                                               | Title                      | Date                     |
+| ------------------------------------------------------------------------------------- | -------------------------- | ------------------------ |
+| [[Path in Purgatory/Session Notes/Session 043 - 02102023\|Session 043 - 02102023]] | The Aftermath (Pump it Up) | Friday, February 10 2023 |
+| [[Path in Purgatory/Session Notes/Session 020 - 10292021\|Session 020 - 10292021]] | Freeing Her Mind           | Friday, October 29 2021  |
+| [[Path in Purgatory/Session Notes/Session 010 - 05072021\|Session 010 - 05072021]] | \-                         | Friday, May 07 2021      |
 
 
 <div id="disqus_thread"></div>
