@@ -1272,7 +1272,7 @@ hr {
 	margin: 3em 0;
 }
 
-.markdown-rendered pre {
+.markdown-rendered pre:not(.mermaid) {
 	display:none;
 }
 
