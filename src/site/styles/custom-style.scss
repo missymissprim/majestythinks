@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,300;0,600;0,700;0,900;1,300;1,600&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Zeyada&display=swap');
 
 html, body {
-	scroll-behavior: smooth;
+	cursor: url('/img/cursor.png'), auto;
 	overflow: unset;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -10,8 +11,6 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    	
-	/* cursor: url('/img/cursor.png'), auto !important; */
 	font-variant-numeric: lining-nums;
 	-moz-font-feature-settings: "lnum";
 	-webkit-font-feature-settings: "lnum";
@@ -209,9 +208,11 @@ body {
 		position: unset;
 	}
 	
-	/* a, div, span, a:hover, div:hover, span:hover{
+	a, div, span,
+	a:hover, div:hover, span:hover,
+	a:focus, div:focus, span:focus{
 		cursor: url('/img/cursor.png'), auto !important;
-	} */
+	}
 	
 	.navbar {
 		background-color: white;
@@ -935,19 +936,19 @@ div.language-ad-summary .admonition-title::before, div.callout-summary .admoniti
 	--callout-icon: lucide-megaphone;
 }
 
-.callout[data-callout="spoilers"] .callout-content input[type="checkbox"] {
+.callout[data-callout="spoilers"] .callout-content .destiny input[type="checkbox"] {
     border-radius: 50%;
     height: 36px;
     margin-right: 18px;
     width: 36px;
 }
 
-.callout[data-callout="spoilers"] .callout-content input[type=checkbox]:checked {
+.callout[data-callout="spoilers"] .callout-content .destiny input[type=checkbox]:checked {
     background-color: var(--purple);
     border-color: var(--purple);
 }
 
-.callout[data-callout="spoilers"] .callout-content input[type=checkbox]:checked:after {
+.callout[data-callout="spoilers"] .callout-content .destiny input[type=checkbox]:checked:after {
     display: none;
 }
 
