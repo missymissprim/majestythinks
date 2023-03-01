@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-inbox/notetaker-s-vault/","title":"Notetaker’s Vault","tags":["directory","home","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"dgEnableSearch":false}
+{"dg-publish":true,"permalink":"/00-inbox/notetaker-s-vault/","title":"Notetaker’s Vault","tags":["directory","home","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"dgEnableSearch":false}
 ---
 
 <div class="wiki-header">
@@ -51,5 +51,5 @@ If you’re looking for something specific, don’t be afraid to use the search 
 | [[The Abyss/The Abyss\|The Abyss]]                                        | Out of the Abyss                         | Player         | <span class="status alive">Active</span>   |
 | [[The Generic Seven/The Generic Seven\|The Generic Seven]]                | Waterdeep Dragon Heist, Homebrew         | Player         | <span class="status alive">Active</span>   |
 | [[Through the Planes/Through the Planes\|Through the Planes]]             | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status alive">Active</span>   |
-| [[Vampire the Masquerade/Vampire the Masquerade\|Vampire the Masquerade]] | Vampire: the Masquerade                  | Player         | <span class="status dead">Inactive</span>  |
 | [[Who Always Roamed/Who Always Roamed\|Who Always Roamed]]                | The Wild Beyond the Witchlight, Homebrew | Dungeon Master | <span class="status missing">Hiatus</span> |
+| [[Vampire the Masquerade/Vampire the Masquerade\|Vampire the Masquerade]] | Vampire: the Masquerade                  | Player         | <span class="status dead">Inactive</span>  |
