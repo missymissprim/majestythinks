@@ -205,6 +205,84 @@ Averill was considered to be Lawful Good, however, he is willing to do questiona
 
 ### Family
 
+```mermaid
+graph TD
+
+classDef default fill:#fff,stroke:#d3d2d2
+classDef dubois fill:#f6e7fb,stroke:#a20ed6,stroke-width:3px
+classDef kane fill:#e5f7fD,stroke:#00aeef,stroke-width:3px
+classDef wickham fill:#efffe5,stroke:#5cff00,stroke-width:3px
+
+fam1:::dubois
+fam2:::kane
+fam3:::kane
+fam4:::dubois
+fam5:::wickham
+
+	subgraph fam1[Dubois]
+		direction TB
+	    G3[Grandfather]:::dubois
+	    G4["#128128;" Grandmother]
+	end
+  
+	subgraph fam2[Kane]
+	    direction TB
+	    G1["#128128;" Grandfather]
+	    G2["#128128;" Grandmother]
+	end
+
+	subgraph fam3[Kane]
+	    direction LR
+	    K1:::kane
+	    D4:::dubois
+	end
+
+	subgraph fam4[Dubois]
+	    direction LR
+	    K11:::dubois
+	    B1[Zuri Malika Bonnet]
+	end
+
+	subgraph fam5[Wickham]
+	    direction LR
+	    K13
+	    W1[Luben Wickham]:::wickham
+	end
+	
+fam1 --> U1["#9829;"]
+U1 --> D1["#128128;" Uncle]
+U1 --> D2[Aunt]
+U1 --> D3[Aunt]
+U1 --> D4[Maylis Eudora Kane]
+  
+fam2 --> U2["#9829;"]
+U2 --> K1[Czar Shannon Kane]
+U2 --> K2["#128128;" Uncle]
+U2 --> K3["#128128;" Uncle]
+U2 --> K4["#128128;" Aunt]
+U2 --> K5[Aunt]
+U2 --> K6["#128128;" Uncle]
+U2 --> K7["#128128;" Uncle]
+U2 --> K8["#128128;" Uncle]
+U2 --> K9["#128128;" Aunt]
+U2 --> K10[Uncle]
+
+fam3 --> U3["#9829;"]
+U3 --> K11[Averill Warin Kane]
+U3 --> K12[Darina Lior Kane]
+U3 --> K13[Matilda Enid Kane]
+U3 --> K14[Perdita Irene Kane]
+U3 --> K15[Quintus Alexander Kane]
+U3 --> K16[Richard Mar Kane]
+
+fam4 --> U4["#9829;"]
+U4 --> D5[TBA]
+
+fam5 --> U5["#9829;"]
+U5 --> W2[Theodore Wickham]:::wickham
+U5 --> W3[TBA]
+```
+
 ![[Averill Family Tree.canvas]]
 
 - [[Path in Purgatory/NPCs/Czar Shannon Kane\|Czar Shannon Kane]] is Averill’s biological father; they have a friendly relationship. Czar understands his son, and Averill feels he can be open with his father to an extent.
