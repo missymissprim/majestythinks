@@ -283,8 +283,6 @@ U5 --> W2[Theodore Wickham]:::wickham
 U5 --> W3[TBA]
 ```
 
-![[Averill Family Tree.canvas]]
-
 - [[Path in Purgatory/NPCs/Czar Shannon Kane\|Czar Shannon Kane]] is Averill’s biological father; they have a friendly relationship. Czar understands his son, and Averill feels he can be open with his father to an extent.
 - [[Path in Purgatory/NPCs/Maylis Eudora Kane\|Maylis Eudora Kane]] is Averill’s biological mother; they have a cordial relationship. She has high expectations for her eldest, the heir of the Kane and Dubois families.
 - [[Path in Purgatory/NPCs/Darina Lior Kane\|Darina Lior Kane]] is Averill’s sister; they’re quite indifferent toward one another, with a mutual respect. However, they butt heads when it comes to being in charge, with Averill backing down to keep the peace. It irks her that the others gravitate towards him regardless.
