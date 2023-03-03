@@ -189,13 +189,13 @@
 
 ## Sessions
 ### Active
-| Session                                                                               | Title                      | Date                     |
-| ------------------------------------------------------------------------------------- | -------------------------- | ------------------------ |
-| [[Path in Purgatory/Session Notes/Session 043 - 02102023\|Session 043 - 02102023]] | The Aftermath (Pump it Up) | Friday, February 10 2023 |
-| [[Path in Purgatory/Session Notes/Session 042 - 01272023\|Session 042 - 01272023]] | The Sovereign’s Lament     | Friday, January 27 2023  |
-| [[Path in Purgatory/Session Notes/Session 041 - 01132023\|Session 041 - 01132023]] | A Plethora of Intentions   | Friday, January 13 2023  |
-| [[Path in Purgatory/Session Notes/Session 040 - 12302022\|Session 040 - 12302022]] | For Lack of Liaison        | Friday, December 30 2022 |
-| [[Path in Purgatory/Session Notes/Session 039 - 12092022\|Session 039 - 12092022]] | Loose Threads              | Friday, December 09 2022 |
+| Session                                                                               | Title                    | Date                     |
+| ------------------------------------------------------------------------------------- | ------------------------ | ------------------------ |
+| [[Path in Purgatory/Session Notes/Session 043 - 02102023\|Session 043 - 02102023]] | The Aftermath            | Friday, February 10 2023 |
+| [[Path in Purgatory/Session Notes/Session 042 - 01272023\|Session 042 - 01272023]] | The Sovereign’s Lament   | Friday, January 27 2023  |
+| [[Path in Purgatory/Session Notes/Session 041 - 01132023\|Session 041 - 01132023]] | A Plethora of Intentions | Friday, January 13 2023  |
+| [[Path in Purgatory/Session Notes/Session 040 - 12302022\|Session 040 - 12302022]] | For Lack of Liaison      | Friday, December 30 2022 |
+| [[Path in Purgatory/Session Notes/Session 039 - 12092022\|Session 039 - 12092022]] | Loose Threads            | Friday, December 09 2022 |
 
 
 ---
