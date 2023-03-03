@@ -57,7 +57,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -71,7 +70,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -85,7 +83,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content orange">
 						<div class="timeline-content-head">
@@ -103,7 +100,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content red">
 						<div class="timeline-content-head">
@@ -121,7 +117,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content teal">
 						<div class="timeline-content-head">
@@ -138,7 +133,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content magenta">
 						<div class="timeline-content-head">
@@ -155,7 +149,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content orange">
 						<div class="timeline-content-head">
@@ -173,7 +166,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content teal">
 						<div class="timeline-content-head">
@@ -190,7 +182,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="timeline-item">
 					<div class="timeline-content magenta">
 						<div class="timeline-content-head">
@@ -207,7 +198,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -221,7 +211,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -235,7 +224,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content yellow">
 						<div class="timeline-content-head">
@@ -253,7 +241,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -267,7 +254,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -281,7 +267,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -295,7 +280,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -309,7 +293,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -323,7 +306,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content purple">
 						<div class="timeline-content-head">
@@ -337,7 +319,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content yellow">
 						<div class="timeline-content-head">
@@ -354,7 +335,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content cyan">
 						<div class="timeline-content-head">
@@ -371,7 +351,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content orange">
 						<div class="timeline-content-head">
@@ -388,7 +367,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content yellow">
 						<div class="timeline-content-head">
@@ -405,7 +383,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content yellow">
 						<div class="timeline-content-head">
@@ -422,7 +399,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content yellow">
 						<div class="timeline-content-head">
@@ -439,7 +415,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content cyan">
 						<div class="timeline-content-head">
@@ -456,7 +431,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content orange">
 						<div class="timeline-content-head">
@@ -473,7 +447,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content yellow">
 						<div class="timeline-content-head">
@@ -490,7 +463,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content magenta">
 						<div class="timeline-content-head">
@@ -507,7 +479,6 @@
 						</div>
 					</div>
 				</div>
-				
 				<div class="timeline-item">
 					<div class="timeline-content blue">
 						<div class="timeline-content-head">
@@ -524,5 +495,4 @@
 						</div>
 					</div>
 				</div>
-				
 			</div>
