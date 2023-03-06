@@ -215,16 +215,32 @@
 			//Locations
 			var anguisConda = L.marker([1807, 1675], { icon: setting }).addTo(map[i]).bindTooltip('Anguis’Conda',{direction: 'top', offset: [0, -20]});
 			var candlekeep = L.marker([1837, 5190], { icon: tower }).addTo(map[i]).bindTooltip('Candlekeep',{direction: 'top', offset: [0, -20]});
-			var heavensBreath = L.marker([4636, 4702], { icon: city }).addTo(map[i]).bindTooltip('Heaven’s Breath',{direction: 'top', offset: [0, -20]});
+			var heavensBreath = L.marker([4586, 4693], { icon: city }).addTo(map[i]).bindTooltip('Heaven’s Breath',{direction: 'top', offset: [0, -20]});
+			var hundelstone = L.marker([6002, 3638], { icon: city }).addTo(map[i]).bindTooltip('Hundelstone',{direction: 'top', offset: [0, -20]});
 			var luskan = L.marker([5704, 3943], { icon: cityMajor }).addTo(map[i]).bindTooltip('Luskan',{direction: 'top', offset: [0, -20]});
 			var neverwinter = L.marker([5243, 4064], { icon: cityMajor }).addTo(map[i]).bindTooltip('Neverwinter',{direction: 'top', offset: [0, -20]});
-			var portLlast = L.marker([5370, 4000], { icon: city }).addTo(map[i]).bindTooltip('Port Llast',{direction: 'top', offset: [0, -20]});
+			var portLlast = L.marker([5356, 3994], { icon: city }).addTo(map[i]).bindTooltip('Port Llast',{direction: 'top', offset: [0, -20]});
 			var sanMateo = L.marker([3289, 1920], { icon: city }).addTo(map[i]).bindTooltip('San’Mateo',{direction: 'top', offset: [0, -20]});
+			var tenTowns = L.marker([6084, 3707], { icon: cityMajor }).addTo(map[i]).bindTooltip('Ten Towns',{direction: 'top', offset: [0, -20]});
 			var triboar = L.marker([5135, 4753], { icon: cityMajor }).addTo(map[i]).bindTooltip('Triboar',{direction: 'top', offset: [0, -20]});
 			var waterdeep = L.marker([4148, 4608], { icon: cityMajor }).addTo(map[i]).bindTooltip('Waterdeep',{direction: 'top', offset: [0, -20]});
-			var westridge = L.marker([4914, 4746], { icon: city }).addTo(map[i]).bindTooltip('Westridge',{direction: 'top', offset: [0, -20]});
+			var westridge = L.marker([4900, 4749], { icon: city }).addTo(map[i]).bindTooltip('Westridge',{direction: 'top', offset: [0, -20]});
 
 			var seven = L.marker([5704, 3943], { icon: party, draggable: true }).addTo(map[i]).bindTooltip('The Generic Seven',{direction: 'top', offset: [0, -20]});
+
+			var alternate = L.imageOverlay('https://media.wizards.com/2015/images/dnd/resources/Sword-Coast-Map_HighRes.jpg', bounds);
+
+			var baseLayers = {
+				"Alternate": alternate
+			};
+
+
+			var overlayMaps = {
+
+			};
+
+			var layerControl = L.control.layers(baseLayers, overlayMaps).addTo(map[i]);
+			layerControl.addBaseLayer(image, "Official");
 
 			map[i].fitBounds(bounds);
 		}
