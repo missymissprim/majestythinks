@@ -208,7 +208,7 @@ body {
 		position: unset;
 	}
 	
-	a, div, span,
+	a, aside, div, input, label, main, span,
 	a:hover, div:hover, span:hover,
 	a:focus, div:focus, span:focus{
 		cursor: url('/img/cursor.png'), auto !important;
@@ -1624,6 +1624,10 @@ body:not(.hider-scrollbars).styled-scrollbars ::-webkit-scrollbar, body:not(.nat
 	height: 280px !important;
 	width: 280px !important;
 }*/
+
+.force-graph-container .clickable {
+	cursor: url('/img/cursor.png'), auto !important;
+}
 
 #graph-controls .depth-control {
 	align-contents: center;
