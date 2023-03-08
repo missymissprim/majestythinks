@@ -1,4 +1,10 @@
 <script>
+	var content = document.getElementsByClassName("content");
+	var newWidth = content[0].offsetWidth;
+	var reading = document.getElementsByClassName("container");
+			
+	reading[0].style.width = `${newWidth}px`;
+	
 	let processScroll = () => {
 		let docElem = document.documentElement, 
 		docBody = document.body,
