@@ -219,6 +219,7 @@ body {
 		box-shadow: 0 0 10px 0 rgba(35, 31, 32, .15);
 		color: var(--cyan) !important;
 		position: fixed;
+		z-index: 3000;
 	}
 	
 	.filetree-sidebar {
@@ -364,18 +365,18 @@ body {
 	}
 	
 	.center {
-    text-align:center !important; 
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
+		text-align:center !important; 
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
 
-.left {
-    text-align: left;
-}
+	.left {
+		text-align: left;
+	}
 	
 	.right {
-    text-align: right;
-}
+    		text-align: right;
+	}
 	
 	.attune {
 		font-family: "FreightSans Pro", "Source Sans Pro", sans-serif;
@@ -404,64 +405,64 @@ body {
 	}
 	
 	.glitch {
-	    display: inline-block;
-	    font-family: "Source Code Pro", monospace;
-	    font-size: .8em;
-	    font-weight: 700;
-	    position: relative;
-	    text-transform: uppercase;
-	    text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 magenta,
-	      0.025em 0.04em 0 yellow;
-	    animation: glitch 725ms infinite;
+		display: inline-block;
+		font-family: "Source Code Pro", monospace;
+		font-size: .8em;
+		font-weight: 700;
+		position: relative;
+		text-transform: uppercase;
+		text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 magenta,
+		0.025em 0.04em 0 yellow;
+		animation: glitch 725ms infinite;
 	}
 
 	.anti.glitch {
-	    color: var(--red);
+		color: var(--red);
 	}
 
 	.party.glitch {
-	    color: var(--purple);
+		color: var(--purple);
 	}
 
 	.tink.glitch {
-	    color: var(--magenta-80);
-	    text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 var(--purple),
-	      0.025em 0.04em 0 yellow;
-	    animation: twitch 725ms infinite;
+		color: var(--magenta-80);
+		text-shadow: 0.05em 0 0 cyan, -0.03em -0.04em 0 var(--purple),
+		0.025em 0.04em 0 yellow;
+		animation: twitch 725ms infinite;
 	}
 
 	.glitch span {
-	position: absolute;
-	top: 0;
-	left: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 
 	.glitch span:first-child {
-	animation: glitch 500ms infinite;
-	clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
-	transform: translate(-0.04em, -0.03em);
-	opacity: 0.75;
+		animation: glitch 500ms infinite;
+		clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+		transform: translate(-0.04em, -0.03em);
+		opacity: 0.75;
 	}
 
 	.glitch span:last-child {
-	animation: glitch 375ms infinite;
-	clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
-	transform: translate(0.04em, 0.03em);
-	opacity: 0.75;
+		animation: glitch 375ms infinite;
+		clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+		transform: translate(0.04em, 0.03em);
+		opacity: 0.75;
 	}
 
 	.tink.glitch span:first-child {
-	    animation: glitch 500ms infinite;
-	    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
-	    transform: translate(-0.04em, -0.03em);
-	    opacity: 0.75;
+		animation: glitch 500ms infinite;
+		clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+		transform: translate(-0.04em, -0.03em);
+		opacity: 0.75;
 	    }
 
 	.tink.glitch span:last-child {
-	    animation: glitch 375ms infinite;
-	    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
-	    transform: translate(0.04em, 0.03em);
-	    opacity: 0.75;
+		animation: glitch 375ms infinite;
+		clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+		transform: translate(0.04em, 0.03em);
+		opacity: 0.75;
 	}
 
 	@keyframes glitch {
@@ -1562,8 +1563,6 @@ img:not(.callout[data-callout~=profile] img, .emoji, .leaflet-marker-icon),
 	height: 3em;
 	position: fixed;
 	top: 0;
-	width: 100%;
-	max-width: 800px;
 	z-index: 2000;
 }
 
