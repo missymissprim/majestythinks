@@ -7,7 +7,7 @@
 	
 	function resizeContainer() {
 		new_width = content[0].offsetWidth;
-		reading[0].style.width = `${new_width}px`;
+		reading[0].style.width = `calc(${new_width}px + 1em)`;
 	}
 
 	window.addEventListener("resize", resizeContainer);
