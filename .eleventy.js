@@ -5,8 +5,13 @@ const matter = require("gray-matter");
 const faviconPlugin = require("eleventy-favicon");
 const tocPlugin = require("eleventy-plugin-nesting-toc");
 const { parse } = require("node-html-parser");
+const htmlMinifier = require("html-minifier");
 
 const { headerToId, namedHeadingsFilter } = require("./src/helpers/utils");
+const {
+  userMarkdownSetup,
+  userEleventySetup,
+} = require("./src/helpers/userSetup");
 
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
@@ -18,6 +23,9 @@ module.exports = function (eleventyConfig) {
     breaks: true,
     html: true,
   })
+    .use(require("markdown-it-anchor"), {
+      slugify: headerToId,
+    })
     .use(require("markdown-it-mark"))
     .use(require("markdown-it-footnote"))
     .use(function (md) {
@@ -140,23 +148,8 @@ module.exports = function (eleventyConfig) {
 
         return defaultLinkRule(tokens, idx, options, env, self);
       };
-      // Footnote heading fix (till the upstream releases the fix)
-      md.renderer.rules.render_footnote_anchor_name = (
-        tokens,
-        idx,
-        options,
-        env
-      ) => {
-        var n = Number(tokens[idx].meta.id + 1).toString();
-        var prefix = "";
-
-        if (env && typeof env.docId === "string") {
-          prefix = "-" + env.docId + "-";
-        }
-
-        return prefix + n;
-      };
-    });
+    })
+    .use(userMarkdownSetup);
 
   eleventyConfig.setLibrary("md", markdownLib);
 
@@ -193,6 +186,9 @@ module.exports = function (eleventyConfig) {
           if (frontMatter.data.permalink) {
             permalink = frontMatter.data.permalink;
           }
+          if (frontMatter.data.tags && frontMatter.data.tags.indexOf("gardenEntry") != -1) {
+            permalink = "/";
+          }
           if (frontMatter.data.noteIcon) {
             noteIcon = frontMatter.data.noteIcon;
           }
@@ -211,7 +207,7 @@ module.exports = function (eleventyConfig) {
     return (
       str &&
       str.replace(tagRegex, function (match, precede, tag) {
-        return `${precede}<a class="tag" onclick="toggleTagSearch(this)">${tag}</a>`;
+        return `${precede}<a class="tag" onclick="toggleTagSearch(this)" data-content="${tag}">${tag}</a>`;
       })
     );
   });
@@ -296,7 +292,25 @@ module.exports = function (eleventyConfig) {
     return str && parsed.innerHTML;
   });
 
+  eleventyConfig.addTransform("htmlMinifier", (content, outputPath) => {
+    if (
+      process.env.NODE_ENV === "production" &&
+      outputPath &&
+      outputPath.endsWith(".html")
+    ) {
+      return htmlMinifier.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+        minifyCSS: true,
+        minifyJS: true,
+      });
+    }
+    return content;
+  });
+
   eleventyConfig.addPassthroughCopy("src/site/img");
+  eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
   eleventyConfig.addPlugin(faviconPlugin, { destination: "dist" });
   eleventyConfig.addPlugin(tocPlugin, {
@@ -315,6 +329,8 @@ module.exports = function (eleventyConfig) {
     }
     return variable;
   });
+
+  userEleventySetup(eleventyConfig);
 
   return {
     dir: {
