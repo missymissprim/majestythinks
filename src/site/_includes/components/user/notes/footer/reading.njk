@@ -5,6 +5,13 @@
 			
 	reading[0].style.width = `${newWidth}px`;
 	
+	function resizeContainer() {
+		new_width = content[0].offsetWidth;
+		reading[0].style.width = `${new_width}px`;
+	}
+
+	window.addEventListener("resize", resizeContainer);
+	
 	let processScroll = () => {
 		let docElem = document.documentElement, 
 		docBody = document.body,
