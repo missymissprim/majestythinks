@@ -131,7 +131,7 @@
             });
             if (delay != null && graphData.nodes.length > 4) {
                 setTimeout(() => {
-                    Graph.zoomToFit(5, 150);
+                    Graph.zoomToFit(5, 100);
                 }, delay);
             }
         return Graph;
@@ -157,7 +157,7 @@
         }
         Graph = renderGraph(filterToDepth(JSON.parse(JSON.stringify(window.graphData))), "link-graph", 1);
         setTimeout(() => {
-            Graph.zoomToFit(5, 150);
+            Graph.zoomToFit(5, 100);
         }, 1);
     });
 
@@ -200,7 +200,7 @@
             Graph.width(el.offsetWidth).height(el.offsetWidth);
         }
         setTimeout(() => {
-            Graph.zoomToFit(5, 150);
+            Graph.zoomToFit(5, 100);
         }, 1);
         
     });
