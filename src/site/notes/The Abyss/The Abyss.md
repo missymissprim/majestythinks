@@ -97,8 +97,9 @@ The Story Tracker is a note-keeping tool to help report important information ab
 
 ## Session TOC
 
-| Session                                                                       | Title               | Summary                                                                                                    |
-| ----------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [[The Abyss/Session Notes/Session 001 - 02082023\|Session 001 - 02082023]] | An Attempted Escape | Captured by the drow, a group of individuals attempt to escape their fate, causing a ruckus in the prison. |
+| Session                                                                       | Title               | Summary                                                                                                                                                                                                                           |
+| ----------------------------------------------------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[The Abyss/Session Notes/Session 002 - 02222023\|Session 002 - 02222023]] | Quite the Buzz      | The next day the group actively plans their escape with the other prisoners. Using sudden the demon attack as a distraction, they all escape from the drow’s clutches and make their way into the Underdark towards the Darklake. |
+| [[The Abyss/Session Notes/Session 001 - 02082023\|Session 001 - 02082023]] | An Attempted Escape | Captured by the drow, a group of individuals attempt to escape their fate, causing a ruckus in the prison.                                                                                                                        |
 
 
