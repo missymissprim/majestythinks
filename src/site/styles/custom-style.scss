@@ -1569,7 +1569,7 @@ img:not(.callout[data-callout~=profile] img, .emoji, .leaflet-marker-icon),
 #progress-bar {
 	--scrollAmount: 0%;
 
-	background-image: linear-gradient(120deg, var(--teal) 0%, var(--blue) 100%);
+	background-image: linear-gradient(120deg, var(--teal) 0%, var(--cyan) 50%, var(--blue) 100%);
 	width: var(--scrollAmount);
 
 	height: .5em;
