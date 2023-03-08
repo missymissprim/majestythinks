@@ -118,6 +118,11 @@
       } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
         tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
       }
+      
+      console.log(window.innerHeight);
+      console.log(elem_props.top);
+      console.log(top);
+      console.log(tooltipWrapper.offsetHeight);
 
       if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
         tooltipWrapper.style.left = "10px";
