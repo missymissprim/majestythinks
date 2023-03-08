@@ -1992,6 +1992,10 @@ body:not(.row-hover) .table-view-table>tbody>tr:hover {
 
 @media (max-width: 1399px) {
 	
+	.container {
+		margin-top: 56px;
+	}
+	
 	.filetree-sidebar {
 		padding: 2em 1.25em;
 	}
