@@ -56,8 +56,8 @@ The Underdark is a subterranean wonderland, a vast and twisted labyrinth where f
 | ![\|35](https://jason-palmer-art.square.site/uploads/1/2/9/1/129180850/s823784791759114299_p74_i1_w1920.jpeg) | [[The Abyss/The Party/Dandelion\|Dandelion]]                     | Changeling               | Bard           | <span class="status alive">Alive</span> |
 | ![\|35](https://64.media.tumblr.com/cb4519c72fea88c1fb68354b426cc3a0/tumblr_psah2y6u9G1teuisyo1_1280.jpg)     | [[The Abyss/The Party/Gark\|Gark]]                               | Elf (Drow)               | Sorcerer       | <span class="status alive">Alive</span> |
 | ![\|35](https://codexnomina.com/wp-content/uploads/2021/09/warrior-150x150.jpg)                               | [[The Abyss/The Party/Micah Clearstrength\|Micah Clearstrength]] | Human (Variant)          | Barbarian      | <span class="status alive">Alive</span> |
+| ![\|35](https://pbs.twimg.com/media/FmuHFldaMAA0dVD?format=jpg&name=medium)                                   | [[The Abyss/The Party/Seraphine\|Seraphine]]                     | Human                    | Fighter        | <span class="status alive">Alive</span> |
 | ![\|35](https://majestythinks.netlify.app/img/Shanti.png)                                                     | [[The Abyss/The Party/Shanti Halydove\|Shanti Halydove]]         | Elf (Mark of Shadow)     | Cleric, Ranger | <span class="status alive">Alive</span> |
-| ![\|35](https://i.pinimg.com/originals/24/38/f5/2438f5bc743d44212e5bfc1390152258.png)                         | [[The Abyss/The Party/Untitled\|Untitled]]                       | Aasimar (Protector)      | Fighter        | <span class="status alive">Alive</span> |
 
 
 ## Introduction
@@ -81,18 +81,33 @@ A <span class="caps">character</span> who has a <span class="caps">problem</span
 
 The Story Tracker is a note-keeping tool to help report important information about the characters, their accomplishments, and upcoming quests.
 
-- [ ] Escape from prison.
+- [x] Escape from prison.
+- [ ] Escape from and survive the Underdark.
 
 ## List of Characters
 
 ### Supporting Characters
-| Name | Description | Role | Status |
-| ---- | ----------- | ---- | ------ |
+|                                                                                                                              | Name                                                               | Description                                     | Role  | Status                                  |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------- | ----- | --------------------------------------- |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/7/7c/Buppido-5e.jpg/revision/latest?cb=20170224151431)      | [[The Abyss/NPCs/Buppido\|Buppido]]                             | Talkative and cunning derro                     | Extra | <span class="status alive">Alive</span> |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/1/16/Derendil-5e.jpg/revision/latest?cb=20170224142759)     | [[The Abyss/NPCs/Derendil\|Derendil]]                           | A quaggoth who claims to be a cursed elf prince | Extra | <span class="status alive">Alive</span> |
+| ![Eldeth\|35](https://static.wikia.nocookie.net/forgottenrealms/images/2/24/Eldeth-5e.jpg/revision/latest?cb=20170224133508) | [[The Abyss/NPCs/Eldeth Feldrun\|Eldeth Feldrun]]               | Shield dwarf scout from Gauntlgrym              | Extra | <span class="status dead">Dead</span>   |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/4/46/Jimjar.png/revision/latest?cb=20160922184545)          | [[The Abyss/NPCs/Jimjar\|Jimjar]]                               | A deep gnome with a gambling problem            | Extra | <span class="status alive">Alive</span> |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/1/1f/Ront-5e.jpg/revision/latest?cb=20170224143821)         | [[The Abyss/NPCs/Ront\|Ront]]                                   | An orc bully from the Icesheild tribe           | Extra | <span class="status alive">Alive</span> |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/e/ec/Sarith-5e.png/revision/latest?cb=20170224144253)       | [[The Abyss/NPCs/Sarith Kzekarit\|Sarith Kzekarit]]             | A drow accused of murder                        | Extra | <span class="status dead">Dead</span>   |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/8/8a/Shuushar-5e.png/revision/latest?cb=20170224152307)     | [[The Abyss/NPCs/Shuushar the Awakened\|Shuushar the Awakened]] | A kuo-toa hermit and mystic                     | Extra | <span class="status dead">Dead</span>   |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/5/50/Stool.png/revision/latest?cb=20160922190210)           | [[The Abyss/NPCs/Stool\|Stool]]                                 | A myconid sprout                                | Extra | <span class="status alive">Alive</span> |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/c/cf/Topsy-5e.jpg/revision/latest?cb=20171231042112)        | [[The Abyss/NPCs/Topsy\|Topsy]]                                 | A deep gnome wererat who is twins with Turvy    | Extra | <span class="status alive">Alive</span> |
+| ![\|35](https://static.wikia.nocookie.net/forgottenrealms/images/a/a1/Turvy-5e.jpg/revision/latest?cb=20171231042442)        | [[The Abyss/NPCs/Turvy\|Turvy]]                                 | A deep gnome wererat who is twins with Topsy    | Extra | <span class="status alive">Alive</span> |
 
 
 ### Antagonists
-| Name | Description | Role | Status |
-| ---- | ----------- | ---- | ------ |
+|                                                                                                          | Name                                                 | Description                                                                  | Role       | Status                                  |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ---------- | --------------------------------------- |
+| ![\|35](https://www.dndbeyond.com/content/1-0-2280-0/skins/waterdeep/images/icons/monsters/humanoid.jpg) | [[The Abyss/NPCs/Asha Vandree\|Asha Vandree]]     | A junior drow priestess                                                      | Antagonist | <span class="status alive">Alive</span> |
+| ![\|35](https://www.dndbeyond.com/content/1-0-2280-0/skins/waterdeep/images/icons/monsters/humanoid.jpg) | [[The Abyss/NPCs/Ilvara Mizzrym\|Ilvara Mizzrym]] | Drow priestess and commander of Velkynvelve                                  | Antagonist | <span class="status alive">Alive</span> |
+| ![\|35](https://www.dndbeyond.com/content/1-0-2280-0/skins/waterdeep/images/icons/monsters/humanoid.jpg) | [[The Abyss/NPCs/Jorlan Duskryn\|Jorlan Duskryn]] | Maimed drow elite warrior. Ilvara’s former lieutenant and lover              | Antagonist | <span class="status alive">Alive</span> |
+| ![\|35](https://www.dndbeyond.com/content/1-0-2280-0/skins/waterdeep/images/icons/monsters/humanoid.jpg) | [[The Abyss/NPCs/Shoor Vandree\|Shoor Vandree]]   | Drow elite warrior. Ilvara’s lieutenant and lover, and Asha’s distant cousin | Antagonist | <span class="status alive">Alive</span> |
 
 
 ## Session TOC
