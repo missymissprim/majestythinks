@@ -259,6 +259,7 @@ body {
 	}
 	
 	.filename, .sitename, .toc-container li a {
+		border: 2px solid transparent;
 		color: var(--blue-60) !important;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 14px;
